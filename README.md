@@ -18,3 +18,4 @@
 ## Prompt Engineering
 
 ## MCP (Model Context Protocol)
+* [Build Agents using Model Context Protocol on Azure](https://learn.microsoft.com/en-us/azure/developer/ai/intro-agents-mcp) - learn.microsoft.com
