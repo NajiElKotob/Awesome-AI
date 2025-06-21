@@ -8,6 +8,7 @@
 ## AI Agent
 * [Make](https://www.make.com) - make.com | Connect Apps & Design Workflows
   - [Make AI Agent Tutorial – Build a No-Code Assistant That Works 24/7 📺 ~19min](https://www.youtube.com/watch?v=wwhFP30uGmE) - Kevin Stratvert
-* [Copilot and AI agents](https://www.microsoft.com/en-us/microsoft-copilot/copilot-101/copilot-ai-agents) - microsoft.com
+* Copilot
+  - [Copilot and AI agents](https://www.microsoft.com/en-us/microsoft-copilot/copilot-101/copilot-ai-agents) - microsoft.com
 
 ## MCP (Model Context Protocol)
