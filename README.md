@@ -15,4 +15,6 @@
 * [These 5 AI Agents Will Make You $1M With Zero Employees 📺 ~12min](https://www.youtube.com/watch?v=sIugzOQz7Vk) - Dan Martell
 
 
+## Prompt Engineering
+
 ## MCP (Model Context Protocol)
