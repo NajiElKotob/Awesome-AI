@@ -27,4 +27,4 @@
 
 ## Learning
 * Microsoft
-- [Discover AI for leaders in nonprofit](https://learn.microsoft.com/en-us/training/paths/discover-ai-leaders-nonprofit/)
+  - [Discover AI for leaders in nonprofit](https://learn.microsoft.com/en-us/training/paths/discover-ai-leaders-nonprofit/)
