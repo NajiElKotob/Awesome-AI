@@ -23,6 +23,7 @@
 * [Build Agents using Model Context Protocol on Azure](https://learn.microsoft.com/en-us/azure/developer/ai/intro-agents-mcp) - learn.microsoft.com+
 * [MCP vs API: Simplifying AI Agent Integration with External Data 📺 ~13min](https://www.youtube.com/watch?v=7j1t3UZA1TY) - IBM Technology
 
+## Agentic AI
 
 ## Enterprise AI 
 * [Azure AI Foundry](https://ai.azure.com/) - ai.azure.com
