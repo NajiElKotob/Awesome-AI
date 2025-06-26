@@ -12,6 +12,7 @@
   - [Copilot and AI agents](https://www.microsoft.com/en-us/microsoft-copilot/copilot-101/copilot-ai-agents) - microsoft.com
   - [I Spent 6 Months Learning CoPilot & AI Agents — Here's EVERYTHING You Need To Know](https://www.youtube.com/watch?v=_sRzTB9CIxQ) - Prof. Ryan Ahmed
 * n8n
+* [Zapier](https://zapier.com) - zapier.com
 
 ## YouTube
 * [These 5 AI Agents Will Make You $1M With Zero Employees 📺 ~12min](https://www.youtube.com/watch?v=sIugzOQz7Vk) - Dan Martell
