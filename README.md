@@ -30,6 +30,10 @@
 ## Enterprise AI 
 * [Azure AI Foundry](https://ai.azure.com/) - ai.azure.com
 
+
+## References
+* [NAIRR](https://www.nsf.gov/focus-areas/artificial-intelligence/nairr) - nsf.gov
+  
 -----
 
 ## Learning
