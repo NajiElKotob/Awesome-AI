@@ -39,3 +39,8 @@
 ## Learning
 * Microsoft
   - [Discover AI for leaders in nonprofit](https://learn.microsoft.com/en-us/training/paths/discover-ai-leaders-nonprofit/)
+
+-----
+
+## News
+* [New ChatGPT model refuses to shut down when instructed](https://www.independent.co.uk/tech/ai-safety-new-chatgpt-o3-openai-b2757814.html) - independent.co.uk (26 May 2025)
