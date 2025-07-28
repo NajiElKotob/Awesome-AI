@@ -44,3 +44,4 @@
 
 ## News
 * [New ChatGPT model refuses to shut down when instructed](https://www.independent.co.uk/tech/ai-safety-new-chatgpt-o3-openai-b2757814.html) - independent.co.uk (26 May 2025)
+* [China reveals the world's first AI hospital with 42 AI doctors](https://www.indy100.com/science-tech/china-first-ai-hospital-42-ai-doctors-2672029016) - indy100.com (16 May 2025)
