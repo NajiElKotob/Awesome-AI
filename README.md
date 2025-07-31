@@ -46,3 +46,6 @@
 * [New AI architecture delivers 100x faster reasoning than LLMs with just 1,000 training examples](https://venturebeat.com/ai/new-ai-architecture-delivers-100x-faster-reasoning-than-llms-with-just-1000-training-examples/) - venturebeat.com (25 July 2025) - Ben Dickson
 * [New ChatGPT model refuses to shut down when instructed](https://www.independent.co.uk/tech/ai-safety-new-chatgpt-o3-openai-b2757814.html) - independent.co.uk (26 May 2025)
 * [China reveals the world's first AI hospital with 42 AI doctors](https://www.indy100.com/science-tech/china-first-ai-hospital-42-ai-doctors-2672029016) - indy100.com (16 May 2025)
+
+### Security
+* [Breaking down ‘EchoLeak’, the First Zero-Click AI Vulnerability Enabling Data Exfiltration from Microsoft 365 Copilot](https://www.aim.security/post/echoleak-blogpost) - aim.security (31 May 2025)
