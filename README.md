@@ -46,6 +46,7 @@
 * [FormulaOne: Measuring the Depth of Algorithmic Reasoning Beyond Competitive Programming](https://arxiv.org/pdf/2507.13337)
 
 ## News
+* [The 'Godfather of AI' Says Artificial Intelligence Needs Programming With 'Maternal Instincts' or Humans Could End Up Being 'Controlled'](https://www.entrepreneur.com/business-news/godfather-of-ai-geoffrey-hinton-ai-needs-maternal-instincts/495867) - entrepreneur.com (13 Aug 2025)
 * [Oman’s AI breakthrough in genetic heart disorder detection](https://dharab.com/omans-ai-breakthrough-in-genetic-heart-disorder-detection/) - dharab.com (6 Aug 2025)
 * [New AI architecture delivers 100x faster reasoning than LLMs with just 1,000 training examples](https://venturebeat.com/ai/new-ai-architecture-delivers-100x-faster-reasoning-than-llms-with-just-1000-training-examples/) - venturebeat.com (25 July 2025) - Ben Dickson
 * [New ChatGPT model refuses to shut down when instructed](https://www.independent.co.uk/tech/ai-safety-new-chatgpt-o3-openai-b2757814.html) - independent.co.uk (26 May 2025)
@@ -54,3 +55,4 @@
 ### Security
 * [Breaking down ‘EchoLeak’, the First Zero-Click AI Vulnerability Enabling Data Exfiltration from Microsoft 365 Copilot](https://www.aim.security/post/echoleak-blogpost) - aim.security (31 May 2025)
 * [Crescendo Attacks: How Real-World LLMs Respond to Gradual Prompt Attacks](https://neuraltrust.ai/blog/crescendo-gradual-prompt-attacks) - neuraltrust.ai (14 May 2025)
+ 
