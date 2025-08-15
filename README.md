@@ -54,5 +54,6 @@
 
 ### Security
 * [Breaking down ‘EchoLeak’, the First Zero-Click AI Vulnerability Enabling Data Exfiltration from Microsoft 365 Copilot](https://www.aim.security/post/echoleak-blogpost) - aim.security (31 May 2025)
+* [OpenAI model resists shutdown](https://dig.watch/updates/openai-model-resists-shutdown) - dig.watch (28 May 2025)
 * [Crescendo Attacks: How Real-World LLMs Respond to Gradual Prompt Attacks](https://neuraltrust.ai/blog/crescendo-gradual-prompt-attacks) - neuraltrust.ai (14 May 2025)
  
