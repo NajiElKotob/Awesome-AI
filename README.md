@@ -46,6 +46,7 @@
 * [FormulaOne: Measuring the Depth of Algorithmic Reasoning Beyond Competitive Programming](https://arxiv.org/pdf/2507.13337)
 
 ## News
+* [ChatGPT fed a man’s delusion his mother was spying on him. Then he killed her](https://www.telegraph.co.uk/us/news/2025/08/29/chatgpt-delusions-man-killed-mother/?msockid=384df28e91e76f200fc5e7c790ff6e63) - telegraph.co.uk (29 Aug 2025)
 * [The 'Godfather of AI' Says Artificial Intelligence Needs Programming With 'Maternal Instincts' or Humans Could End Up Being 'Controlled'](https://www.entrepreneur.com/business-news/godfather-of-ai-geoffrey-hinton-ai-needs-maternal-instincts/495867) - entrepreneur.com (13 Aug 2025)
 * [Oman’s AI breakthrough in genetic heart disorder detection](https://dharab.com/omans-ai-breakthrough-in-genetic-heart-disorder-detection/) - dharab.com (6 Aug 2025)
 * [New AI architecture delivers 100x faster reasoning than LLMs with just 1,000 training examples](https://venturebeat.com/ai/new-ai-architecture-delivers-100x-faster-reasoning-than-llms-with-just-1000-training-examples/) - venturebeat.com (25 July 2025) - Ben Dickson
