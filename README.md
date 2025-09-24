@@ -45,6 +45,9 @@
 ## Papers
 * [FormulaOne: Measuring the Depth of Algorithmic Reasoning Beyond Competitive Programming](https://arxiv.org/pdf/2507.13337)
 
+## Articles
+* [AI-Generated “Workslop” Is Destroying Productivity](https://hbr.org/2025/09/ai-generated-workslop-is-destroying-productivity) - hbr.org
+
 ## News
 * [ChatGPT fed a man’s delusion his mother was spying on him. Then he killed her](https://www.telegraph.co.uk/us/news/2025/08/29/chatgpt-delusions-man-killed-mother/?msockid=384df28e91e76f200fc5e7c790ff6e63) - telegraph.co.uk (29 Aug 2025)
 * [The 'Godfather of AI' Says Artificial Intelligence Needs Programming With 'Maternal Instincts' or Humans Could End Up Being 'Controlled'](https://www.entrepreneur.com/business-news/godfather-of-ai-geoffrey-hinton-ai-needs-maternal-instincts/495867) - entrepreneur.com (13 Aug 2025)
