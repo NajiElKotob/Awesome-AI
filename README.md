@@ -28,7 +28,7 @@
 
 ## RAG
 * [RAG vs. CAG: Solving Knowledge Gaps in AI Models 📺 ~16min](https://www.youtube.com/watch?v=HdafI0t3sEY) - IBM Technology
-
+* [Azure SQL DB - Retrieval Augmented Generation (RAG) with OpenAI](https://github.com/azure-samples/azure-sql-db-chatbot) - GitHub | Azure Samples
   
 ## Agentic AI
 
