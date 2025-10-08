@@ -3,6 +3,7 @@
 
 ## Generative AI
 * [Generative AI for Beginners](https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/) - learn.microsoft.com
+* [Where to get started with GenAI](https://blog.bytebytego.com/p/where-to-get-started-with-genai) - bytebytego.com
 
 
 ## AI Agent
