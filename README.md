@@ -15,6 +15,9 @@
 * n8n
 * [Zapier](https://zapier.com) - zapier.com
 
+## Agentic AI
+* [Agentic AI course](https://learn.deeplearning.ai/courses/agentic-ai/lesson/pu5xbv/welcome!) - deeplearning.ai
+
 ## YouTube
 * [Godfather of AI WARNS: "You Have No Idea What's Coming" 📺 ~23min](https://www.youtube.com/watch?v=5KmopXwjXik) - The Diary Of A CEO Clips (28 Sep 2025)
 * [These 5 AI Agents Will Make You $1M With Zero Employees 📺 ~12min](https://www.youtube.com/watch?v=sIugzOQz7Vk) - Dan Martell
