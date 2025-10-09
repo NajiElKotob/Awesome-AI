@@ -5,7 +5,7 @@
 ## AI
 * [The History of AI: A Timeline of Artificial Intelligence](https://www.coursera.org/articles/history-of-ai) - coursera.org
 * [A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence](http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf) - stanford.edu
-* [Dartmouth Conference - The Birthplace of A.I. | Where It All Started! 📺 ~10min](https://www.youtube.com/watch?v=5Ur-Nf85ARw) - ELEV-AI-TE
+
 
 
 ## Generative AI
@@ -58,6 +58,11 @@
   - [Discover AI for leaders in nonprofit](https://learn.microsoft.com/en-us/training/paths/discover-ai-leaders-nonprofit/)
 
 -----
+
+## Stories
+* [Dartmouth Conference - The Birthplace of A.I. | Where It All Started! 📺 ~10min](https://www.youtube.com/watch?v=5Ur-Nf85ARw) - ELEV-AI-TE
+* [Deep Blue vs Kasparov: How a computer beat best chess player in the world - BBC News](https://www.youtube.com/watch?v=KF6sLCeBj0s) - BBC News
+
 
 ## Papers
 * [FormulaOne: Measuring the Depth of Algorithmic Reasoning Beyond Competitive Programming](https://arxiv.org/pdf/2507.13337)
