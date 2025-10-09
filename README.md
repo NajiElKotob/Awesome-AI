@@ -4,6 +4,7 @@
 
 ## AI
 * [The History of AI: A Timeline of Artificial Intelligence](https://www.coursera.org/articles/history-of-ai) - coursera.org
+* [A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence](http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf) - stanford.edu
 
 ## Generative AI
 * [Generative AI for Beginners](https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/) - learn.microsoft.com
