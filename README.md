@@ -5,6 +5,7 @@
 ## AI
 * [The History of AI: A Timeline of Artificial Intelligence](https://www.coursera.org/articles/history-of-ai) - coursera.org
 * [A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence](http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf) - stanford.edu
+* [Dartmouth Conference - The Birthplace of A.I. | Where It All Started! 📺 ~10min](https://www.youtube.com/watch?v=5Ur-Nf85ARw) - ELEV-AI-TE
 
 
 ## Generative AI
