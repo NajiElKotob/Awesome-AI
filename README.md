@@ -6,6 +6,7 @@
 * [The History of AI: A Timeline of Artificial Intelligence](https://www.coursera.org/articles/history-of-ai) - coursera.org
 * [A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence](http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf) - stanford.edu
 
+
 ## Generative AI
 * [Generative AI for Beginners](https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/) - learn.microsoft.com
 * [Where to get started with GenAI](https://blog.bytebytego.com/p/where-to-get-started-with-genai) - bytebytego.com
@@ -62,6 +63,7 @@
 
 ## Articles
 * [AI-Generated “Workslop” Is Destroying Productivity](https://hbr.org/2025/09/ai-generated-workslop-is-destroying-productivity) - hbr.org
+* [AI Magazine](https://ojs.aaai.org/aimagazine/index.php/aimagazine/index) - aaai.org
 
 ## News
 * [Accenture Layoffs: 11,000 Employees Exit In Just One Quarter, Company Reshapes Strategy With Big Bet On AI](https://www.msn.com/en-in/lifestyle/style/accenture-layoffs-11000-employees-exit-in-just-one-quarter-company-reshapes-strategy-with-big-bet-on-ai/ar-AA1NsJvU) - msn.com (28 Sep 2025)
