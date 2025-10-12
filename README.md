@@ -7,6 +7,7 @@
 * [A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence](http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf) - stanford.edu
 
 
+## Prompt Engineering
 
 ## Generative AI
 * [Generative AI for Beginners](https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/) - learn.microsoft.com
@@ -25,12 +26,6 @@
 ## Agentic AI
 * [Agentic AI course](https://learn.deeplearning.ai/courses/agentic-ai/lesson/pu5xbv/welcome!) - deeplearning.ai
 
-## YouTube
-* [Godfather of AI WARNS: "You Have No Idea What's Coming" 📺 ~23min](https://www.youtube.com/watch?v=5KmopXwjXik) - The Diary Of A CEO Clips (28 Sep 2025)
-* [These 5 AI Agents Will Make You $1M With Zero Employees 📺 ~12min](https://www.youtube.com/watch?v=sIugzOQz7Vk) - Dan Martell
-
-
-## Prompt Engineering
 
 ## MCP (Model Context Protocol)
 * [Build Agents using Model Context Protocol on Azure](https://learn.microsoft.com/en-us/azure/developer/ai/intro-agents-mcp) - learn.microsoft.com+
@@ -41,8 +36,7 @@
 * [RAG vs. CAG: Solving Knowledge Gaps in AI Models 📺 ~16min](https://www.youtube.com/watch?v=HdafI0t3sEY) - IBM Technology
 * [Azure SQL DB - Retrieval Augmented Generation (RAG) with OpenAI](https://github.com/azure-samples/azure-sql-db-chatbot) - GitHub | Azure Samples
 * [Retrieval Augmented Generation with Groq API](https://groq.humain.ai/retrieval-augmented-generation-with-groq-api/) - humain.ai
-  
-## Agentic AI
+
 
 ## Enterprise AI 
 * [Azure AI Foundry](https://ai.azure.com/) - ai.azure.com
@@ -58,12 +52,16 @@
   - [Discover AI for leaders in nonprofit](https://learn.microsoft.com/en-us/training/paths/discover-ai-leaders-nonprofit/)
 * DeepLearning.AI
   - [Agentic AI](https://learn.deeplearning.ai/courses/agentic-ai/)
+
 -----
+
+## YouTube
+* [Godfather of AI WARNS: "You Have No Idea What's Coming" 📺 ~23min](https://www.youtube.com/watch?v=5KmopXwjXik) - The Diary Of A CEO Clips (28 Sep 2025)
+* [These 5 AI Agents Will Make You $1M With Zero Employees 📺 ~12min](https://www.youtube.com/watch?v=sIugzOQz7Vk) - Dan Martell
 
 ## Stories
 * [Dartmouth Conference - The Birthplace of A.I. | Where It All Started! 📺 ~10min](https://www.youtube.com/watch?v=5Ur-Nf85ARw) - ELEV-AI-TE
 * [Deep Blue vs Kasparov: How a computer beat best chess player in the world - BBC News](https://www.youtube.com/watch?v=KF6sLCeBj0s) - BBC News
-
 
 ## Papers
 * [FormulaOne: Measuring the Depth of Algorithmic Reasoning Beyond Competitive Programming](https://arxiv.org/pdf/2507.13337)
@@ -81,7 +79,9 @@
 * [New ChatGPT model refuses to shut down when instructed](https://www.independent.co.uk/tech/ai-safety-new-chatgpt-o3-openai-b2757814.html) - independent.co.uk (26 May 2025)
 * [China reveals the world's first AI hospital with 42 AI doctors](https://www.indy100.com/science-tech/china-first-ai-hospital-42-ai-doctors-2672029016) - indy100.com (16 May 2025)
 
-### Security
+-----
+
+## Security
 * [Breaking down ‘EchoLeak’, the First Zero-Click AI Vulnerability Enabling Data Exfiltration from Microsoft 365 Copilot](https://www.aim.security/post/echoleak-blogpost) - aim.security (31 May 2025)
 * [OpenAI model resists shutdown](https://dig.watch/updates/openai-model-resists-shutdown) - dig.watch (28 May 2025)
 * [Crescendo Attacks: How Real-World LLMs Respond to Gradual Prompt Attacks](https://neuraltrust.ai/blog/crescendo-gradual-prompt-attacks) - neuraltrust.ai (14 May 2025)
