@@ -4,3 +4,4 @@
 |:----------------|-----------------:|
 |Artificial Intelligence (AI)|	الذكاء الاصطناعي|
 | Generative Pre-trained Transformer (GPT)|المحوّل التوليدي المُدَرَّب مُسْبَقًا|
+|Machine Learning (ML)|تعلم الآلة|
