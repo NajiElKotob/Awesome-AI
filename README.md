@@ -86,3 +86,5 @@
 * [OpenAI model resists shutdown](https://dig.watch/updates/openai-model-resists-shutdown) - dig.watch (28 May 2025)
 * [Crescendo Attacks: How Real-World LLMs Respond to Gradual Prompt Attacks](https://neuraltrust.ai/blog/crescendo-gradual-prompt-attacks) - neuraltrust.ai (14 May 2025)
  
+## Finance
+* [How HSBC/Banco Bradesco are transforming money laundering risk detection with Google Cloud’s AML AI 📺 ~41min](https://www.youtube.com/watch?v=Cmj9bESi2To) - Google Cloud
