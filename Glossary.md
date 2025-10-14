@@ -7,3 +7,4 @@
 |Machine Learning (ML)|تعلم الآلة|
 |Deep Learning (DL)|	التعلم العميق|
 |Neural Network (NN)|	الشبكة العصبية|
+|Algorithm|	خوارزمية|
