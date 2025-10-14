@@ -8,3 +8,4 @@
 |Deep Learning (DL)|	التعلم العميق|
 |Neural Network (NN)|	الشبكة العصبية|
 |Algorithm|	خوارزمية|
+|Generative AI (GenAI)	|الذكاء الاصطناعي التوليدي|
