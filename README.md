@@ -88,3 +88,7 @@
  
 ## Finance
 * [How HSBC/Banco Bradesco are transforming money laundering risk detection with Google Cloud’s AML AI 📺 ~41min](https://www.youtube.com/watch?v=Cmj9bESi2To) - Google Cloud
+
+-----
+
+## Movies 🎬
