@@ -14,3 +14,4 @@
 |Prompt|المُطالبة |
 |Hallucination|هلوسة|
 |[Natural Language Processing (NLP)](https://aws.amazon.com/what-is/nlp/)	|معالجة اللغات الطبيعية|
+|[Natural Language Understanding (NLU)](https://www.ibm.com/think/topics/nlp-vs-nlu-vs-nlg)	|فهم اللغات الطبيعية|
