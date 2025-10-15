@@ -9,3 +9,5 @@
 |Neural Network (NN)|	الشبكة العصبية|
 |Algorithm|	خوارزمية|
 |Generative AI (GenAI)	|الذكاء الاصطناعي التوليدي|
+|Hallucination|هلوسة|
+
