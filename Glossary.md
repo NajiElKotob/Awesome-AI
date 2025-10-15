@@ -13,4 +13,4 @@
 |[Prompt Engineering](https://aws.amazon.com/ar/what-is/prompt-engineering/)|هندسة الأوامر (هندسة التلقين)|
 |Prompt|المُطالبة |
 |Hallucination|هلوسة|
-
+|[Natural Language Processing (NLP)](https://aws.amazon.com/what-is/nlp/)	|معالجة اللغات الطبيعية|
