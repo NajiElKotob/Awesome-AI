@@ -44,6 +44,7 @@
 
 ## References
 * [NAIRR](https://www.nsf.gov/focus-areas/artificial-intelligence/nairr) - nsf.gov
+* [SDAIA (Saudi Data & Al Authority)](https://sdaia.gov.sa/) - sdaia.gov.sa |  
   
 -----
 
