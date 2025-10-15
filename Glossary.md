@@ -9,5 +9,6 @@
 |Neural Network (NN)|	الشبكة العصبية|
 |Algorithm|	خوارزمية|
 |Generative AI (GenAI)	|الذكاء الاصطناعي التوليدي|
+|AI Agent|	وكيل ذكاء اصطناعي|
 |Hallucination|هلوسة|
 
