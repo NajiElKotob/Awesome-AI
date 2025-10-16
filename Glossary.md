@@ -16,3 +16,4 @@
 |[Natural Language Processing (NLP)](https://aws.amazon.com/what-is/nlp/)	|معالجة اللغات الطبيعية|
 |[Natural Language Understanding (NLU)](https://www.ibm.com/think/topics/nlp-vs-nlu-vs-nlg)	|فهم اللغات الطبيعية|
 |[Natural Language Generation (NLG)](https://www.ibm.com/think/topics/nlp-vs-nlu-vs-nlg)	|توليد اللغات الطبيعية|
+|[Reinforcement Learning](https://aws.amazon.com/ar/what-is/reinforcement-learning/)|التعليم بواسطة التعزيز|
