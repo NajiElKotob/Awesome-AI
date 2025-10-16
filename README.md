@@ -31,6 +31,7 @@
 * [Build Agents using Model Context Protocol on Azure](https://learn.microsoft.com/en-us/azure/developer/ai/intro-agents-mcp) - learn.microsoft.com+
 * [MCP vs API: Simplifying AI Agent Integration with External Data 📺 ~13min](https://www.youtube.com/watch?v=7j1t3UZA1TY) - IBM Technology
 * [Model Context Protocol (MCP), clearly explained (why it matters) 📺 ~20min](https://www.youtube.com/watch?v=7j_NE6Pjv-E) - Greg Isenberg
+* [Model Context Protocol](https://modelcontextprotocol.io/) - modelcontextprotocol.io
 
 ## RAG
 * [RAG vs. CAG: Solving Knowledge Gaps in AI Models 📺 ~16min](https://www.youtube.com/watch?v=HdafI0t3sEY) - IBM Technology
