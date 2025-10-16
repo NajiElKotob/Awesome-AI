@@ -51,6 +51,7 @@
 ## Learning ⭐
 * Microsoft
   - [Discover AI for leaders in nonprofit](https://learn.microsoft.com/en-us/training/paths/discover-ai-leaders-nonprofit/)
+  - [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners)
 * DeepLearning.AI
   - [Agentic AI](https://learn.deeplearning.ai/courses/agentic-ai/)
 * IBM Technology 📺
