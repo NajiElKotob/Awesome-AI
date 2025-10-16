@@ -48,7 +48,7 @@
   
 -----
 
-## Learning
+## Learning ⭐
 * Microsoft
   - [Discover AI for leaders in nonprofit](https://learn.microsoft.com/en-us/training/paths/discover-ai-leaders-nonprofit/)
 * DeepLearning.AI
@@ -56,6 +56,7 @@
 * IBM Technology 📺
   - [AI Fundamentals](https://www.youtube.com/playlist?list=PLOspHqNVtKADfxkuDuHduUkDExBpEt3DF)
 * [Learn Prompting](https://learnprompting.org/) - learnprompting.org
+* [Open AI Academy](https://academy.openai.com/) - academy.openai.com
 -----
 
 ## YouTube
