@@ -5,6 +5,8 @@
 ## AI
 * [The History of AI: A Timeline of Artificial Intelligence](https://www.coursera.org/articles/history-of-ai) - coursera.org
 * [A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence](http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf) - stanford.edu
+* [Machine Learning Explained: A Guide to ML, AI, & Deep Learning 📺 ~11min](https://www.youtube.com/watch?v=znF2U_3Z210) - IBM Technology
+
 
 ## GPT
 * [Transformers, the tech behind LLMs 📺 ~27min](https://www.youtube.com/watch?v=wjZofJX0v4M) - 3Blue1Brown
