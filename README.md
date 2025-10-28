@@ -48,6 +48,9 @@
 * [Azure AI Foundry](https://ai.azure.com/) - ai.azure.com
 
 
+## AGI
+* [A Definition of AGI](https://www.agidefinition.ai/) - agidefinition.ai
+
 ## References
 * [NAIRR](https://www.nsf.gov/focus-areas/artificial-intelligence/nairr) - nsf.gov
 * [SDAIA (Saudi Data & Al Authority)](https://sdaia.gov.sa/) - sdaia.gov.sa |  
