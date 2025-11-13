@@ -67,6 +67,8 @@
   - [AI Fundamentals](https://www.youtube.com/playlist?list=PLOspHqNVtKADfxkuDuHduUkDExBpEt3DF)
 * [Learn Prompting](https://learnprompting.org/) - learnprompting.org
 * [Open AI Academy](https://academy.openai.com/) - academy.openai.com
+* MIT
+  - [MIT 6.S087: Foundation Models & Generative AI (2024)](https://www.youtube.com/playlist?app=desktop&list=PLXV9Vh2jYcjbnv67sXNDJiO8MWLA3ZJKR) - Rickard Brüel Gabrielsson
 -----
 
 ## Let's Talk AI 📺
