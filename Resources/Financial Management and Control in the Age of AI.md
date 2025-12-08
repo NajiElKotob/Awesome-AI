@@ -5,3 +5,4 @@
 
 ## Artificial Intelligence الذكاء الاصطناعي
 ## GenAI الذكاء الاصطناعي التوليدي
+## Prompt Engineering هندسة الأوامر
