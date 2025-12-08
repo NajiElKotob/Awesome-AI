@@ -2,4 +2,5 @@
 
 {Awesome Works in Progress}
 
-* Artificial Intelligence الذكاء الاصطناعي 
+## Artificial Intelligence الذكاء الاصطناعي
+## GenAI الذكاء الاصطناعي التوليدي
