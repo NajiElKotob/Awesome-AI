@@ -8,3 +8,4 @@
 ## Prompt Engineering هندسة الأوامر
 ## The Rise of AI Agents عصر الوكلاء
 ## AI in Finance الذكاء الاصطناعي في المالية
+## AI Ethics أخلاقيات الذكاء الاصطناعي
