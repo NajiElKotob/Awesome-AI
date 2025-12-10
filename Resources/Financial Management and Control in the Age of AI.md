@@ -9,3 +9,4 @@
 ## The Rise of AI Agents عصر الوكلاء
 ## AI in Finance الذكاء الاصطناعي في المالية
 ## AI Ethics أخلاقيات الذكاء الاصطناعي
+## The Future of AI مستقبل الذكاء الاصطناعي
