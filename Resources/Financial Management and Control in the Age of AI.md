@@ -15,6 +15,7 @@
 * [32 Must-Try ChatGPT Prompts for Finance](https://promptadvance.club/chatgpt-prompts/finance)
 * [Saying 'please' and 'thank you' to ChatGPT costs millions of dollars, CEO says](https://www.usatoday.com/story/tech/2025/04/22/please-thank-you-chatgpt-openai-energy-costs/83207447007/)
 ## The Rise of AI Agents عصر الوكلاء
+* [Microsoft Foundry](https://ai.azure.com/) - ai.azure.com
 ## AI in Finance الذكاء الاصطناعي في المالية
 * [AI Agents in Finance: Transforming FP&A with Precision and Speed](https://ibm.webcasts.com/starthere.jsp?ei=1735009&tp_key=be8c597b98) - IBM | Webinar
 ## AI Ethics أخلاقيات الذكاء الاصطناعي
