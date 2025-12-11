@@ -7,6 +7,7 @@
 * [Nadella said artificial intelligence (AI) is the “defining technology of our times.” (الذكاء الاصطناعي هو التقنية التي تُعيد تشكيل عصرنا.)](https://www.cnbc.com/2018/05/24/microsoft-ceo-satya-nadella-on-the-rise-of-a-i-the-future-we-will-invent-is-a-choice-we-make.html?msockid=384df28e91e76f200fc5e7c790ff6e63) - cnbc.com
 * [Artificial Intelligence Terms مصطلحات الذكاء الاصطناعي](https://uit.stanford.edu/service/techtraining/ai-demystified/introduction) - uit.stanford.edu
 ## GenAI الذكاء الاصطناعي التوليدي
+* [What is prompt engineering? ما هي هندسة الأوامر](https://www.ibm.com/think/topics/prompt-engineering) - IBM
 * [Copilot in Microsoft Outlook](https://www.microsoft.com/en-us/microsoft-365-life-hacks/everyday-ai/how-to-use-copilot-in-outlook?msockid=384df28e91e76f200fc5e7c790ff6e63)
 * [Copilot in PowerPoint](https://support.microsoft.com/en-us/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d)
 ## Prompt Engineering هندسة الأوامر
