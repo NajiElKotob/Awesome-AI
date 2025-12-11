@@ -12,6 +12,7 @@
 * [Copilot in PowerPoint](https://support.microsoft.com/en-us/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d)
 ## Prompt Engineering هندسة الأوامر
 * [Why language models hallucinate لماذا تهلوس نماذج اللغة](https://openai.com/index/why-language-models-hallucinate/) - openai.com
+* [32 Must-Try ChatGPT Prompts for Finance](https://promptadvance.club/chatgpt-prompts/finance)
 ## The Rise of AI Agents عصر الوكلاء
 ## AI in Finance الذكاء الاصطناعي في المالية
 * [AI Agents in Finance: Transforming FP&A with Precision and Speed](https://ibm.webcasts.com/starthere.jsp?ei=1735009&tp_key=be8c597b98) - IBM | Webinar
