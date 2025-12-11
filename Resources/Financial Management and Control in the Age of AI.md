@@ -10,5 +10,6 @@
 ## Prompt Engineering هندسة الأوامر
 ## The Rise of AI Agents عصر الوكلاء
 ## AI in Finance الذكاء الاصطناعي في المالية
+* [AI Agents in Finance: Transforming FP&A with Precision and Speed](https://ibm.webcasts.com/starthere.jsp?ei=1735009&tp_key=be8c597b98) - IBM | Webinar
 ## AI Ethics أخلاقيات الذكاء الاصطناعي
 ## The Future of AI مستقبل الذكاء الاصطناعي
