@@ -8,6 +8,7 @@
 * [Artificial Intelligence Terms مصطلحات الذكاء الاصطناعي](https://uit.stanford.edu/service/techtraining/ai-demystified/introduction) - uit.stanford.edu
 ## GenAI الذكاء الاصطناعي التوليدي
 * [Copilot in Microsoft Outlook](https://www.microsoft.com/en-us/microsoft-365-life-hacks/everyday-ai/how-to-use-copilot-in-outlook?msockid=384df28e91e76f200fc5e7c790ff6e63)
+* [Copilot in PowerPoint](https://support.microsoft.com/en-us/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d)
 ## Prompt Engineering هندسة الأوامر
 ## The Rise of AI Agents عصر الوكلاء
 ## AI in Finance الذكاء الاصطناعي في المالية
