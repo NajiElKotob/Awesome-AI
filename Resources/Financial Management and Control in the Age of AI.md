@@ -18,6 +18,7 @@
 * [Microsoft Foundry](https://ai.azure.com/) - ai.azure.com
 * YouTube
   - [Microsoft Foundry - Everything you need to build AI apps & agents 📺 ~12min](https://www.youtube.com/watch?v=C6rxEGJay70)
+  - [N8N AI Agents وظف جيشاً من الذكاء الاصطناعي مجانا! شرح](https://www.youtube.com/watch?v=pNVkW8RxEIY) - Codezilla
 ## AI in Finance الذكاء الاصطناعي في المالية
 * [AI Agents in Finance: Transforming FP&A with Precision and Speed](https://ibm.webcasts.com/starthere.jsp?ei=1735009&tp_key=be8c597b98) - IBM | Webinar
 ## AI Ethics أخلاقيات الذكاء الاصطناعي
