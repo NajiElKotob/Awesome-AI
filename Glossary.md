@@ -9,6 +9,7 @@
 |Neural Network (NN)|	الشبكة العصبية|
 |Algorithm|	خوارزمية|
 |Generative AI (GenAI)	|الذكاء الاصطناعي التوليدي|
+|Retrieval-Augmented Generation (RAG)|التوليد المعزز بالاسترجاع|
 |AI Agent|	وكيل ذكاء اصطناعي او وكيل ذكي|
 |Agentic AI| الذكاء الاصطناعي الوكيلي|
 |Agent Builder| منصة إنشاء الوكلاء الذكيين|
