@@ -9,6 +9,7 @@
 * [Artificial Intelligence Coined at Dartmouth  – ولادة الذكاء الاصطناعي](https://home.dartmouth.edu/about/artificial-intelligence-ai-coined-dartmouth) - dartmouth.edu
 * [AI@50 - Dartmouth Conference (Photos)](https://pn.smugmug.com/Other-Events/AI50-Dartmouth-Conference)
 * [Deep Blue vs Kasparov: How a computer beat best chess player in the world - BBC News 📺](https://www.youtube.com/watch?v=KF6sLCeBj0s)
+* [AlphaGo - The Movie | Full award-winning documentary 📺](https://www.youtube.com/watch?v=WXuK6gekU1Y) - Google DeepMind
 ## GenAI الذكاء الاصطناعي التوليدي
 * [What is prompt engineering? ما هي هندسة الأوامر](https://www.ibm.com/think/topics/prompt-engineering) - IBM
 * [Copilot in Microsoft Outlook](https://www.microsoft.com/en-us/microsoft-365-life-hacks/everyday-ai/how-to-use-copilot-in-outlook?msockid=384df28e91e76f200fc5e7c790ff6e63)
