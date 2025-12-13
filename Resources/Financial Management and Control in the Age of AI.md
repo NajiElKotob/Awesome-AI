@@ -16,6 +16,7 @@
 * [Saying 'please' and 'thank you' to ChatGPT costs millions of dollars, CEO says](https://www.usatoday.com/story/tech/2025/04/22/please-thank-you-chatgpt-openai-energy-costs/83207447007/)
 ## The Rise of AI Agents عصر الوكلاء
 * [Microsoft Foundry](https://ai.azure.com/) - ai.azure.com
+* [Google AI Studio](https://aistudio.google.com/) - aistudio.google.com
 * YouTube
   - [Microsoft Foundry - Everything you need to build AI apps & agents 📺 ~12min](https://www.youtube.com/watch?v=C6rxEGJay70)
   - [Build an AI Agent with Gemini 3](https://www.youtube.com/watch?v=9EGtawwvlNs) - Google for Developers
