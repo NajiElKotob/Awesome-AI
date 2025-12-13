@@ -27,7 +27,7 @@
 * [BloombergGPT](https://www.bloomberg.com/company/press/bloomberggpt-50-billion-parameter-llm-tuned-finance/) - bloomberg.com
 * [How JPMorgan Uses AI to Save 360,000 Legal Hours a Year](https://medium.com/@arahmedraza/how-jpmorgan-uses-ai-to-save-360-000-legal-hours-a-year-6e94d58a557b)
 * [Agentic AI in Financial Services الذكاء الاصطناعي الوكيلي في الخدمات المالية](https://www.ibm.com/downloads/documents/gb-en/12f5a71117cdc329)
-* [Generative AI for Finance: Applications, Case Studiesand Challenges الذكاء الاصطناعي التوليدي في القطاع المالي: التطبيقات، دراسات الحالة، والتحديات](https://onlinelibrary.wiley.com/doi/epdf/10.1111/exsy.70018) - wiley.com
+* [Generative AI for Finance: Applications, Case Studies and Challenges الذكاء الاصطناعي التوليدي في القطاع المالي: التطبيقات، دراسات الحالة، والتحديات](https://onlinelibrary.wiley.com/doi/epdf/10.1111/exsy.70018) - wiley.com
 
 ## AI Ethics أخلاقيات الذكاء الاصطناعي
 * [What is AI ethics? ما هي أخلاقيات الذكاء الاصطناعي؟](https://www.ibm.com/think/topics/ai-ethics) - IBM
