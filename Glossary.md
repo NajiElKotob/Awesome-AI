@@ -16,6 +16,7 @@
 |Hallucination|هلوسة|
 |Generative Pre-trained Transformer (GPT)|المحوّل التوليدي المُدَرَّب مُسْبَقًا|
 |Generative AI (GenAI)	|الذكاء الاصطناعي التوليدي|
+|The Model Context Protocol (MCP)| بروتوكول سياق النموذج|
 |Retrieval-Augmented Generation (RAG)|التوليد المعزز بالاسترجاع|
 |AI Agent|	وكيل ذكاء اصطناعي او وكيل ذكي|
 |Agentic AI| الذكاء الاصطناعي الوكيلي|
