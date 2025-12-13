@@ -26,3 +26,6 @@
 ## AI Ethics أخلاقيات الذكاء الاصطناعي
 * [Ethics in AI: Why It Matters الأخلاقيات في الذكاء الاصطناعي: لماذا هي مهمة؟](https://professional.dce.harvard.edu/blog/ethics-in-ai-why-it-matters/#The-Importance-of-AI-Ethics) - harvard.edu
 ## The Future of AI مستقبل الذكاء الاصطناعي
+
+-----
+## Extra Resources موارد إضافية
