@@ -12,7 +12,7 @@
 |[Natural Language Generation (NLG)](https://www.ibm.com/think/topics/nlp-vs-nlu-vs-nlg)	|توليد اللغات الطبيعية|
 |[Reinforcement Learning](https://aws.amazon.com/ar/what-is/reinforcement-learning/)|التعليم بواسطة التعزيز|
 |[Prompt Engineering](https://aws.amazon.com/ar/what-is/prompt-engineering/)|هندسة الأوامر (هندسة التلقين)|
-|Prompt|المُطالبة |
+|Prompts|المُطالبات او هندسة الأوامر |
 |Hallucination|هلوسة|
 |Generative Pre-trained Transformer (GPT)|المحوّل التوليدي المُدَرَّب مُسْبَقًا|
 |Generative AI (GenAI)	|الذكاء الاصطناعي التوليدي|
