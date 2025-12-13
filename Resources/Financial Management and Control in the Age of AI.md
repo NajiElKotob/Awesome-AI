@@ -25,6 +25,7 @@
 * [AI Agents in Finance: Transforming FP&A with Precision and Speed](https://ibm.webcasts.com/starthere.jsp?ei=1735009&tp_key=be8c597b98) - IBM | Webinar
 * [AI @ Morgan Stanley Debrief](https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch) - morganstanley.com
 * [BloombergGPT](https://www.bloomberg.com/company/press/bloomberggpt-50-billion-parameter-llm-tuned-finance/) - bloomberg.com
+* [How JPMorgan Uses AI to Save 360,000 Legal Hours a Year](https://medium.com/@arahmedraza/how-jpmorgan-uses-ai-to-save-360-000-legal-hours-a-year-6e94d58a557b)
 
 ## AI Ethics أخلاقيات الذكاء الاصطناعي
 * [What is AI ethics? ما هي أخلاقيات الذكاء الاصطناعي؟](https://www.ibm.com/think/topics/ai-ethics) - IBM
