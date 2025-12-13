@@ -30,6 +30,7 @@
 * [AI 'godfather' Geoffrey Hinton warns of dangers as he quits Google يحذر جيفري هينتون، "عراب" الذكاء الاصطناعي، من المخاطر مع استقالته من جوجل](https://www.bbc.com/news/world-us-canada-65452940) - bbc.com
 ## The Future of AI مستقبل الذكاء الاصطناعي
 * [AI 50: Companies of the Future](https://sequoiacap.com/article/ai-50-2024/) - sequoiacap.com | The 2024 edition of the AI 50 shows how Gen AI is starting to transform enterprise productivity.
+* [A Definition of AGI](https://www.agidefinition.ai/) - agidefinition.ai
 -----
 ## Extra Resources موارد إضافية
 * [Awesome AI](https://github.com/NajiElKotob/Awesome-AI)
