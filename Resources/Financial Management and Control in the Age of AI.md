@@ -6,6 +6,7 @@
 ## Artificial Intelligence الذكاء الاصطناعي
 * [Nadella said artificial intelligence (AI) is the “defining technology of our times.” (الذكاء الاصطناعي هو التقنية التي تُعيد تشكيل عصرنا.)](https://www.cnbc.com/2018/05/24/microsoft-ceo-satya-nadella-on-the-rise-of-a-i-the-future-we-will-invent-is-a-choice-we-make.html?msockid=384df28e91e76f200fc5e7c790ff6e63) - cnbc.com
 * [Artificial Intelligence Terms مصطلحات الذكاء الاصطناعي](https://uit.stanford.edu/service/techtraining/ai-demystified/introduction) - uit.stanford.edu
+* [Artificial Intelligence Coined at Dartmouth  – ولادة الذكاء الاصطناعي](https://home.dartmouth.edu/about/artificial-intelligence-ai-coined-dartmouth) - dartmouth.edu
 * [AI@50 - Dartmouth Conference (Photos)](https://pn.smugmug.com/Other-Events/AI50-Dartmouth-Conference)
 * [Deep Blue vs Kasparov: How a computer beat best chess player in the world - BBC News 📺](https://www.youtube.com/watch?v=KF6sLCeBj0s)
 ## GenAI الذكاء الاصطناعي التوليدي
