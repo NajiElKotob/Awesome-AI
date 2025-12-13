@@ -32,3 +32,5 @@
 
 -----
 ## Extra Resources موارد إضافية
+* [Awesome AI](https://github.com/NajiElKotob/Awesome-AI)
+* [AI Apps](https://github.com/NajiElKotob/Awesome-AI-Apps)
