@@ -9,7 +9,7 @@
 |Neural Network (NN)|	الشبكة العصبية|
 |Algorithm|	خوارزمية|
 |Generative AI (GenAI)	|الذكاء الاصطناعي التوليدي|
-|AI Agent|	وكيل ذكاء اصطناعي|
+|AI Agent|	وكيل ذكاء اصطناعي او وكيل ذكي|
 |[Prompt Engineering](https://aws.amazon.com/ar/what-is/prompt-engineering/)|هندسة الأوامر (هندسة التلقين)|
 |Prompt|المُطالبة |
 |Hallucination|هلوسة|
