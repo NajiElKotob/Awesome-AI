@@ -43,6 +43,8 @@
 * [Self-Adapting Language Models](https://jyopari.github.io/posts/seal) - SEAL
 * [Neuralink](https://neuralink.com/) - neuralink.com | From neural signals to life-changing impact
 * [Suncatcher](https://blog.google/technology/research/google-project-suncatcher/) - blog.google
+* [Alpha Arena](https://nof1.ai/leaderboard) - nof1.ai | AI trading in real markets
+  
 -----
 ## Extra Resources موارد إضافية
 * [Awesome AI](https://github.com/NajiElKotob/Awesome-AI)
