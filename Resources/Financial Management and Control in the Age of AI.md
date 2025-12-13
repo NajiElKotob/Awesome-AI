@@ -18,6 +18,7 @@
 * [Why language models hallucinate لماذا تهلوس نماذج اللغة](https://openai.com/index/why-language-models-hallucinate/) - openai.com
 * [32 Must-Try ChatGPT Prompts for Finance](https://promptadvance.club/chatgpt-prompts/finance)
 * [Saying 'please' and 'thank you' to ChatGPT costs millions of dollars, CEO says](https://www.usatoday.com/story/tech/2025/04/22/please-thank-you-chatgpt-openai-energy-costs/83207447007/)
+* [Understanding OpenAI’s “Temperature” and “Top_p” Parameters in Language Models](https://medium.com/@1511425435311/understanding-openais-temperature-and-top-p-parameters-in-language-models-d2066504684f) - Miguel de la Vega
 ## The Rise of AI Agents عصر الوكلاء
 * [Microsoft Foundry](https://ai.azure.com/) - ai.azure.com
 * [Google AI Studio](https://aistudio.google.com/) - aistudio.google.com
