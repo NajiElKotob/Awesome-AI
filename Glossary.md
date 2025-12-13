@@ -11,6 +11,7 @@
 |Generative AI (GenAI)	|الذكاء الاصطناعي التوليدي|
 |AI Agent|	وكيل ذكاء اصطناعي او وكيل ذكي|
 |Agentic AI| الذكاء الاصطناعي الوكيلي|
+|Agent Builder| منصة إنشاء الوكلاء الذكيين|
 |[Prompt Engineering](https://aws.amazon.com/ar/what-is/prompt-engineering/)|هندسة الأوامر (هندسة التلقين)|
 |Prompt|المُطالبة |
 |Hallucination|هلوسة|
