@@ -24,6 +24,8 @@
 ## AI in Finance الذكاء الاصطناعي في المالية
 * [AI Agents in Finance: Transforming FP&A with Precision and Speed](https://ibm.webcasts.com/starthere.jsp?ei=1735009&tp_key=be8c597b98) - IBM | Webinar
 * [AI @ Morgan Stanley Debrief](https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch) - morganstanley.com
+* [BloombergGPT](https://www.bloomberg.com/company/press/bloomberggpt-50-billion-parameter-llm-tuned-finance/) - bloomberg.com
+
 ## AI Ethics أخلاقيات الذكاء الاصطناعي
 * [What is AI ethics? ما هي أخلاقيات الذكاء الاصطناعي؟](https://www.ibm.com/think/topics/ai-ethics) - IBM
 * [Ethics in AI: Why It Matters الأخلاقيات في الذكاء الاصطناعي: لماذا هي مهمة؟](https://professional.dce.harvard.edu/blog/ethics-in-ai-why-it-matters/#The-Importance-of-AI-Ethics) - harvard.edu
@@ -32,7 +34,6 @@
 ## The Future of AI مستقبل الذكاء الاصطناعي
 * [AI 50: Companies of the Future](https://sequoiacap.com/article/ai-50-2024/) - sequoiacap.com | The 2024 edition of the AI 50 shows how Gen AI is starting to transform enterprise productivity.
 * [A Definition of AGI](https://www.agidefinition.ai/) - agidefinition.ai
-* [BloombergGPT](https://www.bloomberg.com/company/press/bloomberggpt-50-billion-parameter-llm-tuned-finance/)
 -----
 ## Extra Resources موارد إضافية
 * [Awesome AI](https://github.com/NajiElKotob/Awesome-AI)
