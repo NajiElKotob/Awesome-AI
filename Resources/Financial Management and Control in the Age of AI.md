@@ -42,6 +42,7 @@
 * [What Is Artificial Superintelligence (ASI)?](https://builtin.com/artificial-intelligence/asi-artificial-super-intelligence) - builtin.com
 * [Self-Adapting Language Models](https://jyopari.github.io/posts/seal) - SEAL
 * [Neuralink](https://neuralink.com/) - neuralink.com | From neural signals to life-changing impact
+* [Suncatcher](https://blog.google/technology/research/google-project-suncatcher/) - blog.google
 -----
 ## Extra Resources موارد إضافية
 * [Awesome AI](https://github.com/NajiElKotob/Awesome-AI)
