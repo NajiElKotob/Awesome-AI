@@ -23,6 +23,7 @@
   - [Intro to Agent Builder](https://www.youtube.com/watch?v=44eFf-tRiSg) - OpenAI
 ## AI in Finance الذكاء الاصطناعي في المالية
 * [AI Agents in Finance: Transforming FP&A with Precision and Speed](https://ibm.webcasts.com/starthere.jsp?ei=1735009&tp_key=be8c597b98) - IBM | Webinar
+* [AI @ Morgan Stanley Debrief](https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch) - morganstanley.com
 ## AI Ethics أخلاقيات الذكاء الاصطناعي
 * [What is AI ethics? ما هي أخلاقيات الذكاء الاصطناعي؟](https://www.ibm.com/think/topics/ai-ethics) - IBM
 * [Ethics in AI: Why It Matters الأخلاقيات في الذكاء الاصطناعي: لماذا هي مهمة؟](https://professional.dce.harvard.edu/blog/ethics-in-ai-why-it-matters/#The-Importance-of-AI-Ethics) - harvard.edu
