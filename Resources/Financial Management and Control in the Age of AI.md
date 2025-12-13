@@ -26,6 +26,7 @@
 ## AI Ethics أخلاقيات الذكاء الاصطناعي
 * [Ethics in AI: Why It Matters الأخلاقيات في الذكاء الاصطناعي: لماذا هي مهمة؟](https://professional.dce.harvard.edu/blog/ethics-in-ai-why-it-matters/#The-Importance-of-AI-Ethics) - harvard.edu
 * [Why AI is incredibly smart and shockingly stupid لماذا الذكاء الاصطناعي ذكي بشكل لا يصدق وغبي بشكل صادم](https://www.ted.com/talks/yejin_choi_why_ai_is_incredibly_smart_and_shockingly_stupid) - ted.com | Yejin Choi
+* [AI 'godfather' Geoffrey Hinton warns of dangers as he quits Google يحذر جيفري هينتون، "عراب" الذكاء الاصطناعي، من المخاطر مع استقالته من جوجل](https://www.bbc.com/news/world-us-canada-65452940) - bbc.com
 ## The Future of AI مستقبل الذكاء الاصطناعي
 
 -----
