@@ -24,7 +24,7 @@
 ## The Rise of AI Agents عصر الوكلاء
 * [Microsoft Foundry](https://ai.azure.com/) - ai.azure.com
 * [Google AI Studio](https://aistudio.google.com/) - aistudio.google.com
-* [Mea](https://aidemos.meta.com/) - aidemos.meta.com
+* [Meta](https://aidemos.meta.com/) - aidemos.meta.com
 * YouTube
   - [Microsoft Foundry - Everything you need to build AI apps & agents 📺 ~12min](https://www.youtube.com/watch?v=C6rxEGJay70)
   - [Build an AI Agent with Gemini 3](https://www.youtube.com/watch?v=9EGtawwvlNs) - Google for Developers
