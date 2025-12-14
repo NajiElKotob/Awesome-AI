@@ -11,6 +11,7 @@
 * [AI@50 - Dartmouth Conference (Photos)](https://pn.smugmug.com/Other-Events/AI50-Dartmouth-Conference)
 * [Deep Blue vs Kasparov: How a computer beat best chess player in the world - BBC News 📺](https://www.youtube.com/watch?v=KF6sLCeBj0s)
 * [AlphaGo - The Movie | Full award-winning documentary 📺](https://www.youtube.com/watch?v=WXuK6gekU1Y) - Google DeepMind
+* [A 'Brief' History of Game AI Up To AlphaGo](https://www.andreykurenkov.com/writing/ai/a-brief-history-of-game-ai-part-3/) - andreykurenkov.com
 ## GenAI الذكاء الاصطناعي التوليدي
 * [What is prompt engineering? ما هي هندسة الأوامر](https://www.ibm.com/think/topics/prompt-engineering) - IBM
 * [Copilot in Microsoft Outlook](https://www.microsoft.com/en-us/microsoft-365-life-hacks/everyday-ai/how-to-use-copilot-in-outlook?msockid=384df28e91e76f200fc5e7c790ff6e63)
