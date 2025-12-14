@@ -13,13 +13,14 @@
 * [AlphaGo - The Movie | Full award-winning documentary 📺](https://www.youtube.com/watch?v=WXuK6gekU1Y) - Google DeepMind
 * [A 'Brief' History of Game AI Up To AlphaGo](https://www.andreykurenkov.com/writing/ai/a-brief-history-of-game-ai-part-3/) - andreykurenkov.com
 ## GenAI الذكاء الاصطناعي التوليدي
-* [What is prompt engineering? ما هي هندسة الأوامر](https://www.ibm.com/think/topics/prompt-engineering) - IBM
+* [STARFlow-V](https://starflow-v.github.io/#text-to-video) - Apple | End-to-End Video Generative Modeling with Normalizing Flows
 * [Copilot in Microsoft Outlook](https://www.microsoft.com/en-us/microsoft-365-life-hacks/everyday-ai/how-to-use-copilot-in-outlook?msockid=384df28e91e76f200fc5e7c790ff6e63)
 * [Copilot in PowerPoint](https://support.microsoft.com/en-us/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d)
 * [Real or AI Quiz: Can You Tell the Difference? 🎮](https://britannicaeducation.com/blog/quiz-real-or-ai/) - britannicaeducation.com
 * [NVIDIA Canvas 🎮](https://www.nvidia.com/en-ph/studio/canvas.html) - nvidia.com
 * [Animated Drawings 🎮](https://sketch.metademolab.com/canvas) ⭐ - metademolab.com
 ## Prompt Engineering هندسة الأوامر
+* [What is prompt engineering? ما هي هندسة الأوامر](https://www.ibm.com/think/topics/prompt-engineering) - IBM
 * [Why language models hallucinate لماذا تهلوس نماذج اللغة](https://openai.com/index/why-language-models-hallucinate/) - openai.com
 * [32 Must-Try ChatGPT Prompts for Finance](https://promptadvance.club/chatgpt-prompts/finance)
 * [Saying 'please' and 'thank you' to ChatGPT costs millions of dollars, CEO says](https://www.usatoday.com/story/tech/2025/04/22/please-thank-you-chatgpt-openai-energy-costs/83207447007/)
