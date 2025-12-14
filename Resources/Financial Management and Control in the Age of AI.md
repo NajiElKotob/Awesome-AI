@@ -16,6 +16,7 @@
 * [Copilot in PowerPoint](https://support.microsoft.com/en-us/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d)
 * [Real or AI Quiz: Can You Tell the Difference? 🎮](https://britannicaeducation.com/blog/quiz-real-or-ai/) - britannicaeducation.com
 * [NVIDIA Canvas 🎮](https://www.nvidia.com/en-ph/studio/canvas.html) - nvidia.com
+* [Animated Drawings 🎮](https://sketch.metademolab.com/canvas) ⭐ - metademolab.com
 ## Prompt Engineering هندسة الأوامر
 * [Why language models hallucinate لماذا تهلوس نماذج اللغة](https://openai.com/index/why-language-models-hallucinate/) - openai.com
 * [32 Must-Try ChatGPT Prompts for Finance](https://promptadvance.club/chatgpt-prompts/finance)
