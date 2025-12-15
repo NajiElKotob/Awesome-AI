@@ -24,6 +24,7 @@
 ### Microsoft Foundry
 * [What is Foundry Local](https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-local/what-is-foundry-local?view=foundry-classic)
 * [Foundry Local](https://www.foundrylocal.ai/) - foundrylocal.ai
+* [Run local AI on any PC or Mac - Microsoft Foundry Local 📺 ~11min](https://www.youtube.com/watch?v=qL3HADDI6W4)
   
 ### Copilot
 * Copilot
