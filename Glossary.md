@@ -4,9 +4,9 @@
 |:----------------|-----------------:|
 |Artificial Intelligence (AI)|	الذكاء الاصطناعي|
 |Algorithm|	خوارزمية|
-|Machine Learning (ML)|تعلم الآلة|
-|Deep Learning (DL)|	التعلم العميق|
+|Machine Learning (ML)|تعلم الآلة|.
 |Neural Network (NN)|	الشبكة العصبية|
+|Deep Learning (DL)|	التعلم العميق|
 |[Natural Language Processing (NLP)](https://aws.amazon.com/what-is/nlp/)	|معالجة اللغات الطبيعية|
 |[Natural Language Understanding (NLU)](https://www.ibm.com/think/topics/nlp-vs-nlu-vs-nlg)	|فهم اللغات الطبيعية|
 |[Natural Language Generation (NLG)](https://www.ibm.com/think/topics/nlp-vs-nlu-vs-nlg)	|توليد اللغات الطبيعية|
