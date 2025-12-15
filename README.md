@@ -51,6 +51,11 @@
 * [Azure SQL DB - Retrieval Augmented Generation (RAG) with OpenAI](https://github.com/azure-samples/azure-sql-db-chatbot) - GitHub | Azure Samples
 * [Retrieval Augmented Generation with Groq API](https://groq.humain.ai/retrieval-augmented-generation-with-groq-api/) - humain.ai
 
+## Orchestration Framework
+### LangChain
+### LlamaIndex
+### Semantic Kernel
+
 -----
 
 
