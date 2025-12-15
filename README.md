@@ -21,7 +21,7 @@
 
 -----
 
-## AI Agent
+## AI Agent, Agentic AI and Agent Builder
 * [Make](https://www.make.com) - make.com | Connect Apps & Design Workflows
   - [Make AI Agent Tutorial – Build a No-Code Assistant That Works 24/7 📺 ~19min](https://www.youtube.com/watch?v=wwhFP30uGmE) - Kevin Stratvert
 * Copilot
