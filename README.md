@@ -9,7 +9,6 @@
 * [AI Dev Days: Building AI Applications](https://www.youtube.com/watch?v=kZqGsoeP0kU) - Microsoft Developer
 
 
-
 ## GPT & LLM
 * [Transformers, the tech behind LLMs 📺 ~27min](https://www.youtube.com/watch?v=wjZofJX0v4M) - 3Blue1Brown
 * [Stanford CME295 Transformers & LLMs | Autumn 2025 | Lecture 9 - Recap & Current Trends 📺 ~2 hours](https://www.youtube.com/watch?v=Q86qzJ1K1Ss)
@@ -20,6 +19,7 @@
 * [Generative AI for Beginners](https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/) - learn.microsoft.com
 * [Where to get started with GenAI](https://blog.bytebytego.com/p/where-to-get-started-with-genai) - bytebytego.com
 
+-----
 
 ## AI Agent
 * [Make](https://www.make.com) - make.com | Connect Apps & Design Workflows
@@ -29,10 +29,6 @@
   - [I Spent 6 Months Learning CoPilot & AI Agents — Here's EVERYTHING You Need To Know](https://www.youtube.com/watch?v=_sRzTB9CIxQ) - Prof. Ryan Ahmed
 * [n8n](https://n8n.io/) - n8n.io
 * [Zapier](https://zapier.com) - zapier.com
-
-## Agentic AI
-* [Agentic AI course](https://learn.deeplearning.ai/courses/agentic-ai/lesson/pu5xbv/welcome!) - deeplearning.ai
-
 
 ## MCP (Model Context Protocol)
 * [Build Agents using Model Context Protocol on Azure](https://learn.microsoft.com/en-us/azure/developer/ai/intro-agents-mcp) - learn.microsoft.com+
@@ -45,10 +41,11 @@
 * [Azure SQL DB - Retrieval Augmented Generation (RAG) with OpenAI](https://github.com/azure-samples/azure-sql-db-chatbot) - GitHub | Azure Samples
 * [Retrieval Augmented Generation with Groq API](https://groq.humain.ai/retrieval-augmented-generation-with-groq-api/) - humain.ai
 
+-----
+
 
 ## Enterprise AI 
 * [Azure AI Foundry](https://ai.azure.com/) - ai.azure.com
-
 
 ## AGI
 * [A Definition of AGI](https://www.agidefinition.ai/) - agidefinition.ai
