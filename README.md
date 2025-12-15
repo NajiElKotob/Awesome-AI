@@ -23,7 +23,8 @@
 
 ## AI Agent, Agentic AI and Agent Builder
 ### Microsoft Foundry
-
+* [Foundry Local](https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-local/what-is-foundry-local?view=foundry-classic)
+  
 ### Copilot
 * Copilot
   - [Copilot and AI agents](https://www.microsoft.com/en-us/microsoft-copilot/copilot-101/copilot-ai-agents) - microsoft.com
