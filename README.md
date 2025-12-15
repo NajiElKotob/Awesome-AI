@@ -21,7 +21,8 @@
 -----
 
 ## AI Agent, Agentic AI and Agent Builder
-### Microsoft Foundry
+### Microsoft
+#### Microsoft Foundry
 * [Azure AI Foundry](https://ai.azure.com/) - ai.azure.com
 #### Foundry Local
 * [What is Foundry Local](https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-local/what-is-foundry-local?view=foundry-classic)
