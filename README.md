@@ -8,7 +8,6 @@
 * [Machine Learning Explained: A Guide to ML, AI, & Deep Learning 📺 ~11min](https://www.youtube.com/watch?v=znF2U_3Z210) - IBM Technology
 * [AI Dev Days: Building AI Applications](https://www.youtube.com/watch?v=kZqGsoeP0kU) - Microsoft Developer
 
-
 ## GPT & LLM
 * [Transformers, the tech behind LLMs 📺 ~27min](https://www.youtube.com/watch?v=wjZofJX0v4M) - 3Blue1Brown
 * [Stanford CME295 Transformers & LLMs | Autumn 2025 | Lecture 9 - Recap & Current Trends 📺 ~2 hours](https://www.youtube.com/watch?v=Q86qzJ1K1Ss)
@@ -23,7 +22,8 @@
 
 ## AI Agent, Agentic AI and Agent Builder
 ### Microsoft Foundry
-* [Foundry Local](https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-local/what-is-foundry-local?view=foundry-classic)
+* [What is Foundry Local](https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-local/what-is-foundry-local?view=foundry-classic)
+* [Foundry Local](https://www.foundrylocal.ai/) - foundrylocal.ai
   
 ### Copilot
 * Copilot
