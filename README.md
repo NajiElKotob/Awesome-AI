@@ -61,7 +61,7 @@
 
 ### CLaRa
 * [CLaRa](https://github.com/apple/ml-clara) - Apple | CLaRa: Bridging Retrieval and Generation with Continuous Latent Reasoning
-
+* [CLaRa: Bridging Retrieval and Generation with Continuous Latent Reasoning 📄](https://arxiv.org/pdf/2511.18659) - arXiv 
 -----
 
 ## Orchestration Framework
