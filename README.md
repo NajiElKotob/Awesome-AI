@@ -69,18 +69,7 @@
 ### LlamaIndex
 ### Semantic Kernel
 
------
 
-
-
-
-## AGI
-* [A Definition of AGI](https://www.agidefinition.ai/) - agidefinition.ai
-
-## References
-* [NAIRR](https://www.nsf.gov/focus-areas/artificial-intelligence/nairr) - nsf.gov
-* [SDAIA (Saudi Data & Al Authority)](https://sdaia.gov.sa/) - sdaia.gov.sa |  
-  
 -----
 
 ## Learning ⭐
@@ -138,6 +127,15 @@
 ## Finance
 * [How HSBC/Banco Bradesco are transforming money laundering risk detection with Google Cloud’s AML AI 📺 ~41min](https://www.youtube.com/watch?v=Cmj9bESi2To) - Google Cloud
 
+-----
+
+## AGI
+* [A Definition of AGI](https://www.agidefinition.ai/) - agidefinition.ai
+
+## References
+* [NAIRR](https://www.nsf.gov/focus-areas/artificial-intelligence/nairr) - nsf.gov
+* [SDAIA (Saudi Data & Al Authority)](https://sdaia.gov.sa/) - sdaia.gov.sa 
+  
 -----
 
 ## Movies 🎬
