@@ -52,10 +52,17 @@
 * [Model Context Protocol (MCP), clearly explained (why it matters) 📺 ~20min](https://www.youtube.com/watch?v=7j_NE6Pjv-E) - Greg Isenberg
 * [Model Context Protocol](https://modelcontextprotocol.io/) - modelcontextprotocol.io
 
+-----
+
 ## RAG
 * [RAG vs. CAG: Solving Knowledge Gaps in AI Models 📺 ~16min](https://www.youtube.com/watch?v=HdafI0t3sEY) - IBM Technology
 * [Azure SQL DB - Retrieval Augmented Generation (RAG) with OpenAI](https://github.com/azure-samples/azure-sql-db-chatbot) - GitHub | Azure Samples
 * [Retrieval Augmented Generation with Groq API](https://groq.humain.ai/retrieval-augmented-generation-with-groq-api/) - humain.ai
+
+### CLaRa
+* [CLaRa](https://github.com/apple/ml-clara) - Apple | CLaRa: Bridging Retrieval and Generation with Continuous Latent Reasoning
+
+-----
 
 ## Orchestration Framework
 ### LangChain
