@@ -78,6 +78,7 @@
 * Microsoft
   - [Discover AI for leaders in nonprofit](https://learn.microsoft.com/en-us/training/paths/discover-ai-leaders-nonprofit/)
   - [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners)
+  - [The Slither Slam 🎮](https://vscodeedu.com/courses/fc4e65f6-17dd-4ce9-8b66-7dd7832e72e6)
 * DeepLearning.AI
   - [Agentic AI](https://learn.deeplearning.ai/courses/agentic-ai/)
 * IBM Technology 📺
