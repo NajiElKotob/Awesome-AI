@@ -122,15 +122,14 @@
 * [Smart Contact Lenses: You Can Control a MicroLED Display With a Flick of Your Eyes](https://www.cnet.com/tech/computing/smart-contact-lenses-you-can-control-a-microled-display-with-a-flick-of-your-eyes) - cnet.com
 * [Toothbrushes are a cybersecurity risk, too: millions participate in DDoS attacks](https://cybernews.com/news/toothbrushes-participate-in-ddos-attacks/) - cybernews.com
 
------
 
-## Security
+### Security
 * [AI models that lie, cheat and plot murder: how dangerous are LLMs really?](https://www.nature.com/articles/d41586-025-03222-1) - nature.com (8 October 2025)
 * [Breaking down ‘EchoLeak’, the First Zero-Click AI Vulnerability Enabling Data Exfiltration from Microsoft 365 Copilot](https://www.aim.security/post/echoleak-blogpost) - aim.security (31 May 2025)
 * [OpenAI model resists shutdown](https://dig.watch/updates/openai-model-resists-shutdown) - dig.watch (28 May 2025)
 * [Crescendo Attacks: How Real-World LLMs Respond to Gradual Prompt Attacks](https://neuraltrust.ai/blog/crescendo-gradual-prompt-attacks) - neuraltrust.ai (14 May 2025)
  
-## Finance
+### Finance
 * [How HSBC/Banco Bradesco are transforming money laundering risk detection with Google Cloud’s AML AI 📺 ~41min](https://www.youtube.com/watch?v=Cmj9bESi2To) - Google Cloud
 
 -----
