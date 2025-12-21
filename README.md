@@ -22,7 +22,8 @@
 
 ## AI Agent, Agentic AI and Agent Builder
 ### Microsoft
-#### Microsoft Foundry _(formerly Cognitive Services)_
+#### Azure AI Foundry _(formerly Cognitive Services)_
+`Azure AI Foundry brings together models, tooling, and governance so you can scale AI with confidence.`
 * [Azure AI Foundry](https://ai.azure.com/) - ai.azure.com
 #### Foundry Local
 * [What is Foundry Local](https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-local/what-is-foundry-local?view=foundry-classic)
