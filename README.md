@@ -69,7 +69,7 @@
 
 ### LangChain
 ### LlamaIndex
-### Semantic Kernel
+### Microsoft Agent Framework (Semantic Kernel + AG)
 
 
 -----
