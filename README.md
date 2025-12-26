@@ -39,6 +39,8 @@
 
 ### n8n
 * [n8n](https://n8n.io/) - n8n.io
+* [n8n Learning path](https://docs.n8n.io/learning-path/)
+
 
 ### Zapier
 * [Zapier](https://zapier.com) - zapier.com
