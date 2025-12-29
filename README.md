@@ -44,6 +44,7 @@
 
 ### Zapier
 * [Zapier](https://zapier.com) - zapier.com
+* [Zapier Academy](https://learn.zapier.com/page/courses) - learn.zapier.com
 
 ### Make
 * [Make](https://www.make.com) - make.com | Connect Apps & Design Workflows
