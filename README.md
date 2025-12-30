@@ -45,6 +45,7 @@
 ### Zapier
 * [Zapier](https://zapier.com) - zapier.com
 * [Zapier Academy](https://learn.zapier.com/page/courses) - learn.zapier.com
+* [Zapier AI Tutorial for Beginners: Automation Made Simple 📺 ~20min](https://www.youtube.com/watch?v=JtdUgJGI_Oo)
 
 ### Make
 * [Make](https://www.make.com) - make.com | Connect Apps & Design Workflows
