@@ -107,6 +107,7 @@
 * [Deep Blue vs Kasparov: How a computer beat best chess player in the world - BBC News](https://www.youtube.com/watch?v=KF6sLCeBj0s) - BBC News
 
 ## Papers
+* [A multimodal sleep foundation model for disease prediction](https://www.nature.com/articles/s41591-025-04133-4.pdf)
 * [FormulaOne: Measuring the Depth of Algorithmic Reasoning Beyond Competitive Programming](https://arxiv.org/pdf/2507.13337)
 
 ## Articles
