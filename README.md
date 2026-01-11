@@ -58,6 +58,8 @@
 * [Model Context Protocol (MCP), clearly explained (why it matters) 📺 ~20min](https://www.youtube.com/watch?v=7j_NE6Pjv-E) - Greg Isenberg
 * [Model Context Protocol](https://modelcontextprotocol.io/) - modelcontextprotocol.io
 
+## UCP (Universal Commerce Protocol)
+
 -----
 
 ## RAG
