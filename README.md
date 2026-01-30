@@ -99,7 +99,10 @@
   - [Scale and Orchestrate Multi-Agent Systems Effortlessly (EMEA)](https://www.youtube.com/watch?v=5GJApm09nLc)
  
 ### Topics
-* [What Are Word Embeddings?](https://www.youtube.com/watch?v=hVM8qGRTaOA) - Under The Hood
+* Embeddings
+  - [What Are Word Embeddings?](https://www.youtube.com/watch?v=hVM8qGRTaOA) - Under The Hood
+* Token
+  - [Tokenizer](https://platform.openai.com/tokenizer) - openai.com
 
 -----
 
