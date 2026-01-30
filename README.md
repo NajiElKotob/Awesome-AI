@@ -97,6 +97,10 @@
   - [MIT 6.S087: Foundation Models & Generative AI (2024)](https://www.youtube.com/playlist?app=desktop&list=PLXV9Vh2jYcjbnv67sXNDJiO8MWLA3ZJKR) - Rickard Brüel Gabrielsson
 * Microsoft Reactor
   - [Scale and Orchestrate Multi-Agent Systems Effortlessly (EMEA)](https://www.youtube.com/watch?v=5GJApm09nLc)
+ 
+### Topics
+* [What Are Word Embeddings?](https://www.youtube.com/watch?v=hVM8qGRTaOA) - Under The Hood
+
 -----
 
 ## Let's Talk AI 📺
