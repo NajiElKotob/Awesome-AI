@@ -102,6 +102,8 @@
 * Microsoft
   - [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification)
     - [Preparing for the AI-102 exam 📺](https://www.youtube.com/playlist?list=PLahhVEj9XNTffweBLSCgUcBIbMTdk45UT)
+* Anthropic (Claude)
+  - [Anthropic courses](https://anthropic.skilljar.com/) - anthropic.skilljar.com
  
 ### Topics
 * Embeddings
