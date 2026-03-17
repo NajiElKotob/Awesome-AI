@@ -103,6 +103,8 @@
   - [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification)
 * Anthropic (Claude)
   - [Anthropic courses](https://anthropic.skilljar.com/) - anthropic.skilljar.com
+* Oxford
+  - [Oxford Lifelong Learning](https://lifelong-learning.ox.ac.uk/search#/?s=&areas=Technology+and+AI&tab=courses&format=3%2C6) - lifelong-learning.ox.ac.uk
  
 ### Topics
 * Embeddings
