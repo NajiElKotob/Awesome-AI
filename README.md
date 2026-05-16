@@ -98,6 +98,9 @@
 * Microsoft Reactor
   - [Scale and Orchestrate Multi-Agent Systems Effortlessly (EMEA)](https://www.youtube.com/watch?v=5GJApm09nLc)
 
+## TensorFlow
+* [TensorFlow playground](https://playground.tensorflow.org/) - tensorflow.org
+
 ## Certifications 🥇
 * Microsoft
   - [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification)
