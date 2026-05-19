@@ -98,6 +98,9 @@
 * Microsoft Reactor
   - [Scale and Orchestrate Multi-Agent Systems Effortlessly (EMEA)](https://www.youtube.com/watch?v=5GJApm09nLc)
 
+## Claude
+* npm install -g @anthropic-ai/claude-code
+
 ## TensorFlow
 * [TensorFlow playground](https://playground.tensorflow.org/) - tensorflow.org
 
