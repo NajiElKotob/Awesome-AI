@@ -159,6 +159,7 @@
 * [Breaking down ‘EchoLeak’, the First Zero-Click AI Vulnerability Enabling Data Exfiltration from Microsoft 365 Copilot](https://www.aim.security/post/echoleak-blogpost) - aim.security (31 May 2025)
 * [OpenAI model resists shutdown](https://dig.watch/updates/openai-model-resists-shutdown) - dig.watch (28 May 2025)
 * [Crescendo Attacks: How Real-World LLMs Respond to Gradual Prompt Attacks](https://neuraltrust.ai/blog/crescendo-gradual-prompt-attacks) - neuraltrust.ai (14 May 2025)
+* [Defense at AI speed: Microsoft’s new multi-model agentic security system tops leading industry benchmark](https://www.microsoft.com/en-us/security/blog/2026/05/12/defense-at-ai-speed-microsofts-new-multi-model-agentic-security-system-tops-leading-industry-benchmark/?msockid=384df28e91e76f200fc5e7c790ff6e63) - microsoft.com
  
 ### Finance
 * [How HSBC/Banco Bradesco are transforming money laundering risk detection with Google Cloud’s AML AI 📺 ~41min](https://www.youtube.com/watch?v=Cmj9bESi2To) - Google Cloud
