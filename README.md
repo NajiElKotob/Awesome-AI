@@ -99,6 +99,8 @@
   - [Scale and Orchestrate Multi-Agent Systems Effortlessly (EMEA)](https://www.youtube.com/watch?v=5GJApm09nLc)
 
 ## Claude
+### Claude Code
+* [Use Claude Code in VS Code](https://code.claude.com/docs/en/vs-code) - code.claude.com
 * npm install -g @anthropic-ai/claude-code
 
 ## TensorFlow
