@@ -98,10 +98,15 @@
 * Microsoft Reactor
   - [Scale and Orchestrate Multi-Agent Systems Effortlessly (EMEA)](https://www.youtube.com/watch?v=5GJApm09nLc)
 
-## Claude
-### Claude Code
+## AI Platforms
+### Claude (Anthropic)
+#### Claude Code
 * [Use Claude Code in VS Code](https://code.claude.com/docs/en/vs-code) - code.claude.com
 * npm install -g @anthropic-ai/claude-code
+
+### Gemini (Google)
+### Copilot (Microsoft)
+### ChatGPT (OpenAI)
 
 ## TensorFlow
 * [TensorFlow playground](https://playground.tensorflow.org/) - tensorflow.org
