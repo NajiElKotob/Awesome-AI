@@ -32,11 +32,9 @@
 * [Run local AI on any PC or Mac - Microsoft Foundry Local 📺 ~11min](https://www.youtube.com/watch?v=qL3HADDI6W4)
 * [Foundry Local (GitHub)](https://github.com/microsoft/Foundry-Local)
   
-### Copilot
-* Copilot
-  - [Copilot and AI agents](https://www.microsoft.com/en-us/microsoft-copilot/copilot-101/copilot-ai-agents) - microsoft.com
-  - [I Spent 6 Months Learning CoPilot & AI Agents — Here's EVERYTHING You Need To Know](https://www.youtube.com/watch?v=_sRzTB9CIxQ) - Prof. Ryan Ahmed
 
+
+## AI Workflow Automation Platform
 ### n8n
 * [n8n](https://n8n.io/) - n8n.io
 * [n8n Learning path](https://docs.n8n.io/learning-path/)
@@ -51,6 +49,7 @@
 * [Make](https://www.make.com) - make.com | Connect Apps & Design Workflows
 * [Make AI Agent Tutorial – Build a No-Code Assistant That Works 24/7 📺 ~19min](https://www.youtube.com/watch?v=wwhFP30uGmE) - Kevin Stratvert
 
+----
 
 ## MCP (Model Context Protocol)
 * [Build Agents using Model Context Protocol on Azure](https://learn.microsoft.com/en-us/azure/developer/ai/intro-agents-mcp) - learn.microsoft.com+
@@ -106,6 +105,9 @@
 
 ### Gemini (Google)
 ### Copilot (Microsoft)
+* [Copilot and AI agents](https://www.microsoft.com/en-us/microsoft-copilot/copilot-101/copilot-ai-agents) - microsoft.com
+* [I Spent 6 Months Learning CoPilot & AI Agents — Here's EVERYTHING You Need To Know](https://www.youtube.com/watch?v=_sRzTB9CIxQ) - Prof. Ryan Ahmed
+
 ### ChatGPT (OpenAI)
 
 ## TensorFlow
