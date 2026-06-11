@@ -12,8 +12,6 @@
 * [Transformers, the tech behind LLMs 📺 ~27min](https://www.youtube.com/watch?v=wjZofJX0v4M) - 3Blue1Brown
 * [Stanford CME295 Transformers & LLMs | Autumn 2025 | Lecture 9 - Recap & Current Trends 📺 ~2 hours](https://www.youtube.com/watch?v=Q86qzJ1K1Ss)
 
-## Prompt Engineering
-
 ## Generative AI
 * [Generative AI for Beginners](https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/) - learn.microsoft.com
 * [Where to get started with GenAI](https://blog.bytebytego.com/p/where-to-get-started-with-genai) - bytebytego.com
