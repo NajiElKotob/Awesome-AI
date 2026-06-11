@@ -106,6 +106,9 @@
 * [Copilot and AI agents](https://www.microsoft.com/en-us/microsoft-copilot/copilot-101/copilot-ai-agents) - microsoft.com
 * [I Spent 6 Months Learning CoPilot & AI Agents — Here's EVERYTHING You Need To Know](https://www.youtube.com/watch?v=_sRzTB9CIxQ) - Prof. Ryan Ahmed
 
+### MAI
+* [MAI Playground](https://playground.microsoft.ai/) - microsoft.ai
+  
 ### ChatGPT (OpenAI)
 
 ## TensorFlow
