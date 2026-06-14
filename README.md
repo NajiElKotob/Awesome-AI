@@ -150,6 +150,8 @@
 * [AI-Generated “Workslop” Is Destroying Productivity](https://hbr.org/2025/09/ai-generated-workslop-is-destroying-productivity) - hbr.org
 * [AI Magazine](https://ojs.aaai.org/aimagazine/index.php/aimagazine/index) - aaai.org
 * [The Transformer Blueprint: A Holistic Guide to the Transformer Neural Network Architecture](https://deeprevision.github.io/posts/001-transformer/) - deeprevision.github.io
+* [A frontier without an ecosystem is not stable](https://x.com/satyanadella/status/2066182223213293753) - Satya Nadella
+
 
 ## News
 * [Accenture Layoffs: 11,000 Employees Exit In Just One Quarter, Company Reshapes Strategy With Big Bet On AI](https://www.msn.com/en-in/lifestyle/style/accenture-layoffs-11000-employees-exit-in-just-one-quarter-company-reshapes-strategy-with-big-bet-on-ai/ar-AA1NsJvU) - msn.com (28 Sep 2025)
