@@ -84,6 +84,8 @@
   - [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners)
   - [The Slither Slam 🎮](https://vscodeedu.com/courses/fc4e65f6-17dd-4ce9-8b66-7dd7832e72e6)
   - [Azure AI - Shows and events](https://learn.microsoft.com/en-us/shows/browse?filter-products=ai&products=content-safety%2Cai-services%2Cazure-openai)
+* Microsoft Learn
+  - [AI Fluency](https://learn.microsoft.com/en-us/training/paths/ai-fluency/)
 * DeepLearning.AI
   - [Agentic AI](https://learn.deeplearning.ai/courses/agentic-ai/)
 * IBM Technology 📺
