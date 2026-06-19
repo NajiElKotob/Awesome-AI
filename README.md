@@ -102,6 +102,7 @@
 #### Claude Code
 * [Use Claude Code in VS Code](https://code.claude.com/docs/en/vs-code) - code.claude.com
 * npm install -g @anthropic-ai/claude-code
+* [NotFair](https://github.com/nowork-studio/NotFair) - Open-source Claude Code skills for SEO, GEO, Google Ads, and Meta Ads; connects to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.
 
 ### Gemini (Google)
 ### Copilot (Microsoft)
