@@ -102,6 +102,8 @@
 #### Claude Code
 * [Use Claude Code in VS Code](https://code.claude.com/docs/en/vs-code) - code.claude.com
 * npm install -g @anthropic-ai/claude-code
+#### Claude Design
+* [Claude Design](https://claude.ai/design)
 
 ### Gemini (Google)
 ### Copilot (Microsoft)
