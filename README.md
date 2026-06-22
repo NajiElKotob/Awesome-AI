@@ -79,24 +79,6 @@
 
 -----
 
-## Learning ⭐
-* Microsoft
-  - [Discover AI for leaders in nonprofit](https://learn.microsoft.com/en-us/training/paths/discover-ai-leaders-nonprofit/)
-  - [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners)
-  - [The Slither Slam 🎮](https://vscodeedu.com/courses/fc4e65f6-17dd-4ce9-8b66-7dd7832e72e6)
-  - [Azure AI - Shows and events](https://learn.microsoft.com/en-us/shows/browse?filter-products=ai&products=content-safety%2Cai-services%2Cazure-openai)
-* Microsoft Learn
-  - [AI Fluency](https://learn.microsoft.com/en-us/training/paths/ai-fluency/)
-* DeepLearning.AI
-  - [Agentic AI](https://learn.deeplearning.ai/courses/agentic-ai/)
-* IBM Technology 📺
-  - [AI Fundamentals](https://www.youtube.com/playlist?list=PLOspHqNVtKADfxkuDuHduUkDExBpEt3DF)
-* [Learn Prompting](https://learnprompting.org/) - learnprompting.org
-* [Open AI Academy](https://academy.openai.com/) - academy.openai.com
-* MIT
-  - [MIT 6.S087: Foundation Models & Generative AI (2024)](https://www.youtube.com/playlist?app=desktop&list=PLXV9Vh2jYcjbnv67sXNDJiO8MWLA3ZJKR) - Rickard Brüel Gabrielsson
-* Microsoft Reactor
-  - [Scale and Orchestrate Multi-Agent Systems Effortlessly (EMEA)](https://www.youtube.com/watch?v=5GJApm09nLc)
 
 ## AI Platforms
 ### Claude (Anthropic)
@@ -119,6 +101,34 @@
 ## TensorFlow
 * [TensorFlow playground](https://playground.tensorflow.org/) - tensorflow.org
 
+
+### Topics
+* Embeddings
+  - [What Are Word Embeddings?](https://www.youtube.com/watch?v=hVM8qGRTaOA) - Under The Hood
+* Token
+  - [Tokenizer](https://platform.openai.com/tokenizer) - openai.com
+
+-----
+
+## Learning ⭐
+* Microsoft
+  - [Discover AI for leaders in nonprofit](https://learn.microsoft.com/en-us/training/paths/discover-ai-leaders-nonprofit/)
+  - [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners)
+  - [The Slither Slam 🎮](https://vscodeedu.com/courses/fc4e65f6-17dd-4ce9-8b66-7dd7832e72e6)
+  - [Azure AI - Shows and events](https://learn.microsoft.com/en-us/shows/browse?filter-products=ai&products=content-safety%2Cai-services%2Cazure-openai)
+* Microsoft Learn
+  - [AI Fluency](https://learn.microsoft.com/en-us/training/paths/ai-fluency/)
+* DeepLearning.AI
+  - [Agentic AI](https://learn.deeplearning.ai/courses/agentic-ai/)
+* IBM Technology 📺
+  - [AI Fundamentals](https://www.youtube.com/playlist?list=PLOspHqNVtKADfxkuDuHduUkDExBpEt3DF)
+* [Learn Prompting](https://learnprompting.org/) - learnprompting.org
+* [Open AI Academy](https://academy.openai.com/) - academy.openai.com
+* MIT
+  - [MIT 6.S087: Foundation Models & Generative AI (2024)](https://www.youtube.com/playlist?app=desktop&list=PLXV9Vh2jYcjbnv67sXNDJiO8MWLA3ZJKR) - Rickard Brüel Gabrielsson
+* Microsoft Reactor
+  - [Scale and Orchestrate Multi-Agent Systems Effortlessly (EMEA)](https://www.youtube.com/watch?v=5GJApm09nLc)
+
 ## Certifications 🥇
 * Microsoft
   - [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification)
@@ -127,11 +137,6 @@
 * Oxford
   - [Oxford Lifelong Learning](https://lifelong-learning.ox.ac.uk/search#/?s=&areas=Technology+and+AI&tab=courses&format=3%2C6) - lifelong-learning.ox.ac.uk
  
-### Topics
-* Embeddings
-  - [What Are Word Embeddings?](https://www.youtube.com/watch?v=hVM8qGRTaOA) - Under The Hood
-* Token
-  - [Tokenizer](https://platform.openai.com/tokenizer) - openai.com
 
 -----
 
