@@ -38,9 +38,11 @@
   
 ### ChatGPT (OpenAI)
 
+### Leaderboards
+* [LLM Stats](https://llm-stats.com/) - llm-stats.com
+
 ## TensorFlow
 * [TensorFlow playground](https://playground.tensorflow.org/) - tensorflow.org
-
 
 ### Topics
 * Embeddings
