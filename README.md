@@ -122,7 +122,7 @@
 ## API
 ### FastAPI
 * [FastAPI](https://fastapi.tiangolo.com/) - fastapi.tiangolo.com
-* [](https://uvicorn.dev/) - uvicorn.dev
+* [Uvicorn](https://uvicorn.dev/) - uvicorn.dev
 
 
 -----
