@@ -29,7 +29,8 @@
   - X:\\> foundry /?; foundry model ls; foundry cache ls
 * [Run local AI on any PC or Mac - Microsoft Foundry Local 📺 ~11min](https://www.youtube.com/watch?v=qL3HADDI6W4)
 * [Foundry Local (GitHub)](https://github.com/microsoft/Foundry-Local)
-  
+### Sakana Fugu
+* [Sakana Fugu](https://sakana.ai/fugu/) - sakana.ai | Building Frontier AI in Japan
 
 
 ## AI Workflow Automation Platform
