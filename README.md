@@ -77,6 +77,11 @@
 ### Microsoft Agent Framework (Semantic Kernel + AG)
 
 
+## Vector databases
+* Azure AI Search
+* ChromaDB
+* Pinecone 
+
 -----
 
 
