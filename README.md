@@ -16,6 +16,39 @@
 * [Generative AI for Beginners](https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/) - learn.microsoft.com
 * [Where to get started with GenAI](https://blog.bytebytego.com/p/where-to-get-started-with-genai) - bytebytego.com
 
+
+-----
+
+
+## AI Platforms
+### Claude (Anthropic)
+#### Claude Code
+* [Use Claude Code in VS Code](https://code.claude.com/docs/en/vs-code) - code.claude.com
+* npm install -g @anthropic-ai/claude-code
+#### Claude Design
+* [Claude Design](https://claude.ai/design)
+
+### Gemini (Google)
+### Copilot (Microsoft)
+* [Copilot and AI agents](https://www.microsoft.com/en-us/microsoft-copilot/copilot-101/copilot-ai-agents) - microsoft.com
+* [I Spent 6 Months Learning CoPilot & AI Agents — Here's EVERYTHING You Need To Know](https://www.youtube.com/watch?v=_sRzTB9CIxQ) - Prof. Ryan Ahmed
+
+### MAI
+* [MAI Playground](https://playground.microsoft.ai/) - microsoft.ai
+  
+### ChatGPT (OpenAI)
+
+## TensorFlow
+* [TensorFlow playground](https://playground.tensorflow.org/) - tensorflow.org
+
+
+### Topics
+* Embeddings
+  - [What Are Word Embeddings?](https://www.youtube.com/watch?v=hVM8qGRTaOA) - Under The Hood
+* Token
+  - [Tokenizer](https://platform.openai.com/tokenizer) - openai.com
+
+
 -----
 
 ## AI Agent, Agentic AI and Agent Builder
@@ -82,38 +115,11 @@
 ## Vector databases
 * Azure AI Search
 * ChromaDB
-* Pinecone 
+* Pinecone
 
------
-
-
-## AI Platforms
-### Claude (Anthropic)
-#### Claude Code
-* [Use Claude Code in VS Code](https://code.claude.com/docs/en/vs-code) - code.claude.com
-* npm install -g @anthropic-ai/claude-code
-#### Claude Design
-* [Claude Design](https://claude.ai/design)
-
-### Gemini (Google)
-### Copilot (Microsoft)
-* [Copilot and AI agents](https://www.microsoft.com/en-us/microsoft-copilot/copilot-101/copilot-ai-agents) - microsoft.com
-* [I Spent 6 Months Learning CoPilot & AI Agents — Here's EVERYTHING You Need To Know](https://www.youtube.com/watch?v=_sRzTB9CIxQ) - Prof. Ryan Ahmed
-
-### MAI
-* [MAI Playground](https://playground.microsoft.ai/) - microsoft.ai
-  
-### ChatGPT (OpenAI)
-
-## TensorFlow
-* [TensorFlow playground](https://playground.tensorflow.org/) - tensorflow.org
-
-
-### Topics
-* Embeddings
-  - [What Are Word Embeddings?](https://www.youtube.com/watch?v=hVM8qGRTaOA) - Under The Hood
-* Token
-  - [Tokenizer](https://platform.openai.com/tokenizer) - openai.com
+## API
+### FastAPI
+* [FastAPI](https://fastapi.tiangolo.com/) - fastapi.tiangolo.com
 
 -----
 
