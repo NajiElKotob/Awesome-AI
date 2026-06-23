@@ -108,7 +108,12 @@
 ## Orchestration Framework
 
 ### LangChain
+#### LangChain
 * [What is LangChain? 📺 ~2min](https://www.youtube.com/watch?v=vwlRzUddey4) - CodeHead
+
+#### LangGraph
+#### LangSmith
+#### Deep Agents
 
 ### LlamaIndex
 ### Microsoft Agent Framework (Semantic Kernel + AG)
