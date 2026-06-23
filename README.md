@@ -113,6 +113,8 @@
 
 #### LangGraph
 #### LangSmith
+* [What is LangSmith?](https://www.ibm.com/think/topics/langsmith) - ibm.com
+  
 #### Deep Agents
 
 ### LlamaIndex
