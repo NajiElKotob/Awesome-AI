@@ -120,6 +120,7 @@
 #### Deep Agents
 
 ### LlamaIndex
+### Pydantic AI
 ### Microsoft Agent Framework (Semantic Kernel + AG)
 
 
