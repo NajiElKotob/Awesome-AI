@@ -27,6 +27,8 @@
 * npm install -g @anthropic-ai/claude-code
 #### Claude Design
 * [Claude Design](https://claude.ai/design)
+#### Misc
+* [Claude Code Marketplaces](https://claudemarketplaces.com/) - claudemarketplaces.com
 
 ### Gemini (Google)
 ### Copilot (Microsoft)
