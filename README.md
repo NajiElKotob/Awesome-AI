@@ -74,6 +74,8 @@
 ### n8n
 * [n8n](https://n8n.io/) - n8n.io
 * [n8n Learning path](https://docs.n8n.io/learning-path/)
+#### Setup and Deployment
+* [Install with Docker](https://docs.n8n.io/deploy/host-n8n/install-options/install-with-docker) - docs.n8n.io
 
 
 ### Zapier
