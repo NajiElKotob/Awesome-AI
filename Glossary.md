@@ -4,6 +4,8 @@
 |:----------------|-----------------:|
 |Artificial Intelligence (AI)|	الذكاء الاصطناعي|
 |Algorithm|	خوارزمية|
+|API|واجهة برمجة التطبيقات|
+|Distillation|تقطير النموذج|
 |Machine Learning (ML)|تعلم الآلة|.
 |Neural Network (NN)|	الشبكة العصبية|
 |Deep Learning (DL)|	التعلم العميق|
@@ -21,5 +23,24 @@
 |AI Agent|	وكيل ذكاء اصطناعي او وكيل ذكي|
 |Agentic AI| الذكاء الاصطناعي الوكيلي|
 |Agent Builder| منصة إنشاء الوكلاء الذكيين|
+|Latency|زمن الاستجابة|
+|Benchmark|معيار تقييم|
+|Bias|التحيز|
+|Guardrails|ضوابط الحماية|
+|One-shot Prompting|التوجيه بمثال واحد|
+|Few-shot Prompting|التوجيه بعدة أمثلة|
+|Text-to-Speech|تحويل النص إلى كلام|
+|Speech-to-Text|تحويل الكلام إلى نص|
+|Multimodal Model|نموذج متعدد الوسائط|
+|Small Language Model (SLM)|نموذج لغوي صغير|
+|Language Model (LLM)|نموذج لغوي كبير|
+|Reasoning Model|نموذج استدلال|
+|Vector Database|قاعدة بيانات متجهية|
+|Embedding|التضمين|
+|Tokenization|تجزئة الرموز|
+|Memory|الذاكرة|
+|Chat Model|نموذج المحادثة|
+|Instruct Model|نموذج التعليمات|
+
 
 
