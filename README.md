@@ -142,6 +142,7 @@
 `An AI loop is an iterative cycle where an AI agent observes, plans, acts, and reflects repeatedly until a goal is achieved, replacing one-shot prompts with autonomous, multi-step workflows.`
 
 ## AI Harness
+`An AI harness is the software infrastructure that surrounds an AI model, managing its context, tools, safety, and interactions to make it reliable and effective in real-world tasks.`
 
 ## Human-in-the-loop (HITL)
 `Human-in-the-loop (HITL) is a system design approach where humans actively participate in supervising, guiding, or correcting automated processes to improve accuracy, safety, and ethical decision-making.`
