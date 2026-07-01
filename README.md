@@ -88,26 +88,6 @@
 * [Make](https://www.make.com) - make.com | Connect Apps & Design Workflows
 * [Make AI Agent Tutorial – Build a No-Code Assistant That Works 24/7 📺 ~19min](https://www.youtube.com/watch?v=wwhFP30uGmE) - Kevin Stratvert
 
-----
-
-## MCP (Model Context Protocol)
-* [Build Agents using Model Context Protocol on Azure](https://learn.microsoft.com/en-us/azure/developer/ai/intro-agents-mcp) - learn.microsoft.com+
-* [MCP vs API: Simplifying AI Agent Integration with External Data 📺 ~13min](https://www.youtube.com/watch?v=7j1t3UZA1TY) - IBM Technology
-* [Model Context Protocol (MCP), clearly explained (why it matters) 📺 ~20min](https://www.youtube.com/watch?v=7j_NE6Pjv-E) - Greg Isenberg
-* [Model Context Protocol](https://modelcontextprotocol.io/) - modelcontextprotocol.io
-
-## UCP (Universal Commerce Protocol)
-
------
-
-## RAG
-* [RAG vs. CAG: Solving Knowledge Gaps in AI Models 📺 ~16min](https://www.youtube.com/watch?v=HdafI0t3sEY) - IBM Technology
-* [Azure SQL DB - Retrieval Augmented Generation (RAG) with OpenAI](https://github.com/azure-samples/azure-sql-db-chatbot) - GitHub | Azure Samples
-* [Retrieval Augmented Generation with Groq API](https://groq.humain.ai/retrieval-augmented-generation-with-groq-api/) - humain.ai
-
-### CLaRa
-* [CLaRa](https://github.com/apple/ml-clara) - Apple | CLaRa: Bridging Retrieval and Generation with Continuous Latent Reasoning
-* [CLaRa: Bridging Retrieval and Generation with Continuous Latent Reasoning 📄](https://arxiv.org/pdf/2511.18659) - arXiv 
 -----
 
 ## Orchestration Framework
@@ -136,7 +116,31 @@
 ### FastAPI
 * [FastAPI](https://fastapi.tiangolo.com/) - fastapi.tiangolo.com
 * [Uvicorn](https://uvicorn.dev/) - uvicorn.dev
+  
+----
 
+## MCP (Model Context Protocol)
+* [Build Agents using Model Context Protocol on Azure](https://learn.microsoft.com/en-us/azure/developer/ai/intro-agents-mcp) - learn.microsoft.com+
+* [MCP vs API: Simplifying AI Agent Integration with External Data 📺 ~13min](https://www.youtube.com/watch?v=7j1t3UZA1TY) - IBM Technology
+* [Model Context Protocol (MCP), clearly explained (why it matters) 📺 ~20min](https://www.youtube.com/watch?v=7j_NE6Pjv-E) - Greg Isenberg
+* [Model Context Protocol](https://modelcontextprotocol.io/) - modelcontextprotocol.io
+
+## UCP (Universal Commerce Protocol)
+
+-----
+
+## RAG
+* [RAG vs. CAG: Solving Knowledge Gaps in AI Models 📺 ~16min](https://www.youtube.com/watch?v=HdafI0t3sEY) - IBM Technology
+* [Azure SQL DB - Retrieval Augmented Generation (RAG) with OpenAI](https://github.com/azure-samples/azure-sql-db-chatbot) - GitHub | Azure Samples
+* [Retrieval Augmented Generation with Groq API](https://groq.humain.ai/retrieval-augmented-generation-with-groq-api/) - humain.ai
+
+### CLaRa
+* [CLaRa](https://github.com/apple/ml-clara) - Apple | CLaRa: Bridging Retrieval and Generation with Continuous Latent Reasoning
+* [CLaRa: Bridging Retrieval and Generation with Continuous Latent Reasoning 📄](https://arxiv.org/pdf/2511.18659) - arXiv 
+
+## AI Loop
+
+## AI Harness
 
 -----
 
