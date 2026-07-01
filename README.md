@@ -142,6 +142,9 @@
 
 ## AI Harness
 
+## Human-in-the-loop (HITL)
+`Human-in-the-loop (HITL) is a system design approach where humans actively participate in supervising, guiding, or correcting automated processes to improve accuracy, safety, and ethical decision-making.`
+
 -----
 
 ## Learning ⭐
