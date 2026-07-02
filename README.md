@@ -141,6 +141,7 @@
 
 ## AI Hallucination
 `An AI hallucination occurs when a generative AI system produces outputs that are false, misleading, or not grounded in reality, often presented as factual.`
+* [What are AI hallucinations?](https://www.ibm.com/think/topics/ai-hallucinations) - ibm.com
 
 ## AI Loop
 `An AI loop is an iterative cycle where an AI agent observes, plans, acts, and reflects repeatedly until a goal is achieved, replacing one-shot prompts with autonomous, multi-step workflows.`
