@@ -10,6 +10,7 @@
 
 ### History
 * [Group Method of Data Handling (GMDH)](https://gmdh.net/) - gmdh.net
+* [Talk to ELIZA online](https://elizaemulator.com/) - elizaemulator.com | ELIZA is a classic 1966 program that simulates conversation using pattern matching and transformation rules.
 
 ## GPT & LLM
 * [Transformers, the tech behind LLMs 📺 ~27min](https://www.youtube.com/watch?v=wjZofJX0v4M) - 3Blue1Brown
