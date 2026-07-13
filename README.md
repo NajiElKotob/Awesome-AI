@@ -9,8 +9,8 @@
 * [AI Dev Days: Building AI Applications](https://www.youtube.com/watch?v=kZqGsoeP0kU) - Microsoft Developer
 
 ### History
-* [Group Method of Data Handling (GMDH)](https://gmdh.net/) - gmdh.net
 * [Talk to ELIZA online](https://elizaemulator.com/) - elizaemulator.com | ELIZA is a classic 1966 program that simulates conversation using pattern matching and transformation rules.
+* [Group Method of Data Handling (GMDH)](https://gmdh.net/) - gmdh.net
 
 ## GPT & LLM
 * [Transformers, the tech behind LLMs 📺 ~27min](https://www.youtube.com/watch?v=wjZofJX0v4M) - 3Blue1Brown
