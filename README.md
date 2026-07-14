@@ -252,3 +252,7 @@
 
 ## Movies 🎬
 * [Eagle Eye (2008)](https://www.imdb.com/title/tt1059786)
+
+## Documentaries
+* [Coded Bias](https://www.netflix.com/lb-en/title/81328723) - Netflix
+  - [About Coded Bias](https://www.codedbias.com/)
