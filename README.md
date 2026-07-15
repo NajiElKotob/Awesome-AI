@@ -188,7 +188,8 @@
   - [Anthropic courses](https://anthropic.skilljar.com/) - anthropic.skilljar.com
 * Oxford
   - [Oxford Lifelong Learning](https://lifelong-learning.ox.ac.uk/search#/?s=&areas=Technology+and+AI&tab=courses&format=3%2C6) - lifelong-learning.ox.ac.uk
- 
+* Johns Hopkins University
+  - [Certificate Program in Agentic AI](https://online.lifelonglearning.jhu.edu/jhu-certificate-program-agentic-ai) - jhu.edu
 
 -----
 
