@@ -196,11 +196,12 @@
 
 -----
 
-## Let's Talk AI 📺
+## Videos 📺
 * [Godfather of AI WARNS: "You Have No Idea What's Coming" 📺 ~23min](https://www.youtube.com/watch?v=5KmopXwjXik) - The Diary Of A CEO Clips (28 Sep 2025)
 * [These 5 AI Agents Will Make You $1M With Zero Employees 📺 ~12min](https://www.youtube.com/watch?v=sIugzOQz7Vk) - Dan Martell
 * [DeepSeek OCR - More than OCR](https://www.youtube.com/watch?v=YEZHU4LSUfU) - Sam Witteveen
 * [Andrew Ng: Building Faster with AI 📺 ~44min](https://www.youtube.com/watch?v=RNJCfif1dPY)
+* [AI for data storytelling: better graphs, slides, and presentations 📺 ~1 hour](https://www.youtube.com/watch?v=EsMmixXw5J0) - storytelling with data
 
 ## Stories
 * [Dartmouth Conference - The Birthplace of A.I. | Where It All Started! 📺 ~10min](https://www.youtube.com/watch?v=5Ur-Nf85ARw) - ELEV-AI-TE
