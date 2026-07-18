@@ -211,6 +211,7 @@
 * [Attention Is All You Need](https://arxiv.org/pdf/1706.03762) ⭐
 * [A multimodal sleep foundation model for disease prediction](https://www.nature.com/articles/s41591-025-04133-4.pdf)
 * [FormulaOne: Measuring the Depth of Algorithmic Reasoning Beyond Competitive Programming](https://arxiv.org/pdf/2507.13337)
+* [Artificial intelligence in strategic foresight: Evidence from a longitudinal case at Siemens Professional Education](https://www.sciencedirect.com/science/article/pii/S0016328726001254?via%3Dihub) - René Rohrbeck, Stephan Szuppa, Julia Schmidt
 
 ## Articles
 * [AI-Generated “Workslop” Is Destroying Productivity](https://hbr.org/2025/09/ai-generated-workslop-is-destroying-productivity) - hbr.org
