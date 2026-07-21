@@ -117,6 +117,7 @@
 * Azure AI Search
 * ChromaDB
 * Pinecone
+* [Supabase](https://supabase.com/) - supabase.com
 
 ## API
 ### FastAPI
