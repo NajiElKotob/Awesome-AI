@@ -203,6 +203,7 @@
 
 ## Tools
 * [LLM Token Calculator](https://www.token-calculator.com/) - token-calculator.com
+* [Tokenizer (OpenAI Platform)](https://platform.openai.com/tokenizer) - openai.com
 
 -----
 
