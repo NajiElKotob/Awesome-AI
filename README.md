@@ -37,6 +37,7 @@
 * [Claude for Financial Services Keynote](https://www.youtube.com/watch?v=5zd7m3Rh5B0)
 #### Skills
 * [Teach Claude your way of working (Skill)](https://claude.com/skills)
+* [Anthropic's implementation of skills for Claude](https://github.com/anthropics/skills/tree/main)
 #### Misc
 * [Claude Code Marketplaces](https://claudemarketplaces.com/) - claudemarketplaces.com
 
