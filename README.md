@@ -38,6 +38,7 @@
 #### Skills
 * [Teach Claude your way of working (Skill)](https://claude.com/skills)
 * [Anthropic's implementation of skills for Claude](https://github.com/anthropics/skills/tree/main)
+* [Skills Marketplace (Agent Skills Marketplace)](https://skillsmp.com/) - skillsmp.com
 #### Misc
 * [Claude Code Marketplaces](https://claudemarketplaces.com/) - claudemarketplaces.com
 
