@@ -121,6 +121,7 @@
 
 ## Local AI & LLM Runtimes
 * [Ollama](https://ollama.com/) - ollama.com
+* [LM Studio](https://lmstudio.ai/) - lmstudio.ai
 
 ## Vector databases
 * Azure AI Search
