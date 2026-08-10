@@ -119,6 +119,8 @@
 ### Pydantic AI
 ### Microsoft Agent Framework (Semantic Kernel + AG)
 
+## Local AI & LLM Runtimes
+* [Ollama](https://ollama.com/) - ollama.com
 
 ## Vector databases
 * Azure AI Search
