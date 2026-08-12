@@ -213,6 +213,8 @@
 ## Tools
 * [LLM Token Calculator](https://www.token-calculator.com/) - token-calculator.com
 * [Tokenizer (OpenAI Platform)](https://platform.openai.com/tokenizer) - openai.com
+* [C2PA Quick Start Guide](https://c2pa.wiki/getting-started/quick-start/) - c2pa.wiki
+  - [Inspect content to dig deeper](https://verify.contentauthenticity.org/) - contentauthenticity.org
 
 -----
 
