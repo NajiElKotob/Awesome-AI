@@ -183,6 +183,8 @@
   - [Understand data concepts](https://learn.microsoft.com/en-us/training/paths/understand-data-concepts/)
   - [AI Fluency](https://learn.microsoft.com/en-us/training/paths/ai-fluency/)
   - [Introduction to artificial intelligence for trainers](https://learn.microsoft.com/en-us/training/paths/introduction-to-artificial-intelligence-for-trainers/)
+* OpenAI
+* [OpenAI Academy](https://academy.openai.com/) - academy.openai.com
 * DeepLearning.AI
   - [Agentic AI](https://learn.deeplearning.ai/courses/agentic-ai/)
 * IBM Technology 📺
