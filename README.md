@@ -52,6 +52,7 @@
 * [MAI Playground](https://playground.microsoft.ai/) - microsoft.ai
   
 ### ChatGPT (OpenAI)
+`A OpenAI product that makes a large language model easier to use`
 
 ### Leaderboards
 * [LLM Stats](https://llm-stats.com/) - llm-stats.com
