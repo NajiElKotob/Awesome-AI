@@ -15,6 +15,8 @@
 
 
 ## GPT & LLM
+`Large Language Model (LLM): An advanced artificial intelligence system designed to process, understand, and generate human language. These models are trained on massive text datasets and use probability to predict and generate the next word in a sequence.`
+
 * [Transformers, the tech behind LLMs 📺 ~27min](https://www.youtube.com/watch?v=wjZofJX0v4M) - 3Blue1Brown
 * [Stanford CME295 Transformers & LLMs | Autumn 2025 | Lecture 9 - Recap & Current Trends 📺 ~2 hours](https://www.youtube.com/watch?v=Q86qzJ1K1Ss)
 
