@@ -57,8 +57,8 @@
 `A OpenAI product that makes a large language model easier to use`
 
 ### Fully open language model
-#### Olmo
 * [Olmo](https://allenai.org/olmo) - allenai.org
+* [Pythia](https://www.eleuther.ai/artifacts/pythia) - eleuther.ai
   
 -----
 
