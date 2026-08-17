@@ -56,13 +56,20 @@
 ### ChatGPT (OpenAI)
 `A OpenAI product that makes a large language model easier to use`
 
-### Leaderboards
+### Fully open language model
+#### Olmo
+* [Olmo](https://allenai.org/olmo) - allenai.org
+  
+-----
+
+## Leaderboards
 * [LLM Stats](https://llm-stats.com/) - llm-stats.com
+
 
 ## TensorFlow
 * [TensorFlow playground](https://playground.tensorflow.org/) - tensorflow.org
 
-### Topics
+## Topics
 * Embeddings
   - [What Are Word Embeddings?](https://www.youtube.com/watch?v=hVM8qGRTaOA) - Under The Hood
 * Token
