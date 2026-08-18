@@ -279,6 +279,10 @@
 ### Finance
 * [How HSBC/Banco Bradesco are transforming money laundering risk detection with Google Cloud’s AML AI 📺 ~41min](https://www.youtube.com/watch?v=Cmj9bESi2To) - Google Cloud
 
+### Edu
+* [Astra Nova](https://www.astranova.org/) - astranova.org | Born at SpaceX, Astra Nova is an online school for kind, curious, and daring kids.
+
+  
 -----
 
 ## AGI
