@@ -200,6 +200,7 @@
 * IBM Technology 📺
   - [AI Fundamentals](https://www.youtube.com/playlist?list=PLOspHqNVtKADfxkuDuHduUkDExBpEt3DF)
   - [Types of AI agents](https://www.ibm.com/think/topics/ai-agent-types/jcr%3Acontent) - ibm.com
+  - [The IBM Guide to AI](https://www.ibm.com/think/topics/ai-guide) ⭐ - ibm.com
 * [Learn Prompting](https://learnprompting.org/) - learnprompting.org
 * [Open AI Academy](https://academy.openai.com/) - academy.openai.com
 * MIT
