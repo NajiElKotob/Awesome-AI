@@ -56,6 +56,9 @@
 ### ChatGPT (OpenAI)
 `A OpenAI product that makes a large language model easier to use`
 
+### Bloomberg
+* [BloombergGPT](https://www.bloomberg.com/company/press/bloomberggpt-50-billion-parameter-llm-tuned-finance/) - bloomberg.com
+
 ### Fully open language model
 * [Olmo](https://allenai.org/olmo) - allenai.org
 * [Pythia](https://www.eleuther.ai/artifacts/pythia) - eleuther.ai
