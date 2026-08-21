@@ -1,0 +1,350 @@
+{
+  "name": "Weather Brief – Beirut",
+  "nodes": [
+    {
+      "parameters": {
+        "url": "https://api.open-meteo.com/v1/forecast",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "latitude",
+              "value": "33.89"
+            },
+            {
+              "name": "longitude",
+              "value": "35.50"
+            },
+            {
+              "name": "daily",
+              "value": "temperature_2m_max,temperature_2m_min,precipitation_probability_max"
+            },
+            {
+              "name": "timezone",
+              "value": "auto"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        224,
+        0
+      ],
+      "id": "3d2f2476-ae37-4552-a5a2-c32a19bf3066",
+      "name": "Fetch Forecast"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 7
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.3,
+      "position": [
+        0,
+        0
+      ],
+      "id": "878cebe9-aa26-4d51-8611-5d4eea08f4b4",
+      "name": "Daily 07:00"
+    },
+    {
+      "parameters": {
+        "jsCode": "const d = $input.first().json.daily;\n\nreturn d.time.map((t, i) => ({\n  json: {\n    date: t,\n    day: new Date(t).toLocaleDateString('en', { weekday: 'short' }),\n    max: d.temperature_2m_max[i],\n    min: d.temperature_2m_min[i],\n    rain: d.precipitation_probability_max[i]\n  }\n}));"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        448,
+        0
+      ],
+      "id": "605e7700-d745-45e6-b858-ac5ddffb3a77",
+      "name": "Split Days (Code)"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "c025109c-6d3a-402e-b72f-5d15c7e575f9",
+              "leftValue": "={{ $json.rain }}",
+              "rightValue": -1,
+              "operator": {
+                "type": "number",
+                "operation": "gt"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        672,
+        0
+      ],
+      "id": "9f06b574-2182-49d2-8f9d-5851834029c8",
+      "name": "Rain Check"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "dfbb78f9-c5c3-4e64-8fc4-bfd693e3106b",
+              "name": "message",
+              "value": "={{ $json.day }}: {{ $json.min }}–{{ $json.max }}°C, clear",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        896,
+        96
+      ],
+      "id": "21ea7053-6aeb-47cc-b051-66da27753510",
+      "name": "Dry Message"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "dd0ed488-0363-4471-b927-df27a9c5a8c5",
+              "name": "message",
+              "value": "={{ $json.day }}: {{ $json.min }}–{{ $json.max }}°C, {{ $json.rain }}% chance of rain ☔",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        896,
+        -96
+      ],
+      "id": "d3a926d1-887c-463f-b779-cb26dd41d13d",
+      "name": "Rain Message"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        1072,
+        0
+      ],
+      "id": "302da69b-fdfa-41b5-82f1-ad010462c7a0",
+      "name": "Merge"
+    },
+    {
+      "parameters": {
+        "jsCode": "const lines = $input.all().map(i => i.json.message);\nreturn [{ json: { brief: 'Beirut – 7 day outlook\\n\\n' + lines.join('\\n') } }];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1200,
+        0
+      ],
+      "id": "726d3e4f-ce8a-4741-b07a-0933ef3dc236",
+      "name": "Build Brief"
+    },
+    {
+      "parameters": {
+        "content": "## Weather Brief – Beirut\n\n7-day outlook from Open-Meteo, formatted as a\nplain-text brief. No API key required.\n\nFlow: fetch -> zip arrays into items -> branch on\n      rain % -> merge -> join into one message\n\nCoords: 33.89, 35.50 · timezone=auto\n\nTips learned here:\n  • Pin the HTTP response, then edit the pinned\n    JSON to test branches reality won't trigger\n  • If node: set the type, or 0 vs \"0\" bites you\n  • Merge must be Append, not Combine\n\nBuilt with n8n · Naji El Kotob",
+        "height": 368,
+        "width": 496
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        0,
+        -528
+      ],
+      "typeVersion": 1,
+      "id": "f40a5289-faa6-47c7-8fe4-f64d8f2995cc",
+      "name": "Sticky Note"
+    }
+  ],
+  "pinData": {
+    "Fetch Forecast": [
+      {
+        "json": {
+          "latitude": 33.875,
+          "longitude": 35.5,
+          "generationtime_ms": 0.1055002212524414,
+          "utc_offset_seconds": 10800,
+          "timezone": "Asia/Beirut",
+          "timezone_abbreviation": "GMT+3",
+          "elevation": 60,
+          "daily_units": {
+            "time": "iso8601",
+            "temperature_2m_max": "°C",
+            "temperature_2m_min": "°C",
+            "precipitation_probability_max": "%"
+          },
+          "daily": {
+            "time": [
+              "2026-08-21",
+              "2026-08-22",
+              "2026-08-23",
+              "2026-08-24",
+              "2026-08-25",
+              "2026-08-26",
+              "2026-08-27"
+            ],
+            "temperature_2m_max": [
+              31.2,
+              30.5,
+              30.7,
+              29.7,
+              29.8,
+              30.4,
+              31
+            ],
+            "temperature_2m_min": [
+              26.9,
+              27.2,
+              26.7,
+              26.2,
+              25.3,
+              25,
+              26.5
+            ],
+            "precipitation_probability_max": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "pairedItem": {
+          "item": 0
+        }
+      }
+    ]
+  },
+  "connections": {
+    "Fetch Forecast": {
+      "main": [
+        [
+          {
+            "node": "Split Days (Code)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Daily 07:00": {
+      "main": [
+        [
+          {
+            "node": "Fetch Forecast",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Days (Code)": {
+      "main": [
+        [
+          {
+            "node": "Rain Check",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Rain Check": {
+      "main": [
+        [
+          {
+            "node": "Rain Message",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Dry Message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Rain Message": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Dry Message": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Merge": {
+      "main": [
+        [
+          {
+            "node": "Build Brief",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "97fd384c-ba45-4ca2-b082-c2263e4a8db1",
+  "meta": {
+    "instanceId": "8d4c51f0248169a1c75b6d9be2dd32fde6fa22c22125d7ab0c664c173ebe2439"
+  },
+  "nodeGroups": [],
+  "id": "1XYJWcbBUat7eMFq",
+  "tags": []
+}
