@@ -1,0 +1,297 @@
+{
+  "name": "BleepingComputer News Feed (Scheduled)",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtMinute": 15
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.3,
+      "position": [
+        -224,
+        0
+      ],
+      "id": "f599956a-d36d-4e6b-8ee5-80352808b2bc",
+      "name": "Schedule Trigger",
+      "notesInFlow": true,
+      "notes": "Daily run; feed has no history"
+    },
+    {
+      "parameters": {
+        "content": "## RSS Digest\n\nFetches a feed, renders the items as a clean HTML page,\nand delivers it two ways:\n  • Scheduled -> daily digest by email\n  • On demand -> GET /digest in the browser\n\nFlow: RSS -> trim fields -> aggregate -> HTML template\n      -> binary file -> respond / send\n\nSwap the URL in RSS Read to point at any feed.\n\nBuilt with n8n · Naji El Kotob",
+        "height": 432,
+        "width": 304
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -624,
+        0
+      ],
+      "typeVersion": 1,
+      "id": "a01ccd5f-e841-42b5-b6cb-9c72cdcd6209",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "aggregate": "aggregateAllItemData",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        448,
+        0
+      ],
+      "id": "b04bf519-d3ce-4aec-a491-dfbab4cbdc3d",
+      "name": "Aggregate",
+      "notesInFlow": true,
+      "notes": "~15 items into one array (data)"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "0af7341d-1ff7-4c63-9d20-26fb76b458e7",
+              "name": "title",
+              "value": "={{ $json.title }}",
+              "type": "string"
+            },
+            {
+              "id": "349ead61-2609-433c-80e6-79f906cc4bae",
+              "name": "link",
+              "value": "={{ $json.link }}",
+              "type": "string"
+            },
+            {
+              "id": "0143c10a-fe7c-444c-9930-166463557f37",
+              "name": "pubDate",
+              "value": "={{ $json.pubDate }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        224,
+        0
+      ],
+      "id": "8b1231cb-da0b-4d6a-aeb2-e51759716abb",
+      "name": "Edit Fields",
+      "notesInFlow": true,
+      "notes": "Keep title, link, pubDate only"
+    },
+    {
+      "parameters": {
+        "path": "digest",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        -240,
+        224
+      ],
+      "id": "a4e4b465-f1a7-49d4-93c8-6cc8e7fcbd30",
+      "name": "Webhook",
+      "webhookId": "a38f9d26-2042-444d-899d-965542f1fd56",
+      "notesInFlow": true,
+      "notes": "GET /digest, on-demand; auth none"
+    },
+    {
+      "parameters": {
+        "html": "<html><head><meta charset=\"utf-8\"><title>RSS Digest</title><style>\nbody{font:16px/1.5 system-ui;max-width:720px;margin:40px auto;padding:0 20px;color:#1a1a1a}\nh1{font-size:22px;margin-bottom:4px}\n.sub{font-size:13px;color:#888;margin:0 0 20px;border-bottom:2px solid #eee;padding-bottom:14px}\n.item{padding:14px 0;border-bottom:1px solid #f0f0f0}\n.item a{color:#0b5cad;text-decoration:none;font-weight:600}\n.item a:hover{text-decoration:underline}\ntime{display:block;font-size:13px;color:#777;margin-top:4px}\nfooter{margin-top:32px;padding-top:12px;border-top:1px solid #eee;font-size:12px;color:#999;text-align:center}\n</style></head><body>\n<!-- RSS Digest - built with n8n by Naji El Kotob -->\n<h1>RSS Digest</h1>\n<p class=\"sub\">{{ $now.format('cccc, dd LLLL yyyy · HH:mm') }} · {{ $json.data.length }} items</p>\n{{ $json.data.map(a => `<div class=\"item\"><a href=\"${a.link}\">${a.title}</a><time>${a.pubDate}</time></div>`).join('') }}\n<footer>Generated with n8n · Naji El Kotob</footer>\n</body></html>"
+      },
+      "type": "n8n-nodes-base.html",
+      "typeVersion": 1.2,
+      "position": [
+        672,
+        0
+      ],
+      "id": "722294f4-3687-4ba8-8c42-4b4d8e25911b",
+      "name": "HTML",
+      "notesInFlow": true,
+      "notes": "Owns all markup and CSS; live preview"
+    },
+    {
+      "parameters": {
+        "jsCode": "const html = $input.first().json.html;\n\nreturn [{\n  json: {},\n  binary: {\n    data: {\n      data: Buffer.from(html, 'utf8').toString('base64'),\n      mimeType: 'text/html',\n      fileName: 'digest.html',\n      fileExtension: 'html'\n    }\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        16,
+        288
+      ],
+      "id": "56f740f8-98d5-4559-a301-7008cc8a0788",
+      "name": "Code in JavaScript",
+      "notesInFlow": true,
+      "notes": "Wraps HTML as digest.html binary"
+    },
+    {
+      "parameters": {
+        "respondWith": "binary",
+        "responseDataSource": "set",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.5,
+      "position": [
+        400,
+        288
+      ],
+      "id": "6abcc7e9-ff10-4450-a891-896554801834",
+      "name": "Respond to Webhook",
+      "notesInFlow": true,
+      "notes": "Browser output; no-op on schedule"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
+      "position": [
+        400,
+        480
+      ],
+      "id": "c91790de-ac0b-4456-bb44-ffda30df3318",
+      "name": "Send a message",
+      "webhookId": "31e6b350-e38a-4e17-a2d2-059a39afbf4e",
+      "notesInFlow": true,
+      "disabled": true,
+      "notes": "Attaches digest.html; demo"
+    },
+    {
+      "parameters": {
+        "url": "https://www.bleepingcomputer.com/feed/",
+        "options": {
+          "ignoreSSL": false
+        }
+      },
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "6128077f-bfb3-4b73-971d-63ecd5b6359a",
+      "name": "RSS Read",
+      "retryOnFail": true,
+      "maxTries": 2,
+      "waitBetweenTries": 5000,
+      "executeOnce": false,
+      "notesInFlow": true,
+      "notes": "Swap URL here to repoint workflow"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "RSS Read",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Aggregate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aggregate": {
+      "main": [
+        [
+          {
+            "node": "HTML",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTML": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "RSS Read",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Send a message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "RSS Read": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "65da6b8c-4306-47be-b8d6-6da5561f2258",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "8d4c51f0248169a1c75b6d9be2dd32fde6fa22c22125d7ab0c664c173ebe2439"
+  },
+  "nodeGroups": [],
+  "id": "b7Qy7pTnuoy7IEaq",
+  "tags": []
+}
