@@ -77,6 +77,7 @@
   - [What Are Word Embeddings?](https://www.youtube.com/watch?v=hVM8qGRTaOA) - Under The Hood
 * Token
   - [Tokenizer](https://platform.openai.com/tokenizer) - openai.com
+* Word2vec
 
 
 -----
