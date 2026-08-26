@@ -107,6 +107,7 @@
   - [n8n Images](https://hub.docker.com/u/n8nio)
   - %USERPROFILE%\.n8n
 * [Deploy n8n on Render](https://render.com/docs/deploy-n8n) - render.com
+* npm install -g n8n
 #### My nodes
 * [n8n-nodes-random-delay](https://www.npmjs.com/package/n8n-nodes-random-delay)
 
