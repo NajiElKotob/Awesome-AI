@@ -106,6 +106,8 @@
 * [Install with Docker](https://docs.n8n.io/deploy/host-n8n/install-options/install-with-docker) - docs.n8n.io
   - [n8n Images](https://hub.docker.com/u/n8nio)
 * [Deploy n8n on Render](https://render.com/docs/deploy-n8n) - render.com
+#### My nodes
+* [n8n-nodes-random-delay](https://www.npmjs.com/package/n8n-nodes-random-delay)
 
 ### Zapier
 * [Zapier](https://zapier.com) - zapier.com
