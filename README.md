@@ -108,7 +108,7 @@
   - %USERPROFILE%\.n8n
 * [Deploy n8n on Render](https://render.com/docs/deploy-n8n) - render.com
 * npm install -g n8n
-#### My nodes
+#### My n8n Community Nodes
 * [n8n-nodes-random-delay](https://www.npmjs.com/package/n8n-nodes-random-delay)
 
 ### Zapier
