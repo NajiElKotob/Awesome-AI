@@ -110,6 +110,7 @@
 * npm install -g n8n
 #### My n8n Community Nodes
 * [n8n-nodes-random-delay](https://www.npmjs.com/package/n8n-nodes-random-delay)
+* [n8n-nodes-random-number](https://www.npmjs.com/package/n8n-nodes-random-number)
 
 ### Zapier
 * [Zapier](https://zapier.com) - zapier.com
