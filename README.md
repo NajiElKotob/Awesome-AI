@@ -102,6 +102,8 @@
 * [n8n](https://n8n.io/) - n8n.io
 * [n8n Learning path](https://docs.n8n.io/learning-path/)
 * [n8n Tutorials](https://community.n8n.io/c/tutorials/28)
+
+
 #### Setup and Deployment
 * [Install with Docker](https://docs.n8n.io/deploy/host-n8n/install-options/install-with-docker) - docs.n8n.io
   - [n8n Images](https://hub.docker.com/u/n8nio)
@@ -109,8 +111,11 @@
 * [Deploy n8n on Render](https://render.com/docs/deploy-n8n) - render.com
 * npm install -g n8n
 #### My n8n Community Nodes
-* [n8n-nodes-random-delay](https://www.npmjs.com/package/n8n-nodes-random-delay)
-* [n8n-nodes-random-number](https://www.npmjs.com/package/n8n-nodes-random-number)
+* [n8n-nodes-random-delay](https://www.npmjs.com/package/n8n-nodes-random-delay) - Pause a workflow for a random duration within a range
+* [n8n-nodes-random-number](https://www.npmjs.com/package/n8n-nodes-random-number) - Generate random integers, decimals and booleans in n8n workflows, with optional seeding for repeatable results
+* [n8n-nodes-hash](https://www.npmjs.com/package/n8n-nodes-hash) - Hash text, files or JSON in n8n using algorithms the built-in Crypto node does not offer.
+
+
 
 ### Zapier
 * [Zapier](https://zapier.com) - zapier.com
