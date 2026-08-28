@@ -1,0 +1,384 @@
+{
+  "name": "Hash node test suite",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "a00f6ac8-5f86-4971-9421-b66f85f1b756",
+      "name": "Execute workflow",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -560,
+        144
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const expected = {\n \"blake2b512\": \"e4cfa39a3d37be31c59609e807970799caa68a19bfaa15135f165085e01d41a65ba1e1b146aeb6bd0092b49eac214c103ccfa3a365954bbbe52f74a2b3620c94\",\n \"blake2s256\": \"19213bacc58dee6dbde3ceb9a47cbb330b3d86f8cca8997eb00be456f140ca25\",\n \"crc32\": \"3610a686\",\n \"md5\": \"5d41402abc4b2a76b9719d911017c592\",\n \"ripemd160\": \"108f07b8382412612c048d07d13f814118445acd\",\n \"sha224\": \"ea09ae9cc6768c50fcee903ed054556e5bfc8347907f12598aa24193\",\n \"sha256\": \"2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824\",\n \"sha384\": \"59e1748777448c69de6b800d7a33bbfb9ff1b463e44354c3553bcdb9c666fa90125a3c79f90397bdf5f6a13de828684f\",\n \"sha512\": \"9b71d224bd62f3785d96d46ad3ea3d73319bfbc2890caadae2dff72519673ca72323c3d99ba5c11d7c7acc6e14b8c5da0c4663475c2e5c3adef46f73bcdec043\",\n \"sha512-256\": \"e30d87cfa2a75db545eac4d61baf970366a8357c7f72fa95b52d0accb698f13a\",\n \"sha1\": \"aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d\",\n \"sha3-256\": \"3338be694f50c5f338814986cdf0686453a888b84f424d792af4b9202398f392\",\n \"sha3-512\": \"75d527c368f2efe848ecf6b073a36767800805e9eef2b1857d5f984f036eb6df891d75f72d9b154518c1cd58835286d1da9a38deba3de98b5a53e5ed78a84976\",\n \"sm3\": \"becbbfaae6548b8bf0cfcad5a27183cd1be6093b1cceccc303d9c61d0a645268\"\n};\nreturn Object.entries(expected).map(([algo, expected]) => ({\n  json: { value: 'hello', algo, expected },\n}));"
+      },
+      "id": "20e9285f-086c-4e15-bcf9-d7a2bb32cb05",
+      "name": "Algorithm cases",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -320,
+        -96
+      ]
+    },
+    {
+      "parameters": {
+        "value": "={{ $json.value }}",
+        "algorithm": "={{ $json.algo }}",
+        "options": {}
+      },
+      "id": "57958cd3-be71-446f-a08b-8afb7b1e75e6",
+      "name": "Hash all algorithms",
+      "type": "n8n-nodes-hash.hash",
+      "typeVersion": 1,
+      "position": [
+        -80,
+        -96
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "return $input.all().map((i) => ({\n  json: {\n    algorithm: i.json.algo,\n    result: i.json.hash === i.json.expected ? 'PASS' : 'FAIL',\n    hash: i.json.hash,\n    expected: i.json.expected,\n  },\n}));"
+      },
+      "id": "e885f4b2-f37a-40d1-9b68-7d349e9bfc85",
+      "name": "Check algorithms",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        160,
+        -96
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "return [{ json: { value: 'hello' } }];"
+      },
+      "id": "9754fd6e-cfbb-481e-b400-f5552011e25c",
+      "name": "Option case",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -320,
+        144
+      ]
+    },
+    {
+      "parameters": {
+        "value": "={{ $json.value }}",
+        "options": {
+          "outputFieldName": "hex"
+        }
+      },
+      "id": "22d839a1-c8d3-4a39-96fa-b3cf56b74be3",
+      "name": "Hex",
+      "type": "n8n-nodes-hash.hash",
+      "typeVersion": 1,
+      "position": [
+        -112,
+        144
+      ]
+    },
+    {
+      "parameters": {
+        "value": "={{ $json.value }}",
+        "options": {
+          "encoding": "base64",
+          "outputFieldName": "b64"
+        }
+      },
+      "id": "a8117b86-13ec-4c0e-9de2-f377ea1e064a",
+      "name": "Base64",
+      "type": "n8n-nodes-hash.hash",
+      "typeVersion": 1,
+      "position": [
+        48,
+        144
+      ]
+    },
+    {
+      "parameters": {
+        "value": "={{ $json.value }}",
+        "options": {
+          "encoding": "base64url",
+          "outputFieldName": "b64url"
+        }
+      },
+      "id": "272f5e32-f512-404a-9624-bc71e1d6cb8f",
+      "name": "Base64url",
+      "type": "n8n-nodes-hash.hash",
+      "typeVersion": 1,
+      "position": [
+        208,
+        144
+      ]
+    },
+    {
+      "parameters": {
+        "value": "={{ $json.value }}",
+        "options": {
+          "outputFieldName": "short",
+          "truncateLength": 12,
+          "uppercase": true
+        }
+      },
+      "id": "faa94312-1483-4c20-825c-ad148a423698",
+      "name": "Uppercase + truncate",
+      "type": "n8n-nodes-hash.hash",
+      "typeVersion": 1,
+      "position": [
+        368,
+        144
+      ]
+    },
+    {
+      "parameters": {
+        "value": "={{ $json.value }}",
+        "salt": "abc",
+        "options": {
+          "outputFieldName": "saltPre"
+        }
+      },
+      "id": "d9a7af4c-0d86-4332-9d10-208daad0bd63",
+      "name": "Salt prefix",
+      "type": "n8n-nodes-hash.hash",
+      "typeVersion": 1,
+      "position": [
+        528,
+        144
+      ]
+    },
+    {
+      "parameters": {
+        "value": "={{ $json.value }}",
+        "salt": "abc",
+        "saltPosition": "suffix",
+        "options": {
+          "outputFieldName": "saltSuf"
+        }
+      },
+      "id": "9c66651d-f0db-4b73-93df-fee365db358e",
+      "name": "Salt suffix",
+      "type": "n8n-nodes-hash.hash",
+      "typeVersion": 1,
+      "position": [
+        688,
+        144
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const r = $input.first().json;\nconst checks = [\n  ['hex',        r.hex,      '2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824'],\n  ['base64',     r.b64,      'LPJNul+wow4m6DsqxbninhsWHlwfp0JecwQzYpOLmCQ='],\n  ['base64url',  r.b64url,   'LPJNul-wow4m6DsqxbninhsWHlwfp0JecwQzYpOLmCQ'],\n  ['uppercase + truncate 12', r.short, '2CF24DBA5FB0'],\n  ['salt prefix', r.saltPre, '2cb9c710242d0e384bb068a76a664a10f3970c7e81d58059378cfd5f5ba12b0f'],\n  ['salt suffix', r.saltSuf, 'f6c9737012d25c41df35f6d5d03d8d84912795326ffd5d429ce73977526c67c6'],\n];\nreturn checks.map(([option, got, want]) => ({\n  json: { option, result: got === want ? 'PASS' : 'FAIL', got, want },\n}));"
+      },
+      "id": "6f2c0335-74c0-4534-8f3e-d9e7ab3dd64e",
+      "name": "Check options",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        848,
+        144
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Same content, different key order. A stable hash must ignore order.\nreturn [\n  { json: { id: 7, name: 'Ada', tags: ['x', 'y'] } },\n  { json: { tags: ['x', 'y'], name: 'Ada', id: 7 } },\n  { json: { id: 8, name: 'Ada', tags: ['x', 'y'] } },\n];"
+      },
+      "id": "6664d37f-5561-4f39-807a-aa20f869a68d",
+      "name": "Object cases",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -320,
+        384
+      ]
+    },
+    {
+      "parameters": {
+        "inputType": "jsonObject",
+        "options": {}
+      },
+      "id": "64386212-71d3-40b6-8fde-8dca540ed5fa",
+      "name": "Hash object",
+      "type": "n8n-nodes-hash.hash",
+      "typeVersion": 1,
+      "position": [
+        -80,
+        384
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const all = $input.all();\nconst [a, b, c] = all.map((i) => i.json.hash);\nreturn [\n  { json: { check: 'key order ignored', result: a === b ? 'PASS' : 'FAIL', hashA: a, hashB: b } },\n  { json: { check: 'different content differs', result: a !== c ? 'PASS' : 'FAIL', hashA: a, hashC: c } },\n];"
+      },
+      "id": "ca161b3d-1aed-4697-a278-81c92369c896",
+      "name": "Check object hashing",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        160,
+        384
+      ]
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Execute workflow": {
+      "main": [
+        [
+          {
+            "node": "Algorithm cases",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Option case",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Object cases",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Algorithm cases": {
+      "main": [
+        [
+          {
+            "node": "Hash all algorithms",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Hash all algorithms": {
+      "main": [
+        [
+          {
+            "node": "Check algorithms",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Option case": {
+      "main": [
+        [
+          {
+            "node": "Hex",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Hex": {
+      "main": [
+        [
+          {
+            "node": "Base64",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Base64": {
+      "main": [
+        [
+          {
+            "node": "Base64url",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Base64url": {
+      "main": [
+        [
+          {
+            "node": "Uppercase + truncate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Uppercase + truncate": {
+      "main": [
+        [
+          {
+            "node": "Salt prefix",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Salt prefix": {
+      "main": [
+        [
+          {
+            "node": "Salt suffix",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Salt suffix": {
+      "main": [
+        [
+          {
+            "node": "Check options",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Object cases": {
+      "main": [
+        [
+          {
+            "node": "Hash object",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Hash object": {
+      "main": [
+        [
+          {
+            "node": "Check object hashing",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "487fcc51-944d-4aa9-a85f-96dbc58e44aa",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "8d4c51f0248169a1c75b6d9be2dd32fde6fa22c22125d7ab0c664c173ebe2439"
+  },
+  "nodeGroups": [],
+  "id": "Iv9AEE2L5SeVV74J",
+  "tags": []
+}
