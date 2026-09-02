@@ -3,3 +3,7 @@
 ## Backup
 * n8n export:workflow --backup --output=X:\n8n\backup\workflows\
 * n8n export:credentials --backup --decrypted --output=X:\n8n\backup\credentials\ ⚠️
+
+## Help
+* n8n --help
+* n8n export:workflow --help
