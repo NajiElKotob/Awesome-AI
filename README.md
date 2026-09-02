@@ -96,6 +96,9 @@
 ### Sakana Fugu
 * [Sakana Fugu](https://sakana.ai/fugu/) - sakana.ai | Building Frontier AI in Japan
 
+### AWS
+* [Strands Agents](https://strandsagents.com/) - strandsagents.com | The open source toolkit for building production agents.
+
 
 ## AI Workflow Automation Platform
 ### n8n
