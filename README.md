@@ -194,6 +194,7 @@
 
 ## AI Harness
 `An AI harness is the software infrastructure that surrounds an AI model, managing its context, tools, safety, and interactions to make it reliable and effective in real-world tasks.`
+* [Agent QA](https://github.com/vostride/agent-qa) - Source-available application QA harness for natural-language web and mobile regression tests, with MCP and agent-skill integrations.
 
 ## Human-in-the-loop (HITL)
 `Human-in-the-loop (HITL) is a system design approach where humans actively participate in supervising, guiding, or correcting automated processes to improve accuracy, safety, and ethical decision-making.`
