@@ -13,3 +13,6 @@
 ### npm
 * winget install --id Cloudflare.cloudflared
   - cloudflared tunnel --url http://localhost:5678
+  - Copy the https://....trycloudflare.com line (new-url)
+  - set WEBHOOK_URL=https://<new-url>/
+  - n8n start
