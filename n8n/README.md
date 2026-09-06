@@ -8,3 +8,7 @@
 ## Help
 * n8n --help
 * n8n export:workflow --help
+
+## Setup
+### npm
+* winget install --id Cloudflare.cloudflared
