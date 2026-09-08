@@ -120,6 +120,8 @@
 ### HERMES
 * [Hermes Agent](https://hermes-agent.nousresearch.com/) - hermes-agent.nousresearch.com
 
+### OpenClaw
+* [OpenClaw](https://openclaws.io/) - openclaws.io
 
 ### Zapier
 * [Zapier](https://zapier.com) - zapier.com
