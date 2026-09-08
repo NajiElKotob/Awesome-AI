@@ -119,6 +119,7 @@
 
 ### HERMES
 * [Hermes Agent](https://hermes-agent.nousresearch.com/) - hermes-agent.nousresearch.com
+* [Hermes Agent Academy](https://hermesagent.academy) - hermesagent.academy | The AI Coding Agent from Setup to Production
 
 ### OpenClaw
 * [OpenClaw](https://openclaws.io/) - openclaws.io
