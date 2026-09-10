@@ -252,6 +252,11 @@
 * [C2PA Quick Start Guide](https://c2pa.wiki/getting-started/quick-start/) - c2pa.wiki
   - [Inspect content to dig deeper](https://verify.contentauthenticity.org/) - contentauthenticity.org
 
+### Is my email working?
+* [Xeramail](https://xeramail.com/send-test-email) -xeramail.com | Send a test email to verify delivery, check spam filters, and check if your email address is working.
+
+
+
 -----
 
 ## Videos 📺
