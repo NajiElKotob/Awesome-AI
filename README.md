@@ -254,7 +254,7 @@
 
 ### Is my email working?
 * [Xeramail](https://xeramail.com/send-test-email) -xeramail.com | Send a test email to verify delivery, check spam filters, and check if your email address is working.
-
+* [SendTestMail.com](https://sendtestmail.com/) - sendtestmail.com | Test email delivery, end to end.
 
 
 -----
