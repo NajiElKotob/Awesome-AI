@@ -160,6 +160,7 @@
 * Azure AI Search
 * ChromaDB
 * Pinecone
+* [Qdrant](https://qdrant.tech/) - qdrant.tech
 * [Supabase](https://supabase.com/) - supabase.com
 
 ## API
