@@ -273,6 +273,7 @@
 ## Gartner
 ### Gartner Hype Cycle Identifies Top AI Innovations
 * [Gartner Hype Cycle Identifies Top AI Innovations in 2025](https://www.gartner.com/en/newsroom/press-releases/2025-08-05-gartner-hype-cycle-identifies-top-ai-innovations-in-2025)
+* [What the 2026 Hype Cycle for Agentic AI Reveals](https://www.gartner.com/en/articles/hype-cycle-for-agentic-ai)
 
 ## Stories
 * [Dartmouth Conference - The Birthplace of A.I. | Where It All Started! 📺 ~10min](https://www.youtube.com/watch?v=5Ur-Nf85ARw) - ELEV-AI-TE
