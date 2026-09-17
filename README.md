@@ -270,6 +270,10 @@
 * [Andrew Ng: Building Faster with AI 📺 ~44min](https://www.youtube.com/watch?v=RNJCfif1dPY)
 * [AI for data storytelling: better graphs, slides, and presentations 📺 ~1 hour](https://www.youtube.com/watch?v=EsMmixXw5J0) - storytelling with data
 
+## Gartner
+### Gartner Hype Cycle Identifies Top AI Innovations
+* [Gartner Hype Cycle Identifies Top AI Innovations in 2025](https://www.gartner.com/en/newsroom/press-releases/2025-08-05-gartner-hype-cycle-identifies-top-ai-innovations-in-2025)
+
 ## Stories
 * [Dartmouth Conference - The Birthplace of A.I. | Where It All Started! 📺 ~10min](https://www.youtube.com/watch?v=5Ur-Nf85ARw) - ELEV-AI-TE
 * [Deep Blue vs Kasparov: How a computer beat best chess player in the world - BBC News](https://www.youtube.com/watch?v=KF6sLCeBj0s) - BBC News
