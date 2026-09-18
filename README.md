@@ -161,6 +161,7 @@
 * ChromaDB
 * Pinecone
 * [Qdrant](https://qdrant.tech/) - qdrant.tech
+  - [Qdrant Beginner Course](https://qdrant.tech/course/beginners/)
 * [Supabase](https://supabase.com/) - supabase.com
 
 ## API
