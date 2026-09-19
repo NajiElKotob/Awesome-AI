@@ -176,6 +176,8 @@
 * [MCP vs API: Simplifying AI Agent Integration with External Data 📺 ~13min](https://www.youtube.com/watch?v=7j1t3UZA1TY) - IBM Technology
 * [Model Context Protocol (MCP), clearly explained (why it matters) 📺 ~20min](https://www.youtube.com/watch?v=7j_NE6Pjv-E) - Greg Isenberg
 * [Model Context Protocol](https://modelcontextprotocol.io/) - modelcontextprotocol.io
+### MCPs
+* [WhatsApp Business Tools MCP](https://developers.facebook.com/documentation/mcp/whatsapp-business-tools-mcp/)
 
 ## UCP (Universal Commerce Protocol)
 
@@ -260,6 +262,7 @@
 ### Is my email working?
 * [Xeramail](https://xeramail.com/send-test-email) -xeramail.com | Send a test email to verify delivery, check spam filters, and check if your email address is working.
 * [SendTestMail.com](https://sendtestmail.com/) - sendtestmail.com | Test email delivery, end to end.
+
 
 
 -----
