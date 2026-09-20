@@ -76,9 +76,11 @@
 * Embeddings
   - [What Are Word Embeddings?](https://www.youtube.com/watch?v=hVM8qGRTaOA) - Under The Hood
 * Token
-  - [Tokenizer](https://platform.openai.com/tokenizer) - openai.com
 * Word2vec
 
+## Simulators
+* [Tokenizer](https://platform.openai.com/tokenizer) - openai.com
+* [LLM Sampling Simulator](https://vibeengines.com/tools/llm-sampling-simulator) - vibeengines.com
 
 -----
 
