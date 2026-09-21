@@ -1,18 +1,24 @@
 # Awesome AI
-{Awesome Works in Progress}
 
+> **AI is intelligence, amplified by machines.**
+
+`A curated collection of resources, tools, models, platforms, frameworks, and ideas across the rapidly evolving world of Artificial Intelligence.`
 
 ## AI Fundamentals
-* [The History of AI: A Timeline of Artificial Intelligence](https://www.coursera.org/articles/history-of-ai) - coursera.org
 * [A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence](http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf) - stanford.edu
 * [Machine Learning Explained: A Guide to ML, AI, & Deep Learning 📺 ~11min](https://www.youtube.com/watch?v=znF2U_3Z210) - IBM Technology
 * [AI Dev Days: Building AI Applications](https://www.youtube.com/watch?v=kZqGsoeP0kU) - Microsoft Developer
 
 ### History
+* [The History of AI: A Timeline of Artificial Intelligence](https://www.coursera.org/articles/history-of-ai) - coursera.org
 * [Can Machines Think?](https://trustinscience.com/2025/09/09/can-machines-think/) - trustinscience.com
 * [Talk to ELIZA online](https://elizaemulator.com/) - elizaemulator.com | ELIZA is a classic 1966 program that simulates conversation using pattern matching and transformation rules.
 * [Group Method of Data Handling (GMDH)](https://gmdh.net/) - gmdh.net
 
+
+### Generative AI
+* [Generative AI for Beginners](https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/) - learn.microsoft.com
+* [Where to get started with GenAI](https://blog.bytebytego.com/p/where-to-get-started-with-genai) - bytebytego.com
 
 ## GPT & LLM
 `Large Language Model (LLM): An advanced artificial intelligence system designed to process, understand, and generate human language. These models are trained on massive text datasets and use probability to predict and generate the next word in a sequence.`
@@ -20,9 +26,6 @@
 * [Transformers, the tech behind LLMs 📺 ~27min](https://www.youtube.com/watch?v=wjZofJX0v4M) - 3Blue1Brown
 * [Stanford CME295 Transformers & LLMs | Autumn 2025 | Lecture 9 - Recap & Current Trends 📺 ~2 hours](https://www.youtube.com/watch?v=Q86qzJ1K1Ss)
 
-## Generative AI
-* [Generative AI for Beginners](https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/) - learn.microsoft.com
-* [Where to get started with GenAI](https://blog.bytebytego.com/p/where-to-get-started-with-genai) - bytebytego.com
 
 
 -----
