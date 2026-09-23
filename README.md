@@ -68,6 +68,7 @@
 
 ### TypeSafe AI (Jev)
 * [TypeSafe AI](https://typesafe.ai/) - typesafe.ai
+* [Jev Playground](https://jevplayground.com/) - jevplayground.com
   
 -----
 
