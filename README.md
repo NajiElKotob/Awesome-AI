@@ -65,6 +65,9 @@
 ### Fully open language model
 * [Olmo](https://allenai.org/olmo) - allenai.org
 * [Pythia](https://www.eleuther.ai/artifacts/pythia) - eleuther.ai
+
+### TypeSafe AI (Jev)
+* [TypeSafe AI](https://typesafe.ai/) - typesafe.ai
   
 -----
 
