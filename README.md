@@ -47,6 +47,7 @@
   
 #### Misc
 * [Claude Code Marketplaces](https://claudemarketplaces.com/) - claudemarketplaces.com
+* [Claude API Pricing Calculator](https://invertedstone.com/calculators/claude-pricing) - invertedstone.com
 
 ### Gemini (Google)
 ### Copilot (Microsoft)
