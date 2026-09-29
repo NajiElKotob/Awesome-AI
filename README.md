@@ -146,7 +146,7 @@
 * [Make AI Agent Tutorial – Build a No-Code Assistant That Works 24/7 📺 ~19min](https://www.youtube.com/watch?v=wwhFP30uGmE) - Kevin Stratvert
 
 ### OpenWorker
-* [OpenWorker](https://openworker.com/) - AI that gets your everyday tasks done.
+* [OpenWorker](https://openworker.com/) - openworker.com | AI that gets your everyday tasks done.
 
 -----
 
