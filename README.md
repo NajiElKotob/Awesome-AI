@@ -70,7 +70,8 @@
 ### TypeSafe AI (Jev)
 * [TypeSafe AI](https://typesafe.ai/) - typesafe.ai
 * [Jev Playground](https://jevplayground.com/) - jevplayground.com
-  
+
+
 -----
 
 ## Leaderboards
@@ -143,6 +144,9 @@
 ### Make
 * [Make](https://www.make.com) - make.com | Connect Apps & Design Workflows
 * [Make AI Agent Tutorial – Build a No-Code Assistant That Works 24/7 📺 ~19min](https://www.youtube.com/watch?v=wwhFP30uGmE) - Kevin Stratvert
+
+### OpenWorker
+* [OpenWorker](https://openworker.com/) - AI that gets your everyday tasks done.
 
 -----
 
