@@ -71,6 +71,8 @@
 * [TypeSafe AI](https://typesafe.ai/) - typesafe.ai
 * [Jev Playground](https://jevplayground.com/) - jevplayground.com
 
+### Laya
+* [Laya AI](https://layaai.org/) - layaai.org | Calibrated decisions in one pass
 
 -----
 
