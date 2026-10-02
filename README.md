@@ -179,6 +179,9 @@
   - [Qdrant Beginner Course](https://qdrant.tech/course/beginners/)
 * [Supabase](https://supabase.com/) - supabase.com
 
+## HIM (Human Interaction Model)
+* [Griffin](https://x.com/tavus/status/2105704169009246248) - @tavus |  the first model to pass the video Turing test. 48% of people who talked to it live thought it was a real human (1 Oct 2026)
+
 ## API
 ### FastAPI
 * [FastAPI](https://fastapi.tiangolo.com/) - fastapi.tiangolo.com
