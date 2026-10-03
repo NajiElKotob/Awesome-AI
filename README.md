@@ -315,6 +315,8 @@
 * [The Transformer Blueprint: A Holistic Guide to the Transformer Neural Network Architecture](https://deeprevision.github.io/posts/001-transformer/) - deeprevision.github.io
 * [A frontier without an ecosystem is not stable](https://x.com/satyanadella/status/2066182223213293753) - Satya Nadella
 
+## Podcasts
+* [IBM Think Podcasts](https://www.ibm.com/think/podcasts) - ibm.com
 
 ## News
 * [Accenture Layoffs: 11,000 Employees Exit In Just One Quarter, Company Reshapes Strategy With Big Bet On AI](https://www.msn.com/en-in/lifestyle/style/accenture-layoffs-11000-employees-exit-in-just-one-quarter-company-reshapes-strategy-with-big-bet-on-ai/ar-AA1NsJvU) - msn.com (28 Sep 2025)
@@ -354,6 +356,7 @@
 * [NAIRR](https://www.nsf.gov/focus-areas/artificial-intelligence/nairr) - nsf.gov
 * [SDAIA (Saudi Data & Al Authority)](https://sdaia.gov.sa/) - sdaia.gov.sa
 * [Hugging Face](https://huggingface.co/) - huggingface.co | The platform where the machine learning community collaborates on models, datasets, and applications.
+
   
 -----
 
