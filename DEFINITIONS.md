@@ -18,7 +18,11 @@
   - Settings chosen before training (e.g., learning rate) that control how the model learns.
 * **Turing Test – اختبار تورنغ**
   - A test proposed by Alan Turing (1950): if a person chatting with a machine can't reliably tell it apart from a human, the machine is said to show intelligent behavior.
- 
+* **Natural Language Processing (NLP) – معالجة اللغات الطبيعية**
+  - The AI field that lets computers understand (NLU) and generate (NLG) human language.
+* **API – واجهة برمجة التطبيقات**
+  - A defined way for one software system to request data or services from another, e.g., an app sending a prompt to an AI model.
+
 
 ## 2. Machine Learning
 
