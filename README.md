@@ -362,6 +362,7 @@
 
 ## Movies 🎬
 * [A Beautiful Mind (2001)](https://www.imdb.com/title/tt0268978/)
+* [I, Robot (2004)](https://www.imdb.com/title/tt0343818/)
 * [Eagle Eye (2008)](https://www.imdb.com/title/tt1059786)
 * [The Imitation Game (2014)](https://www.imdb.com/title/tt2084970/)
 
