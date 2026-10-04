@@ -361,6 +361,7 @@
 -----
 
 ## Movies 🎬
+* [A Beautiful Mind (2001)](https://www.imdb.com/title/tt0268978/)
 * [Eagle Eye (2008)](https://www.imdb.com/title/tt1059786)
 
 ## Documentaries
