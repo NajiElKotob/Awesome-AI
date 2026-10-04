@@ -16,6 +16,9 @@
   - The internal values (e.g., weights) a model learns during training.
 * **Hyperparameters – المعاملات الفائقة**
   - Settings chosen before training (e.g., learning rate) that control how the model learns.
+* **Turing Test – اختبار تورنغ**
+  - A test proposed by Alan Turing (1950): if a person chatting with a machine can't reliably tell it apart from a human, the machine is said to show intelligent behavior.
+ 
 
 ## 2. Machine Learning
 
