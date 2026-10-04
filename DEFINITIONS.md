@@ -149,3 +149,7 @@
   - The ability to understand and explain why a model made a decision.
 * **Responsible AI – الذكاء الاصطناعي المسؤول**
   - Designing and using AI that is fair, transparent, secure, and respects privacy.
+* **Benchmark – معيار التقييم**
+  - A standard test set used to measure and compare model performance.
+* **Latency – زمن الاستجابة**
+  - The time between sending a request and receiving the model's response.
