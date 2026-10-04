@@ -50,6 +50,9 @@
 * [Claude API Pricing Calculator](https://invertedstone.com/calculators/claude-pricing) - invertedstone.com
 
 ### Gemini (Google)
+* [Google AI Studio](https://aistudio.google.com/)
+
+  
 ### Copilot (Microsoft)
 * [Copilot and AI agents](https://www.microsoft.com/en-us/microsoft-copilot/copilot-101/copilot-ai-agents) - microsoft.com
 * [I Spent 6 Months Learning CoPilot & AI Agents — Here's EVERYTHING You Need To Know](https://www.youtube.com/watch?v=_sRzTB9CIxQ) - Prof. Ryan Ahmed
