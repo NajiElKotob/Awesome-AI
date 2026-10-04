@@ -81,7 +81,16 @@
 -----
 
 ## Leaderboards
-* [LLM Stats](https://llm-stats.com/) - llm-stats.com
+* [Arena Leaderboard](https://arena.ai/leaderboard) - arena.ai | Human-preference rankings from head-to-head model comparisons
+* [Artificial Analysis](https://artificialanalysis.ai/leaderboards/models) - artificialanalysis.ai | AI model rankings across intelligence, speed, price, latency, and more
+* [SWE-bench](https://www.swebench.com/) - swebench.com | Leaderboard for real-world software engineering and coding performance
+* [Hugging Face Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) - huggingface.co | Rankings for open and open-weight language models
+* [BenchLeader](https://www.benchleader.com/) - benchleader.com | Aggregated AI benchmark rankings across many evaluations
+* [LMSYS Chatbot Arena](https://lmarena.ai/leaderboard) - lmarena.ai | Community-driven rankings based on anonymous model battles
+* [LiveBench](https://livebench.ai/) - livebench.ai | Contamination-resistant benchmark for general-purpose LLM capabilities
+* [OpenCompass](https://opencompass.org.cn/leaderboard) - opencompass.org.cn | Broad evaluation and leaderboard for language models
+* [Vellum LLM Leaderboard](https://www.vellum.ai/llm-leaderboard) - vellum.ai | Comparison of leading LLMs across multiple benchmarks and capabilities
+* [LLM Stats](https://llm-stats.com/) - llm-stats.com | Tracking and comparison of LLM performance, pricing, and capabilities
 
 
 ## TensorFlow
