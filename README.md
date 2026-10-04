@@ -51,6 +51,7 @@
 
 ### Gemini (Google)
 * [Google AI Studio](https://aistudio.google.com/)
+  - [Turn text into natural-sounding speech](https://aistudio.google.com/generate-speech)
 
   
 ### Copilot (Microsoft)
