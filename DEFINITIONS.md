@@ -116,6 +116,28 @@
   - An AI system that plans steps and uses tools (search, APIs, databases) to complete a goal on its own.
 * **Guardrails – ضوابط الحماية**
   - Rules and filters that keep AI outputs safe, accurate, and within policy.
+* **Generative Pre-trained Transformer (GPT) – المحوّل التوليدي المُدرَّب مسبقًا**
+  - A type of LLM built on the transformer design, pre-trained on large text data to generate language; also the name of OpenAI's model family.
+* **Small Language Model (SLM) – النموذج اللغوي الصغير**
+  - A lighter language model that is cheaper and faster, and can run on local devices, suited to focused tasks.
+* **Reasoning Model – نموذج الاستدلال**
+  - An LLM that works through a problem step by step before answering, improving results on math, logic, and planning.
+* **Tokenization – تجزئة الرموز**
+  - Splitting text into tokens so a model can process it.
+* **One-shot Prompting – التلقين بمثال واحد**
+  - Giving the model one example in the prompt to show the expected output.
+* **Few-shot Prompting – التلقين بعدة أمثلة**
+  - Giving the model a few examples in the prompt so it follows the pattern more reliably.
+* **Text-to-Speech (TTS) – تحويل النص إلى كلام**
+  - Converting written text into natural-sounding spoken audio.
+* **Speech-to-Text (STT) – تحويل الكلام إلى نص**
+  - Converting spoken audio into written text.
+* **Agentic AI – الذكاء الاصطناعي الوكيلي**
+  - AI systems built from one or more agents that act autonomously, plan multi-step work, and use tools with minimal human input.
+* **Memory – الذاكرة**
+  - An agent's ability to keep information across steps or conversations, such as past messages or user preferences.
+* **Model Context Protocol (MCP) – بروتوكول سياق النموذج**
+  - An open standard that lets AI models connect to external tools and data sources in a consistent way.
 
 ## 5. Evaluation & Responsible AI
 
