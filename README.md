@@ -353,6 +353,9 @@
 * [Bill Gates says it’s ‘not enough to have a kill switch’ for AI: Full interview 📺 ~32min](https://www.youtube.com/watch?v=AbMxbgIahtE) - NBC News | 27 Sep 2026
 * ["Godfather of AI" Geoffrey Hinton: The 60 Minutes Interview](https://www.youtube.com/watch?v=qrvK_KuIeJk) - 60 Minutes | 9 Oct 2023
 
+### Legislation
+* [EU Icons for labelling AI-generated content](https://digital-strategy.ec.europa.eu/en/policies/eu-icons-labelling-ai-generated-content) - ec.europa.eu
+
 ### Security
 * [AI models that lie, cheat and plot murder: how dangerous are LLMs really?](https://www.nature.com/articles/d41586-025-03222-1) - nature.com (8 October 2025)
 * [Breaking down ‘EchoLeak’, the First Zero-Click AI Vulnerability Enabling Data Exfiltration from Microsoft 365 Copilot](https://www.aim.security/post/echoleak-blogpost) - aim.security (31 May 2025)
