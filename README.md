@@ -347,6 +347,9 @@
 * [Toothbrushes are a cybersecurity risk, too: millions participate in DDoS attacks](https://cybernews.com/news/toothbrushes-participate-in-ddos-attacks/) - cybernews.com
 * Jason Lemkin (SaaStr)
 
+### Interviews
+* [Bill Gates says it’s ‘not enough to have a kill switch’ for AI: Full interview 📺 ~32min](https://www.youtube.com/watch?v=AbMxbgIahtE) - NBC News
+
 ### Security
 * [AI models that lie, cheat and plot murder: how dangerous are LLMs really?](https://www.nature.com/articles/d41586-025-03222-1) - nature.com (8 October 2025)
 * [Breaking down ‘EchoLeak’, the First Zero-Click AI Vulnerability Enabling Data Exfiltration from Microsoft 365 Copilot](https://www.aim.security/post/echoleak-blogpost) - aim.security (31 May 2025)
