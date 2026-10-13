@@ -26,4 +26,4 @@ response = client.chat.completions.create(
 print(response.choices[0].message.content)
 
 # To see everything at once
-print(response.model_dump_json(indent=2))
+# print(response.model_dump_json(indent=2))
