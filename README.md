@@ -13,6 +13,7 @@
 * [The History of AI: A Timeline of Artificial Intelligence](https://www.coursera.org/articles/history-of-ai) - coursera.org
 * [Can Machines Think?](https://trustinscience.com/2025/09/09/can-machines-think/) - trustinscience.com
 * [Talk to ELIZA online](https://elizaemulator.com/) - elizaemulator.com | ELIZA is a classic 1966 program that simulates conversation using pattern matching and transformation rules.
+  - [ELIZA effect at work: Avoiding emotional attachment to AI coworkers](https://www.ibm.com/think/insights/eliza-effect-avoiding-emotional-attachment-to-ai)
 * [Group Method of Data Handling (GMDH)](https://gmdh.net/) - gmdh.net
 
 
