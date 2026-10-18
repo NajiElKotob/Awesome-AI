@@ -263,6 +263,8 @@
   - [The IBM Guide to AI](https://www.ibm.com/think/topics/ai-guide) ⭐ - ibm.com
 * [Learn Prompting](https://learnprompting.org/) - learnprompting.org
 * [Open AI Academy](https://academy.openai.com/) - academy.openai.com
+* Hostinger
+  - [Types of AI agents explained](https://www.hostinger.com/tutorials/types-of-ai-agents/?REFERRALCODE=JBKLNAJI3OX8)
 * MIT
   - [MIT 6.S087: Foundation Models & Generative AI (2024)](https://www.youtube.com/playlist?app=desktop&list=PLXV9Vh2jYcjbnv67sXNDJiO8MWLA3ZJKR) - Rickard Brüel Gabrielsson
 * Microsoft Reactor
