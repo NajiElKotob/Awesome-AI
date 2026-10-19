@@ -11,19 +11,19 @@
 
 ----
 
-## Backup
-* n8n export:workflow --backup --output=X:\n8n\backup\workflows\
-* n8n export:credentials --backup --decrypted --output=X:\n8n\backup\credentials\ ⚠️
-* n8n export:entities --outputDir=X:\n8n\backup\entities
-
-## Help
-* n8n --help
-* n8n export:workflow --help
-
-## Setup
+## Setup and Config
 ### npm
 * winget install --id Cloudflare.cloudflared
   - cloudflared tunnel --url http://localhost:5678
   - Copy the https://....trycloudflare.com line (new-url)
   - set WEBHOOK_URL=https://<new-url>/
   - n8n start
+
+### Help
+* n8n --help
+* n8n export:workflow --help
+
+### Backup
+* n8n export:workflow --backup --output=X:\n8n\backup\workflows\
+* n8n export:credentials --backup --decrypted --output=X:\n8n\backup\credentials\ ⚠️
+* n8n export:entities --outputDir=X:\n8n\backup\entities
