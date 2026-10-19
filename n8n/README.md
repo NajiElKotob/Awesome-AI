@@ -5,6 +5,7 @@
 
 ## Tutorials
 * [n8n Telegram integration: Set up, automate, and scale bots](https://www.hostinger.com/tutorials/n8n-telegram-integration/?REFERRALCODE=JBKLNAJI3OX8)
+* [How to integrate WhatsApp with n8n?](https://www.hostinger.com/tutorials/how-to-integrate-n8n-with-whatsapp/?REFERRALCODE=JBKLNAJI3OX8)
 
 
 ----
