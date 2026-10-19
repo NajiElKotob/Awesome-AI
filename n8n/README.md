@@ -3,6 +3,12 @@
 ## Trends
 * [Google Trends](https://trends.google.com/explore?q=n8n%2CHermes%2520Agent%2COpenClaw%2CZapier&date=2024-01-01%202026-09-08&geo=Worldwide)
 
+## Tutorials
+* [n8n Telegram integration: Set up, automate, and scale bots](https://www.hostinger.com/tutorials/n8n-telegram-integration/?REFERRALCODE=JBKLNAJI3OX8)
+
+
+----
+
 ## Backup
 * n8n export:workflow --backup --output=X:\n8n\backup\workflows\
 * n8n export:credentials --backup --decrypted --output=X:\n8n\backup\credentials\ ⚠️
