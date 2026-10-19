@@ -16,6 +16,14 @@
 
 ----
 
+## My n8n Community Nodes
+* [n8n-nodes-random-delay](https://www.npmjs.com/package/n8n-nodes-random-delay) - Pause a workflow for a random duration within a range
+* [n8n-nodes-random-number](https://www.npmjs.com/package/n8n-nodes-random-number) - Generate random integers, decimals and booleans in n8n workflows, with optional seeding for repeatable results
+* [n8n-nodes-hash](https://www.npmjs.com/package/n8n-nodes-hash) - Hash text, files or JSON in n8n using algorithms the built-in Crypto node does not offer.
+
+
+----
+
 ## Setup and Config
 ### winget
 * winget install --id Cloudflare.cloudflared
