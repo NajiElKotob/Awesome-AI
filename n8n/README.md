@@ -1,6 +1,6 @@
 # n8n
 
-## About
+## Trends
 * [Google Trends](https://trends.google.com/explore?q=n8n%2CHermes%2520Agent%2COpenClaw%2CZapier&date=2024-01-01%202026-09-08&geo=Worldwide)
 
 ## Backup
