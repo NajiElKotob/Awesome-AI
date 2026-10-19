@@ -4,6 +4,7 @@
 * [n8n](https://n8n.io/) - n8n.io
 * [n8n Learning path](https://docs.n8n.io/learning-path/)
 * [n8n Tutorials](https://community.n8n.io/c/tutorials/28)
+* [n8n Academy](https://learn.n8n.io/courses)
   
 ## Trends
 * [Google Trends](https://trends.google.com/explore?q=n8n%2CHermes%2520Agent%2COpenClaw%2CZapier&date=2024-01-01%202026-09-08&geo=Worldwide)
