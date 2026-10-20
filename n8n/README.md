@@ -14,6 +14,7 @@
 * [n8n Telegram integration: Set up, automate, and scale bots](https://www.hostinger.com/tutorials/n8n-telegram-integration/?REFERRALCODE=JBKLNAJI3OX8)
 * [How to integrate WhatsApp with n8n?](https://www.hostinger.com/tutorials/how-to-integrate-n8n-with-whatsapp/?REFERRALCODE=JBKLNAJI3OX8)
 * [Practical n8n workflow examples for business automation](https://www.hostinger.com/tutorials/n8n-workflow-examples/?REFERRALCODE=JBKLNAJI3OX8)
+* [How to connect n8n to Google Sheets + most popular integration examples](https://www.hostinger.com/tutorials/how-to-integrate-n8n-to-google-sheets/?REFERRALCODE=JBKLNAJI3OX8)
 * [All n8n tutorials](https://www.hostinger.com/tutorials/page/1?REFERRALCODE=JBKLNAJI3OX8&s=n8n)
 
 ### n8n Community
