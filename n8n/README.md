@@ -10,10 +10,14 @@
 * [Google Trends](https://trends.google.com/explore?q=n8n%2CHermes%2520Agent%2COpenClaw%2CZapier&date=2024-01-01%202026-09-08&geo=Worldwide)
 
 ## Tutorials
+### Hostinger
 * [n8n Telegram integration: Set up, automate, and scale bots](https://www.hostinger.com/tutorials/n8n-telegram-integration/?REFERRALCODE=JBKLNAJI3OX8)
 * [How to integrate WhatsApp with n8n?](https://www.hostinger.com/tutorials/how-to-integrate-n8n-with-whatsapp/?REFERRALCODE=JBKLNAJI3OX8)
 * [Practical n8n workflow examples for business automation](https://www.hostinger.com/tutorials/n8n-workflow-examples/?REFERRALCODE=JBKLNAJI3OX8)
 * [All n8n tutorials](https://www.hostinger.com/tutorials/page/1?REFERRALCODE=JBKLNAJI3OX8&s=n8n)
+
+### n8n Community
+* [Top Tutorials](https://community.n8n.io/c/tutorials/28/l/top) - community.n8n.io
 
 ----
 
