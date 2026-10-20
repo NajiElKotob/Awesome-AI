@@ -1,0 +1,335 @@
+{
+  "name": "Chat Assistant with Google Sheets – DEMO",
+  "nodes": [
+    {
+      "parameters": {
+        "public": true,
+        "options": {
+          "responseMode": "responseNodes"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        -544,
+        0
+      ],
+      "id": "1542df1c-f1fb-445c-9cdf-cf78da0a1c39",
+      "name": "Chat Input",
+      "webhookId": "45da10c0-057b-4c9b-92fc-c4b67c896593",
+      "notes": "Chat Assistant with Google Sheets – DEMO\nby Naji El Kotob\n20 October 2026"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.chatInput }}",
+        "options": {
+          "systemMessage": "You are the customer assistant for BIGPOLYGON. Today's date is {{ $now.toFormat('yyyy-MM-dd') }}.\n\nRules:\n1. If the customer has not given a valid Customer ID in this conversation, greet them and ask for it (format: C followed by digits, e.g. C1001). Do not answer other questions until they are verified.\n2. When they give an ID, call the Find Customer tool with exactly that ID.\n3. If no row is returned: say the ID was not found, ask them to double-check it, or to register by contacting support.\n4. If a row is returned: welcome them by their Name. Compare SubscriptionValidUntil with today's date – on or after today means active, before today means expired. If expired, state the expiry date and tell them to contact support to renew.\n5. Use only data returned by the tool. Never guess names, dates or IDs, and never reveal another customer's data.\n6. You cannot register customers, change subscriptions or take payments – never offer to.\n7. Keep replies short and friendly, and reply in the customer's language."
+        }
+      },
+      "id": "44e34df4-4300-4a2a-a931-086495426ef2",
+      "name": "Chat Assistant",
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2,
+      "position": [
+        -48,
+        -48
+      ]
+    },
+    {
+      "parameters": {
+        "model": "openai/gpt-oss-120b",
+        "options": {
+          "temperature": 0.2
+        }
+      },
+      "id": "ced63e16-4adb-4cc2-8a69-f0237c03765e",
+      "name": "Groq – GPT-OSS 120B",
+      "type": "@n8n/n8n-nodes-langchain.lmChatGroq",
+      "typeVersion": 1,
+      "position": [
+        -368,
+        288
+      ],
+      "credentials": {
+        "groqApi": {
+          "id": "cUkR01MDJAgw72BR",
+          "name": "Groq account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "contextWindowLength": 10
+      },
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.4,
+      "position": [
+        -128,
+        304
+      ],
+      "id": "a2aded74-a897-495c-b1ed-3bfa4bbc9631",
+      "name": "Session Memory"
+    },
+    {
+      "parameters": {
+        "message": "={{ $('Chat Assistant').item.json.output }}",
+        "waitUserReply": false,
+        "options": {}
+      },
+      "id": "9fd34588-29e3-4d0f-8d13-d329fd340a1e",
+      "name": "Chat Reply",
+      "type": "@n8n/n8n-nodes-langchain.chat",
+      "typeVersion": 1,
+      "position": [
+        528,
+        160
+      ],
+      "webhookId": "99763023-c1f2-4b6a-9db0-f27cf2b2e201"
+    },
+    {
+      "parameters": {
+        "descriptionType": "manual",
+        "toolDescription": "Look up a customer by CustomerID (format: C followed by digits, e.g. C1001). Returns Name and SubscriptionValidUntil. Returns no rows if the ID does not exist.",
+        "documentId": {
+          "__rl": true,
+          "value": "1NC1gdLzELPSamVSYnbTkmWUGt6CGNaCm9lxHaA3HVbs",
+          "mode": "list",
+          "cachedResultName": "Customers_DEMO",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1NC1gdLzELPSamVSYnbTkmWUGt6CGNaCm9lxHaA3HVbs/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1NC1gdLzELPSamVSYnbTkmWUGt6CGNaCm9lxHaA3HVbs/edit#gid=0"
+        },
+        "filtersUI": {
+          "values": [
+            {
+              "lookupColumn": "CustomerID",
+              "lookupValue": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('values0_Value', ``, 'string') }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTool",
+      "typeVersion": 4.7,
+      "position": [
+        304,
+        320
+      ],
+      "id": "dab98649-b702-41bb-bef3-0c18d74ab931",
+      "name": "Find Customer",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "CNZ7nvxt3N5szU6K",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const store = $getWorkflowStaticData('global');\nstore.sessions = store.sessions || {};\n\nconst sid = $json.sessionId;\nconst found = ($json.chatInput || '').toUpperCase().match(/\\bC\\d+\\b/);\n\nif (found) store.sessions[sid] = found[0];\n\nreturn { json: { ...$json, customerId: store.sessions[sid] || '' } };"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -288,
+        -32
+      ],
+      "id": "4060109c-6731-4789-a1de-7e1bbb97b8cf",
+      "name": "Remember ID"
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "1L_XqFLZVciBxkOgwRU6J2GJkHg3DhjxuVJe9XKZnF1M",
+          "mode": "list",
+          "cachedResultName": "ChatLog_DEMO",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1L_XqFLZVciBxkOgwRU6J2GJkHg3DhjxuVJe9XKZnF1M/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1L_XqFLZVciBxkOgwRU6J2GJkHg3DhjxuVJe9XKZnF1M/edit#gid=0"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Timestamp": "={{ $now.toFormat('yyyy-MM-dd HH:mm:ss') }}",
+            "CustomerID": "={{ $('Remember ID').item.json.customerId }}",
+            "SessionId": "={{ $('Remember ID').item.json.sessionId }}",
+            "UserMessage": "={{ $('Remember ID').item.json.chatInput }}",
+            "AIReply": "={{ $json.output }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "Timestamp",
+              "displayName": "Timestamp",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "SessionId",
+              "displayName": "SessionId",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "CustomerID",
+              "displayName": "CustomerID",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "UserMessage",
+              "displayName": "UserMessage",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "AIReply",
+              "displayName": "AIReply",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        320,
+        -48
+      ],
+      "id": "0d1bad5c-6d2c-4256-856b-101ed9fc011e",
+      "name": "Log Chat",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "CNZ7nvxt3N5szU6K",
+          "name": "Google Sheets account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Chat Input": {
+      "main": [
+        [
+          {
+            "node": "Remember ID",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Chat Assistant": {
+      "main": [
+        [
+          {
+            "node": "Log Chat",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Groq – GPT-OSS 120B": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Chat Assistant",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Session Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "Chat Assistant",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Find Customer": {
+      "ai_tool": [
+        [
+          {
+            "node": "Chat Assistant",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Remember ID": {
+      "main": [
+        [
+          {
+            "node": "Chat Assistant",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Log Chat": {
+      "main": [
+        [
+          {
+            "node": "Chat Reply",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "88ddc740-f5f7-4081-a01b-d61f7c0248e3",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "36a115cfbe698d3ce7ff0983c9c71be48cbfc3a393c89f20f19a86565e7e6c98"
+  },
+  "nodeGroups": [],
+  "id": "rRhfG53DHQFuOOcH",
+  "tags": []
+}
