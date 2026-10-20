@@ -14,12 +14,13 @@
       "type": "n8n-nodes-base.scheduleTrigger",
       "typeVersion": 1.3,
       "position": [
-        -224,
-        0
+        -352,
+        112
       ],
       "id": "f599956a-d36d-4e6b-8ee5-80352808b2bc",
       "name": "Schedule Trigger",
       "notesInFlow": true,
+      "disabled": true,
       "notes": "Daily run; feed has no history"
     },
     {
@@ -30,7 +31,7 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        -624,
+        -800,
         0
       ],
       "typeVersion": 1,
@@ -99,13 +100,14 @@
       "type": "n8n-nodes-base.webhook",
       "typeVersion": 2.1,
       "position": [
-        -240,
-        224
+        -352,
+        352
       ],
       "id": "a4e4b465-f1a7-49d4-93c8-6cc8e7fcbd30",
       "name": "Webhook",
       "webhookId": "a38f9d26-2042-444d-899d-965542f1fd56",
       "notesInFlow": true,
+      "disabled": true,
       "notes": "GET /digest, on-demand; auth none"
     },
     {
@@ -163,7 +165,7 @@
       "typeVersion": 2.2,
       "position": [
         400,
-        480
+        512
       ],
       "id": "c91790de-ac0b-4456-bb44-ffda30df3318",
       "name": "Send a message",
@@ -193,6 +195,17 @@
       "executeOnce": false,
       "notesInFlow": true,
       "notes": "Swap URL here to repoint workflow"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -352,
+        -112
+      ],
+      "id": "f6adaf18-e07c-4b94-9990-20b18d4a2492",
+      "name": "When clicking ‘Execute workflow’"
     }
   ],
   "pinData": {},
@@ -278,6 +291,17 @@
           }
         ]
       ]
+    },
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "RSS Read",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
     }
   },
   "active": false,
@@ -286,7 +310,7 @@
     "binaryMode": "separate",
     "availableInMCP": false
   },
-  "versionId": "65da6b8c-4306-47be-b8d6-6da5561f2258",
+  "versionId": "7581f6f3-6973-4211-955c-9471528470ff",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "8d4c51f0248169a1c75b6d9be2dd32fde6fa22c22125d7ab0c664c173ebe2439"
