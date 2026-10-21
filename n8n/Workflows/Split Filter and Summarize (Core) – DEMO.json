@@ -1,0 +1,498 @@
+{
+  "name": "Split Filter and Summarize (Core) – DEMO",
+  "nodes": [
+    {
+      "parameters": {
+        "content": "## 1 – Split\n**HTTP Request** gets 5 sample shopping carts (one item with a `carts` list).\n**Split Out** turns that list into 5 items, then **Split Out1** turns each cart's `products` into separate items.\n\nWatch the item count on the lines grow: 1 → 5 → ~20.",
+        "height": 240,
+        "width": 660,
+        "color": 4
+      },
+      "id": "8c4bd33b-d8a3-4897-9bb5-334b8d20a212",
+      "name": "Note – Split",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -512,
+        -528
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## 2 – Filter\nClean the list without code:\n**Remove Duplicates** (same title) → **Filter** (price > 50) → **Sort** (highest price first) → **Limit** (top 10).",
+        "height": 240,
+        "width": 860,
+        "color": 5
+      },
+      "id": "84f3e920-01c6-407d-9112-707998ec6805",
+      "name": "Note – Filter",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        208,
+        -528
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## 3 – Loop\n**Loop Over Items** sends 3 items at a time through **Wait** (1 s) and **Code**, then loops back.\nThis is how you stay under an API's rate limit.\nWhen all items are done, they leave through the **done** output.",
+        "height": 240,
+        "width": 700,
+        "color": 6
+      },
+      "id": "3c3d919f-9d2e-47a5-b74c-a0749fb1a234",
+      "name": "Note – Loop",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -512,
+        -208
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## 4 – Summarize\n**Summarize** groups items by price band (count + total), and **Convert to File** turns that into a CSV you can download.\n**Aggregate** squeezes many items back into one list of product names.\n\n\n\n\n\n\n\n\nby Naji El Kotob + AI",
+        "height": 240,
+        "width": 640,
+        "color": 7
+      },
+      "id": "724603aa-1ee7-4b41-a386-b42099ddc2d2",
+      "name": "Note – Summarize",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        240,
+        -208
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "6ee524a6-32f3-4ba0-8b2d-3020c647bbac",
+      "name": "When clicking ‘Execute workflow’",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -464,
+        208
+      ],
+      "notesInFlow": true,
+      "notes": "Click to start"
+    },
+    {
+      "parameters": {
+        "url": "https://dummyjson.com/carts?limit=5",
+        "options": {}
+      },
+      "id": "16526871-221d-474d-9cda-87e30fb0ed88",
+      "name": "HTTP Request",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -240,
+        208
+      ],
+      "notesInFlow": true,
+      "notes": "Get 5 sample carts"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "carts",
+        "options": {}
+      },
+      "id": "0001046d-ad10-48d6-a59c-fc45b7290fd2",
+      "name": "Split Out",
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        -16,
+        208
+      ],
+      "notesInFlow": true,
+      "notes": "One item per cart"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "products",
+        "include": "selectedOtherFields",
+        "fieldsToInclude": "userId",
+        "options": {}
+      },
+      "id": "f074c980-8d26-4098-9f06-341609add7c5",
+      "name": "Split Out1",
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        208,
+        208
+      ],
+      "notesInFlow": true,
+      "notes": "One item per product"
+    },
+    {
+      "parameters": {
+        "compare": "selectedFields",
+        "fieldsToCompare": "products.title",
+        "options": {
+          "disableDotNotation": false,
+          "removeOtherFields": false
+        }
+      },
+      "id": "661a468a-1643-4840-b65b-877e886200f1",
+      "name": "Remove Duplicates",
+      "type": "n8n-nodes-base.removeDuplicates",
+      "typeVersion": 2,
+      "position": [
+        432,
+        208
+      ],
+      "notesInFlow": true,
+      "notes": "Same title = duplicate"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "8cde3ee3-36e5-4a64-ab6b-d2b1197a2ec2",
+              "leftValue": "={{ $json.products.price }}",
+              "rightValue": 50,
+              "operator": {
+                "type": "number",
+                "operation": "gt"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "looseTypeValidation": true,
+        "options": {}
+      },
+      "id": "0c3cae03-3838-481d-8d68-cf534f2cda5b",
+      "name": "Filter",
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2.2,
+      "position": [
+        656,
+        208
+      ],
+      "notesInFlow": true,
+      "notes": "Keep price > 50"
+    },
+    {
+      "parameters": {
+        "sortFieldsUi": {
+          "sortField": [
+            {
+              "fieldName": "products.price",
+              "order": "descending"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "a5985ac7-0be6-469f-b22d-a71b3edfdbdd",
+      "name": "Sort",
+      "type": "n8n-nodes-base.sort",
+      "typeVersion": 1,
+      "position": [
+        864,
+        208
+      ],
+      "notesInFlow": true,
+      "notes": "Highest price first"
+    },
+    {
+      "parameters": {
+        "maxItems": 10
+      },
+      "id": "dd3a3fea-47d3-4495-8ab8-337edce41e99",
+      "name": "Limit",
+      "type": "n8n-nodes-base.limit",
+      "typeVersion": 1,
+      "position": [
+        -448,
+        656
+      ],
+      "notesInFlow": true,
+      "notes": "Keep top 10"
+    },
+    {
+      "parameters": {
+        "batchSize": 3,
+        "options": {}
+      },
+      "id": "ac24ae33-a41b-4cc3-adc9-c6dd256a2474",
+      "name": "Loop Over Items",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        -224,
+        656
+      ],
+      "notesInFlow": true,
+      "notes": "3 items per round"
+    },
+    {
+      "parameters": {
+        "amount": 1
+      },
+      "id": "420f1322-86bf-4399-9b08-a4efa52455a0",
+      "name": "Wait",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        0,
+        800
+      ],
+      "notesInFlow": true,
+      "webhookId": "f58d1345-f773-4dae-a3a8-168328a17f0b",
+      "notes": "Pause 1 second"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Runs once per batch (3 items at a time)\n// Add a price band and a 10% discounted price to each product\nfor (const item of $input.all()) {\n  const price = item.json.price;\n  item.json.priceBand = price >= 500 ? 'Premium' : price >= 100 ? 'Mid' : 'Budget';\n  item.json.discountedPrice = Math.round(price * 0.9 * 100) / 100;\n}\nreturn $input.all();"
+      },
+      "id": "5d6be422-93f5-42c0-8b2d-850c271acff5",
+      "name": "Code",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        208,
+        800
+      ],
+      "notesInFlow": true,
+      "notes": "Add price band + discount"
+    },
+    {
+      "parameters": {
+        "fieldsToSummarize": {
+          "values": [
+            {
+              "field": "products.title"
+            },
+            {
+              "aggregation": "sum",
+              "field": "products.total"
+            }
+          ]
+        },
+        "fieldsToSplitBy": "priceBand",
+        "options": {}
+      },
+      "id": "8cfd297e-3b16-4af1-bc9a-c5f8545654c9",
+      "name": "Summarize",
+      "type": "n8n-nodes-base.summarize",
+      "typeVersion": 1,
+      "position": [
+        448,
+        528
+      ],
+      "notesInFlow": true,
+      "notes": "Count + total per band"
+    },
+    {
+      "parameters": {
+        "options": {
+          "fileName": "price-band-summary.csv"
+        }
+      },
+      "id": "e32e161a-b81b-47d6-a6b9-d57af5756f59",
+      "name": "Convert to File",
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        704,
+        528
+      ],
+      "notesInFlow": true,
+      "notes": "Download as CSV"
+    },
+    {
+      "parameters": {
+        "fieldsToAggregate": {
+          "fieldToAggregate": [
+            {
+              "fieldToAggregate": "products.title"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "4166da4d-1bef-47c0-8576-c9f6afb3160b",
+      "name": "Aggregate",
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        464,
+        736
+      ],
+      "notesInFlow": true,
+      "notes": "All names in one list"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "Split Out",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Out": {
+      "main": [
+        [
+          {
+            "node": "Split Out1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Out1": {
+      "main": [
+        [
+          {
+            "node": "Remove Duplicates",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Remove Duplicates": {
+      "main": [
+        [
+          {
+            "node": "Filter",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter": {
+      "main": [
+        [
+          {
+            "node": "Sort",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Sort": {
+      "main": [
+        [
+          {
+            "node": "Limit",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Limit": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Loop Over Items": {
+      "main": [
+        [
+          {
+            "node": "Summarize",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Aggregate",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Wait",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait": {
+      "main": [
+        [
+          {
+            "node": "Code",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Summarize": {
+      "main": [
+        [
+          {
+            "node": "Convert to File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "368acb4b-c6f3-4e5a-a112-95ca4d0d2608",
+  "meta": {
+    "instanceId": "8d4c51f0248169a1c75b6d9be2dd32fde6fa22c22125d7ab0c664c173ebe2439"
+  },
+  "nodeGroups": [],
+  "id": "JtAA5LbjFDi5Leg8",
+  "tags": []
+}
