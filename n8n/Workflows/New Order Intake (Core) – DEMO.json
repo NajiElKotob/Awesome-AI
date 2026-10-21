@@ -35,7 +35,7 @@
     },
     {
       "parameters": {
-        "content": "## 3 – Decide\n**If** total > threshold:\n- true → rename the total field to highValueTotal\n- false → end at No Op\n\nRun it a few times – the random amount sends orders down different paths.\n\n<!-- by Naji El Kotob + AI -->",
+        "content": "## 3 – Decide\n**If** total > threshold:\n- true → rename the total field to highValueTotal\n- false → end at No Op\n\nRun it a few times – the random amount sends orders down different paths.\n\nby Naji El Kotob + AI \n",
         "height": 220,
         "width": 440,
         "color": 6
@@ -550,7 +550,7 @@
     "executionOrder": "v1",
     "binaryMode": "separate"
   },
-  "versionId": "9f83a1d1-e8cd-415e-a39c-7919ebbbd3bc",
+  "versionId": "db9462e7-8603-4961-ae8e-c13a690c61c3",
   "meta": {
     "instanceId": "8d4c51f0248169a1c75b6d9be2dd32fde6fa22c22125d7ab0c664c173ebe2439"
   },
