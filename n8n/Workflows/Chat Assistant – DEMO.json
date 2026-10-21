@@ -1,0 +1,124 @@
+{
+  "name": "Chat Assistant – DEMO",
+  "nodes": [
+    {
+      "parameters": {
+        "public": true,
+        "options": {
+          "responseMode": "responseNodes"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        -816,
+        96
+      ],
+      "id": "b649274c-35c7-4e12-9c77-2dbf342d1369",
+      "name": "Chat Input",
+      "webhookId": "45da10c0-057b-4c9b-92fc-c4b67c896593"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.chatInput }}",
+        "options": {
+          "systemMessage": "You are a helpful AI assistant. Answer clearly and concisely."
+        }
+      },
+      "id": "c6e918a4-8549-4579-998e-93283a447468",
+      "name": "Chat Assistant",
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2,
+      "position": [
+        -464,
+        32
+      ]
+    },
+    {
+      "parameters": {
+        "model": "openai/gpt-oss-120b",
+        "options": {}
+      },
+      "id": "92894385-0a50-4043-97c3-f93c1dc3cae0",
+      "name": "Groq – GPT-OSS 120B",
+      "type": "@n8n/n8n-nodes-langchain.lmChatGroq",
+      "typeVersion": 1,
+      "position": [
+        -560,
+        272
+      ],
+      "credentials": {
+        "groqApi": {
+          "id": "nvYPlk9KOd2vbKRB",
+          "name": "Groq account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "message": "={{ $json.output }}",
+        "waitUserReply": false,
+        "options": {}
+      },
+      "id": "dc9f7a21-742d-4d01-9407-4589e986a4ea",
+      "name": "Chat Reply",
+      "type": "@n8n/n8n-nodes-langchain.chat",
+      "typeVersion": 1,
+      "position": [
+        -64,
+        112
+      ],
+      "webhookId": "99763023-c1f2-4b6a-9db0-f27cf2b2e201"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Chat Input": {
+      "main": [
+        [
+          {
+            "node": "Chat Assistant",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Chat Assistant": {
+      "main": [
+        [
+          {
+            "node": "Chat Reply",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Groq – GPT-OSS 120B": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Chat Assistant",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "5bd487e9-639a-46a5-8c45-711139367d1f",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "8d4c51f0248169a1c75b6d9be2dd32fde6fa22c22125d7ab0c664c173ebe2439"
+  },
+  "nodeGroups": [],
+  "id": "ccI71o8AdLXgzrsZ",
+  "tags": []
+}
