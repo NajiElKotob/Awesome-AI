@@ -1,0 +1,633 @@
+{
+  "name": "Listen Route Respond (Core) – DEMO",
+  "nodes": [
+    {
+      "parameters": {
+        "content": "## 1 – Listen\n**Webhook** waits for a browser or app to call its URL.\nTest it (click *Listen for test event* first):\n`…/webhook-test/lab3-products?tier=high&limit=3`\n\nRead the query values with `{{ $json.query.tier }}`.\n**webhook-test** works only while listening; **/webhook/** works only when the workflow is **Active**.",
+        "height": 300,
+        "width": 640,
+        "color": 4
+      },
+      "id": "243626ea-9bee-44ff-b847-576fa9ddd854",
+      "name": "Note – Listen",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -528,
+        -240
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## 2 – Route\n**If** checks that `tier` was sent.\n**Switch** sends the products down one of 3 paths (high / medium / low) – each with its own **Filter** price range.\nAnything else goes to the **invalid** output.",
+        "height": 300,
+        "width": 900,
+        "color": 5
+      },
+      "id": "e5511efa-43e1-4b55-87d9-9d364ceb76a4",
+      "name": "Note – Route",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        176,
+        -240
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## 3 – Respond\n**Respond to Webhook** sends your own JSON back to the caller (200).\nBad requests get **Respond to Webhook1** (400), then **Stop and Error** marks the run as failed so you see it in *Executions*.\n\n\n\n\n\n\n\n\n\n\n\nby Naji El Kotob + AI",
+        "height": 300,
+        "width": 800,
+        "color": 6
+      },
+      "id": "f9505cc3-a654-4ef8-9675-4a69632205b8",
+      "name": "Note – Respond",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        1136,
+        -240
+      ]
+    },
+    {
+      "parameters": {
+        "path": "lab3-products",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "975f2cb9-7d1d-43bf-8e8a-23689d8bfb89",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        -496,
+        192
+      ],
+      "notesInFlow": true,
+      "webhookId": "24237ab3-a65e-4a77-8805-258c499d6333",
+      "notes": "GET ?tier=…&limit=…"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "60c1a31f-cd1b-4987-8b35-e2afb4750fc9",
+              "leftValue": "={{ $json.query.tier }}",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty",
+                "singleValue": true
+              },
+              "rightValue": ""
+            }
+          ],
+          "combinator": "and"
+        },
+        "looseTypeValidation": true,
+        "options": {}
+      },
+      "id": "46033ce0-05f4-494e-98a1-581bf1da59c3",
+      "name": "If",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -272,
+        192
+      ],
+      "notesInFlow": true,
+      "notes": "Was tier sent?"
+    },
+    {
+      "parameters": {
+        "url": "https://dummyjson.com/products?limit=100&select=title,price,category,rating",
+        "options": {}
+      },
+      "id": "928063d8-d7e5-48b9-b3f8-25695df5f2ab",
+      "name": "HTTP Request",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -32,
+        80
+      ],
+      "notesInFlow": true,
+      "notes": "Get 100 sample products"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "products",
+        "options": {}
+      },
+      "id": "a65b8e77-692d-432f-b944-18e3c7a04e13",
+      "name": "Split Out",
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        192,
+        80
+      ],
+      "notesInFlow": true,
+      "notes": "One item per product"
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "loose",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "20acbd3b-4a98-4c36-a73b-fcd2bbe0a83f",
+                    "leftValue": "={{ ($('Webhook').first().json.query.tier || '').toLowerCase() }}",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    },
+                    "rightValue": "high"
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "high"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "loose",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "f92d2327-5c16-4f7f-8400-68bd1deff861",
+                    "leftValue": "={{ ($('Webhook').first().json.query.tier || '').toLowerCase() }}",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    },
+                    "rightValue": "medium"
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "medium"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "loose",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "81c7db1e-76ef-42bd-9286-f5d4255e012f",
+                    "leftValue": "={{ ($('Webhook').first().json.query.tier || '').toLowerCase() }}",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    },
+                    "rightValue": "low"
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "low"
+            }
+          ]
+        },
+        "looseTypeValidation": true,
+        "options": {
+          "fallbackOutput": "extra",
+          "renameFallbackOutput": "invalid"
+        }
+      },
+      "id": "359b573f-dfec-490e-b4a1-356ec70a9a47",
+      "name": "Switch",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.2,
+      "position": [
+        416,
+        80
+      ],
+      "notesInFlow": true,
+      "notes": "Route by tier"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "cdf633af-2663-4acf-82d7-1a2572f8e543",
+              "leftValue": "={{ $json.price }}",
+              "operator": {
+                "type": "number",
+                "operation": "gte"
+              },
+              "rightValue": 500
+            }
+          ],
+          "combinator": "and"
+        },
+        "looseTypeValidation": true,
+        "options": {}
+      },
+      "id": "6c81a703-37ce-46f6-b681-09e4b34af6f0",
+      "name": "Filter",
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2.2,
+      "position": [
+        656,
+        -64
+      ],
+      "notesInFlow": true,
+      "notes": "Price 500+"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "87985263-5f79-4d94-960a-9189f38d8f0b",
+              "leftValue": "={{ $json.price }}",
+              "operator": {
+                "type": "number",
+                "operation": "gte"
+              },
+              "rightValue": 100
+            },
+            {
+              "id": "47209e4b-c829-4a76-a436-c8254c46297f",
+              "leftValue": "={{ $json.price }}",
+              "operator": {
+                "type": "number",
+                "operation": "lt"
+              },
+              "rightValue": 500
+            }
+          ],
+          "combinator": "and"
+        },
+        "looseTypeValidation": true,
+        "options": {}
+      },
+      "id": "e1325b02-dffb-4051-805f-f874e67e323b",
+      "name": "Filter1",
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2.2,
+      "position": [
+        656,
+        80
+      ],
+      "notesInFlow": true,
+      "notes": "Price 100–499"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "4d709c02-7c60-408d-92b3-1f329db00a3d",
+              "leftValue": "={{ $json.price }}",
+              "operator": {
+                "type": "number",
+                "operation": "lt"
+              },
+              "rightValue": 100
+            }
+          ],
+          "combinator": "and"
+        },
+        "looseTypeValidation": true,
+        "options": {}
+      },
+      "id": "74893fc0-a47b-4dd7-a508-1897b1e149ce",
+      "name": "Filter2",
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2.2,
+      "position": [
+        656,
+        224
+      ],
+      "notesInFlow": true,
+      "notes": "Price under 100"
+    },
+    {
+      "parameters": {
+        "sortFieldsUi": {
+          "sortField": [
+            {
+              "fieldName": "rating",
+              "order": "descending"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "d67437d7-158b-48e5-9cc6-4c95739af37e",
+      "name": "Sort",
+      "type": "n8n-nodes-base.sort",
+      "typeVersion": 1,
+      "position": [
+        896,
+        80
+      ],
+      "notesInFlow": true,
+      "notes": "Best rated first"
+    },
+    {
+      "parameters": {
+        "maxItems": "={{ Number($('Webhook').first().json.query.limit) || 5 }}"
+      },
+      "id": "ca81a89b-8ca6-4029-bd5e-6a26900fad09",
+      "name": "Limit",
+      "type": "n8n-nodes-base.limit",
+      "typeVersion": 1,
+      "position": [
+        1120,
+        80
+      ],
+      "notesInFlow": true,
+      "notes": "Use ?limit (default 5)"
+    },
+    {
+      "parameters": {
+        "aggregate": "aggregateAllItemData",
+        "destinationFieldName": "products",
+        "options": {}
+      },
+      "id": "119f78b3-3518-4b73-966b-17887ba27d64",
+      "name": "Aggregate",
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        1344,
+        80
+      ],
+      "notesInFlow": true,
+      "notes": "All products in one item"
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify({ tier: $('Webhook').first().json.query.tier, count: $json.products.length, products: $json.products }) }}",
+        "options": {}
+      },
+      "id": "54c4eb03-4528-446b-ac60-f3cb47785262",
+      "name": "Respond to Webhook",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        1552,
+        80
+      ],
+      "notesInFlow": true,
+      "notes": "200 – send the list"
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "{\n  \"error\": \"Please add ?tier=high, medium or low\"\n}",
+        "options": {
+          "responseCode": 400
+        }
+      },
+      "id": "1da886e3-1b99-48b4-9f25-2f15c8fcd0b7",
+      "name": "Respond to Webhook1",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        848,
+        512
+      ],
+      "notesInFlow": true,
+      "notes": "400 – bad request"
+    },
+    {
+      "parameters": {
+        "errorMessage": "Bad request – tier missing or invalid"
+      },
+      "id": "5fad3046-f792-4f03-9d16-64918ebbf4bd",
+      "name": "Stop and Error",
+      "type": "n8n-nodes-base.stopAndError",
+      "typeVersion": 1,
+      "position": [
+        1184,
+        512
+      ],
+      "notesInFlow": true,
+      "notes": "Mark run as failed"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Respond to Webhook1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "Split Out",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Out": {
+      "main": [
+        [
+          {
+            "node": "Switch",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Switch": {
+      "main": [
+        [
+          {
+            "node": "Filter",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Filter1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Filter2",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Respond to Webhook1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter": {
+      "main": [
+        [
+          {
+            "node": "Sort",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter1": {
+      "main": [
+        [
+          {
+            "node": "Sort",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter2": {
+      "main": [
+        [
+          {
+            "node": "Sort",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Sort": {
+      "main": [
+        [
+          {
+            "node": "Limit",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Limit": {
+      "main": [
+        [
+          {
+            "node": "Aggregate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aggregate": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Respond to Webhook1": {
+      "main": [
+        [
+          {
+            "node": "Stop and Error",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "e5121d1f-a822-46c6-bdc6-5fd1f1744c65",
+  "meta": {
+    "instanceId": "8d4c51f0248169a1c75b6d9be2dd32fde6fa22c22125d7ab0c664c173ebe2439"
+  },
+  "nodeGroups": [],
+  "id": "DMrwy164TPUJopgg",
+  "tags": []
+}
