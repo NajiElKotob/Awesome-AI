@@ -15,7 +15,7 @@
 * [Talk to ELIZA online](https://elizaemulator.com/) - elizaemulator.com | ELIZA is a classic 1966 program that simulates conversation using pattern matching and transformation rules.
   - [ELIZA effect at work: Avoiding emotional attachment to AI coworkers](https://www.ibm.com/think/insights/eliza-effect-avoiding-emotional-attachment-to-ai)
 * [Group Method of Data Handling (GMDH)](https://gmdh.net/) - gmdh.net
-
+* [Attention Is All You Need](https://arxiv.org/pdf/1706.03762) - 2017 ⭐
 
 ### Generative AI
 * [Generative AI for Beginners](https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/) - learn.microsoft.com
