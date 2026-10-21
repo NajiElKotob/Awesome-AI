@@ -1,0 +1,560 @@
+{
+  "name": "New Order Intake (Core) – DEMO",
+  "nodes": [
+    {
+      "parameters": {
+        "content": "## 1 – Start\nTwo triggers feed the same flow.\n- **On form submission**: open the form URL and submit an order\n- **Schedule Trigger**: click ▶ on it to create a random sample order\n\nOpen **Edit Fields** to see `{{ }}` expressions in action.",
+        "height": 220,
+        "width": 440,
+        "color": 4
+      },
+      "id": "af0ab909-7e7b-459a-a321-a6e08c67a579",
+      "name": "Note – Start",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -384,
+        -64
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## 2 – Combine\nThe same order goes two ways:\none path adds a timestamp, the other adds store settings.\n**Merge (by position)** joins them back into one item.",
+        "height": 220,
+        "width": 440,
+        "color": 5
+      },
+      "id": "30ebb183-d182-4049-bc13-48e38ddd5ec7",
+      "name": "Note – Combine",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        160,
+        -64
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## 3 – Decide\n**If** total > threshold:\n- true → rename the total field to highValueTotal\n- false → end at No Op\n\nRun it a few times – the random amount sends orders down different paths.\n\n<!-- by Naji El Kotob + AI -->",
+        "height": 220,
+        "width": 440,
+        "color": 6
+      },
+      "id": "6cd4ce40-2e95-4ece-9a1d-407b408767bc",
+      "name": "Note – Decide",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        736,
+        -64
+      ]
+    },
+    {
+      "parameters": {
+        "formTitle": "New Order",
+        "formDescription": "Lab 1 demo – submit an order to start the workflow",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Customer Name",
+              "placeholder": "e.g. Sara",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Product",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Laptop"
+                  },
+                  {
+                    "option": "Monitor"
+                  },
+                  {
+                    "option": "Keyboard"
+                  },
+                  {
+                    "option": "Mouse"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Amount",
+              "fieldType": "number",
+              "placeholder": "e.g. 120",
+              "requiredField": true
+            }
+          ]
+        },
+        "options": {
+          "appendAttribution": false
+        }
+      },
+      "id": "a68bdb36-5236-4363-ba23-e40e4ff5dd96",
+      "name": "On form submission",
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.2,
+      "position": [
+        -336,
+        224
+      ],
+      "webhookId": "62b491ed-efa3-4109-bed1-c6a5c1259f53",
+      "notesInFlow": true,
+      "notes": "Customer submits an order"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours"
+            }
+          ]
+        }
+      },
+      "id": "2459aced-cc51-454c-bed8-d63ed5ec6354",
+      "name": "Schedule Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -336,
+        448
+      ],
+      "notesInFlow": true,
+      "notes": "Runs every hour"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "f1000001-0000-4000-8000-000000000001",
+              "name": "customer",
+              "value": "={{ $json[\"Customer Name\"] }}",
+              "type": "string"
+            },
+            {
+              "id": "f1000001-0000-4000-8000-000000000002",
+              "name": "product",
+              "value": "={{ $json.Product }}",
+              "type": "string"
+            },
+            {
+              "id": "f1000001-0000-4000-8000-000000000003",
+              "name": "amount",
+              "value": "={{ Number($json.Amount) }}",
+              "type": "number"
+            },
+            {
+              "id": "f1000001-0000-4000-8000-000000000004",
+              "name": "source",
+              "value": "form",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "37ce521c-cb3a-46ba-b60b-142c73a3a3b2",
+      "name": "Edit Fields",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -96,
+        224
+      ],
+      "notesInFlow": true,
+      "notes": "Clean form data"
+    },
+    {
+      "parameters": {
+        "outputFieldName": "receivedAt",
+        "options": {
+          "includeInputFields": true
+        }
+      },
+      "id": "1b6a7f66-38ce-4588-aec6-ffcaf3f077a0",
+      "name": "Date & Time",
+      "type": "n8n-nodes-base.dateTime",
+      "typeVersion": 2,
+      "position": [
+        144,
+        336
+      ],
+      "notesInFlow": true,
+      "notes": "Add received time"
+    },
+    {
+      "parameters": {
+        "mode": "combine",
+        "combineBy": "combineByPosition",
+        "options": {}
+      },
+      "id": "237cc029-2e51-420f-ac0f-c7d4167c1819",
+      "name": "Merge",
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3,
+      "position": [
+        624,
+        336
+      ],
+      "notesInFlow": true,
+      "notes": "Order + settings"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "c5000001-0000-4000-8000-000000000001",
+              "leftValue": "={{ $json.total }}",
+              "rightValue": "={{ $json.threshold }}",
+              "operator": {
+                "type": "number",
+                "operation": "gt"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "looseTypeValidation": true,
+        "options": {}
+      },
+      "id": "f9398748-d4c2-42e4-a503-341bd59ba9ac",
+      "name": "If",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1056,
+        368
+      ],
+      "notesInFlow": true,
+      "notes": "Total > threshold?"
+    },
+    {
+      "parameters": {
+        "keys": {
+          "key": [
+            {
+              "currentKey": "total",
+              "newKey": "highValueTotal"
+            }
+          ]
+        },
+        "additionalOptions": {}
+      },
+      "id": "863e0207-050d-460f-b43c-a78cba5d1920",
+      "name": "Rename Keys",
+      "type": "n8n-nodes-base.renameKeys",
+      "typeVersion": 1,
+      "position": [
+        1296,
+        224
+      ],
+      "notesInFlow": true,
+      "notes": "Mark high value"
+    },
+    {
+      "parameters": {},
+      "id": "1f576a94-4a3c-4022-996f-4282f065e9ee",
+      "name": "No Operation, do nothing",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        1296,
+        448
+      ],
+      "notesInFlow": true,
+      "notes": "Standard order – end"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "f3000001-0000-4000-8000-000000000001",
+              "name": "currency",
+              "value": "AED",
+              "type": "string"
+            },
+            {
+              "id": "f3000001-0000-4000-8000-000000000002",
+              "name": "taxRate",
+              "value": 0.05,
+              "type": "number"
+            },
+            {
+              "id": "f3000001-0000-4000-8000-000000000003",
+              "name": "threshold",
+              "value": 100,
+              "type": "number"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "cb078872-8921-4f3d-91f8-8529a9d9a3e6",
+      "name": "Edit Fields  ",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        384,
+        480
+      ],
+      "notesInFlow": true,
+      "notes": "Store settings"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "f4000001-0000-4000-8000-000000000001",
+              "name": "total",
+              "value": "={{ Math.round($json.amount * (1 + $json.taxRate) * 100) / 100 }}",
+              "type": "number"
+            }
+          ]
+        },
+        "includeOtherFields": true,
+        "options": {}
+      },
+      "id": "0eeb9c4c-7832-4b38-b3a1-6f67830feb4b",
+      "name": "Edit Fields   ",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        848,
+        336
+      ],
+      "notesInFlow": true,
+      "notes": "Calculate total"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "f2000001-0000-4000-8000-000000000001",
+              "name": "customer",
+              "value": "Walk-in Customer",
+              "type": "string"
+            },
+            {
+              "id": "f2000001-0000-4000-8000-000000000002",
+              "name": "product",
+              "value": "={{ [\"Laptop\", \"Monitor\", \"Keyboard\", \"Mouse\"][Math.floor(Math.random() * 4)] }}",
+              "type": "string"
+            },
+            {
+              "id": "f2000001-0000-4000-8000-000000000003",
+              "name": "amount",
+              "value": "={{ Math.floor(Math.random() * 200) + 1 }}",
+              "type": "number"
+            },
+            {
+              "id": "f2000001-0000-4000-8000-000000000004",
+              "name": "source",
+              "value": "schedule",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "bd4b37f0-3c72-4f52-ac29-53ec61f6f6ee",
+      "name": "Edit Fields ",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -96,
+        448
+      ],
+      "notesInFlow": true,
+      "notes": "Random sample order"
+    },
+    {
+      "parameters": {
+        "operation": "completion",
+        "completionTitle": "=Thanks, {{ $json.customer }}! 🎉",
+        "completionMessage": "=Your {{ $json.product }} order has been received.\n\nTotal (incl. {{ $json.taxRate * 100 }}% tax): {{ $json.highValueTotal.toLocaleString() }} {{ $json.currency }}\nReceived: {{ DateTime.fromISO($json.receivedAt).toFormat('dd LLL yyyy, HH:mm') }}\n\n⭐ This is a high-value order – our team will contact you shortly.",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.form",
+      "typeVersion": 2.5,
+      "position": [
+        1520,
+        224
+      ],
+      "id": "884bec88-e0e9-4c6e-af0c-6300ff06834d",
+      "name": "Form",
+      "webhookId": "3935c717-6367-4e10-8478-2d22896a486d"
+    }
+  ],
+  "pinData": {
+    "Rename Keys": [
+      {
+        "json": {
+          "customer": "Naji",
+          "product": "Laptop",
+          "amount": 5000,
+          "source": "form",
+          "receivedAt": "2026-10-21T12:55:23.432-04:00",
+          "currency": "AED",
+          "taxRate": 0.05,
+          "threshold": 100,
+          "highValueTotal": 5250
+        },
+        "binary": {},
+        "pairedItem": {
+          "item": 0
+        }
+      }
+    ]
+  },
+  "connections": {
+    "On form submission": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields ",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Date & Time",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Date & Time": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Edit Fields  ",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields   ",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "Rename Keys",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "No Operation, do nothing",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields  ": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Edit Fields   ": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields ": {
+      "main": [
+        [
+          {
+            "node": "Date & Time",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Rename Keys": {
+      "main": [
+        [
+          {
+            "node": "Form",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "9f83a1d1-e8cd-415e-a39c-7919ebbbd3bc",
+  "meta": {
+    "instanceId": "8d4c51f0248169a1c75b6d9be2dd32fde6fa22c22125d7ab0c664c173ebe2439"
+  },
+  "nodeGroups": [],
+  "id": "hOZtIRAghKCu501s",
+  "tags": []
+}
