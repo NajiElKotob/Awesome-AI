@@ -275,6 +275,12 @@
 
 -----
 
+## Programming Languages, Markdown and Data Format
+* [Go to the dedicated Python repository](https://github.com/NajiElKotob/Awesome-Python)
+* [Try Markdown](https://trymarkdown.com/) - trymarkdown.com
+* [JSON Playground & Tutorial](https://jsonwebtools.com/json-playground) - jsonwebtools.com
+* [XML Tutorial](https://www.w3schools.com/xml) - w3schools.com
+  
 ## Tools
 * [LLM Token Calculator](https://www.token-calculator.com/) - token-calculator.com
 * [Tokenizer (OpenAI Platform)](https://platform.openai.com/tokenizer) - openai.com
