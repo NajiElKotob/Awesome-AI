@@ -9,3 +9,8 @@ Save Time; Magic; Fun
 
 ### Claude
 * Use the Up and Down arrow keys to navigate through your prompt history
+
+### Copilot
+* Use Win+C or Copilot key to launch Copilot
+* Hold Win+C or Copilot key to launch voice mode
+
