@@ -106,6 +106,7 @@
 ## Simulators
 * [Tokenizer](https://platform.openai.com/tokenizer) - openai.com
 * [Token Counter (Unrevoke)](https://unrevoke.com/tools/token-counter/) - unrevoke.com
+* [Context Window Comparison](https://unrevoke.com/tools/context-window-comparison/) - unrevoke.com
 * [LLM Sampling Simulator](https://vibeengines.com/tools/llm-sampling-simulator) - vibeengines.com
 * [Aether Simulation Labs](https://aethersimlabs.com/simulations/) - aethersimlabs.com
 
