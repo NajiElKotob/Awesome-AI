@@ -109,6 +109,7 @@
 * [Context Window Comparison](https://unrevoke.com/tools/context-window-comparison/) - unrevoke.com
 * [LLM Sampling Simulator](https://vibeengines.com/tools/llm-sampling-simulator) - vibeengines.com
 * [Aether Simulation Labs](https://aethersimlabs.com/simulations/) - aethersimlabs.com
+* [AI API Cost Calculator](https://unrevoke.com/tools/ai-cost-calculator/) - unrevoke.com
 
 -----
 
