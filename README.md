@@ -243,6 +243,8 @@
   - [Understand data concepts](https://learn.microsoft.com/en-us/training/paths/understand-data-concepts/)
   - [AI Fluency](https://learn.microsoft.com/en-us/training/paths/ai-fluency/)
   - [Introduction to artificial intelligence for trainers](https://learn.microsoft.com/en-us/training/paths/introduction-to-artificial-intelligence-for-trainers/)
+* Microsoft Copilot
+  - [Microsoft Copilot learning center](https://www.microsoft.com/en-us/microsoft-365/copilot-learning-center/?)
 * OpenAI
 * [OpenAI Academy](https://academy.openai.com/) - academy.openai.com
 * DeepLearning.AI
