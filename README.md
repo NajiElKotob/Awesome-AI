@@ -270,6 +270,7 @@
 * Microsoft
   - [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification)
 * Anthropic (Claude)
+  - [Claude Academy](https://academy.claude.com/) - academy.claude.com
   - [Anthropic courses](https://anthropic.skilljar.com/) - anthropic.skilljar.com
 * HBS
   - [Data Science and AI for Decision Making](https://online.hbs.edu/courses/data-science-ai-decision-making) - hbs.edu
