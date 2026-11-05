@@ -79,6 +79,9 @@
 ### Laya
 * [Laya AI](https://layaai.org/) - layaai.org | Calibrated decisions in one pass
 
+## Guardrails
+* [NVIDIA-NeMo](https://github.com/NVIDIA-NeMo/Guardrails)
+
 -----
 
 ## Leaderboards
