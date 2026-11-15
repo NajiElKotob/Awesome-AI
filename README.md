@@ -79,6 +79,10 @@
 ### Laya
 * [Laya AI](https://layaai.org/) - layaai.org | Calibrated decisions in one pass
 
+
+## AI Interface & Agent Platform
+* [Open WebUI](https://openwebui.com/) - openwebui.com | Run AI on your own terms. Connect any model, extend with code, and protect what matters without compromise. Your models, your data, your machine, wherever you open it.
+
 ## Guardrails
 * [NVIDIA-NeMo](https://github.com/NVIDIA-NeMo/Guardrails)
 
