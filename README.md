@@ -185,12 +185,13 @@
 * [llama.cpp](https://llama.app/) - llama.app
 
 ## Vector databases
-* Azure AI Search
-* ChromaDB
-* Pinecone
+* [Azure AI Search](https://learn.microsoft.com/en-us/azure/search/search-what-is-azure-search?tabs=indexing%2Cquickstarts) - microsoft.com
+* [ChromaDB](https://www.trychroma.com/products/chromadb) - trychroma.com
+* [Pinecone](https://www.pinecone.io/) - pinecone.io
 * [Qdrant](https://qdrant.tech/) - qdrant.tech
   - [Qdrant Beginner Course](https://qdrant.tech/course/beginners/)
 * [Supabase](https://supabase.com/) - supabase.com
+* [Milvus](https://milvus.io/) - milvus.io
 
 ## HIM (Human Interaction Model)
 * [Griffin](https://x.com/tavus/status/2105704169009246248) - @tavus |  the first model to pass the video Turing test. 48% of people who talked to it live thought it was a real human (1 Oct 2026)
