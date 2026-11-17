@@ -117,6 +117,7 @@
 * [LLM Sampling Simulator](https://vibeengines.com/tools/llm-sampling-simulator) - vibeengines.com
 * [Aether Simulation Labs](https://aethersimlabs.com/simulations/) - aethersimlabs.com
 * [AI API Cost Calculator](https://unrevoke.com/tools/ai-cost-calculator/) - unrevoke.com
+* [Embedding Projector](https://projector.tensorflow.org/) - tensorflow.org
 
 -----
 
