@@ -329,6 +329,9 @@
 * [FormulaOne: Measuring the Depth of Algorithmic Reasoning Beyond Competitive Programming](https://arxiv.org/pdf/2507.13337)
 * [Artificial intelligence in strategic foresight: Evidence from a longitudinal case at Siemens Professional Education](https://www.sciencedirect.com/science/article/pii/S0016328726001254?via%3Dihub) - René Rohrbeck, Stephan Szuppa, Julia Schmidt
 
+## White Papers
+* [Selecting Embedding Models](https://sec.cloudapps.cisco.com/security/center/resources/selecting-embedding-models) - cisco.com
+
 ## Videos 📺
 * [Stanford CME295 Transformers & LLMs | Autumn 2026 | Lecture 1 - Transformers 📺 ~1:45 hour](https://www.youtube.com/watch?v=114i2Kz-LZA) - Stanford Online (28 Sep 2026)
 * [Godfather of AI WARNS: "You Have No Idea What's Coming" 📺 ~23min](https://www.youtube.com/watch?v=5KmopXwjXik) - The Diary Of A CEO Clips (28 Sep 2025)
